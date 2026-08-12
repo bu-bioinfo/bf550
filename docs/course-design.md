@@ -72,7 +72,7 @@ ambiguity about what's allowed.
 Labs use a framework where each exercise gives you some pieces of a problem and asks you to
 produce the missing one — sometimes you write the tests, sometimes you recover the
 specification, sometimes you critique an implementation. See the
-[assignment framework](https://bu-bioinfo.github.io/bf550/assignments/) for
+[assignment framework](https://bu-cds-bf550.github.io/assignments/) for
 details.
 
 ## Two things you'll see on every assignment

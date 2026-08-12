@@ -32,7 +32,7 @@ Cycle N+1     DESIGN      SPEC      TESTS      CODE
 ## Purpose  <!-- TILT: WHY -->
 
 - **Why this matters:** _how this connects to research / real practice the student will do._
-- **Skills practiced:** _which course [learning objectives](https://bu-bioinfo.github.io/bf550/learning-objectives/) (by
+- **Skills practiced:** _which course [learning objectives](https://bu-cds-bf550.github.io/learning-objectives/) (by
   number) this builds — e.g. code literacy (6–9), verification (11)._
 - **How it fits the course:** _what came before, what it sets up._
 

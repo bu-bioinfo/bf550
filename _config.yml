@@ -1,8 +1,8 @@
 # Site settings
 title: BF550 - Applied Statistics & Machine Learning for the Life Sciences
 description: Course materials for BF550 at Boston University — applied statistics and machine learning, taught for code literacy in the age of coding agents.
-baseurl: "/bf550" # the subpath of your site
-url: "https://bu-bioinfo.github.io" # the base hostname & protocol for your site
+baseurl: "" # the subpath of your site
+url: "https://bu-cds-bf550.github.io" # the base hostname & protocol for your site
 email: ""
 
 theme: minimal-mistakes-jekyll

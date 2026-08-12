@@ -39,11 +39,11 @@ and verify. Work is grounded in real molecular-biology and genomics problems.
 - **Transparent assignments.** Every assignment states its **Purpose, Task, and Criteria** up
   front, following the [TILT](https://www.tilthighered.com/resources) framework.
 
-See [How This Course Works](https://bu-bioinfo.github.io/bf550/about/) for the full picture.
+See [How This Course Works](https://bu-cds-bf550.github.io/about/) for the full picture.
 
 ## Learning objectives
 
-See the [learning objectives](https://bu-bioinfo.github.io/bf550/learning-objectives/). In
+See the [learning objectives](https://bu-cds-bf550.github.io/learning-objectives/). In
 short: frame a biological question as a stats/ML problem; distinguish and choose among ML
 algorithm classes; reason about generalization and evaluation; **read code and say precisely
 what it does**; recover specs, find gaps, and critique designs; and direct and verify a
@@ -51,12 +51,12 @@ coding agent.
 
 ## Schedule
 
-See the [schedule](https://bu-bioinfo.github.io/bf550/schedule/) for the 13-week lecture and
+See the [schedule](https://bu-cds-bf550.github.io/schedule/) for the 13-week lecture and
 lab progression.
 
 ## Assessment
 
-See [Assessment & AI Policy](https://bu-bioinfo.github.io/bf550/assessment/). Your grade comes
+See [Assessment & AI Policy](https://bu-cds-bf550.github.io/assessment/). Your grade comes
 from weekly labs (design → spec → test → implementation), weekly code-reading check-in
 quizzes, two written code-reading exams (no AI: a midterm on Wed Oct 21 and an Act III exam on
 Mon Nov 30), a synthesis project, and participation. **There is no exam during finals period** —

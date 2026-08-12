@@ -94,5 +94,5 @@ The framework borrows from established software-engineering practice — recast 
 - **The failure log is graded** — it shows your refine-and-verify process.
 
 The habit to build: *constrain the problem first (design → spec → tests), then generate the
-code, then verify it.* See the [assessment & AI policy](https://bu-bioinfo.github.io/bf550/assessment/)
+code, then verify it.* See the [assessment & AI policy](https://bu-cds-bf550.github.io/assessment/)
 for the AI level that applies to each assignment.

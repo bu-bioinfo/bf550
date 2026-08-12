@@ -1,6 +1,6 @@
 # BF550 — Applied Statistics & Machine Learning for the Life Sciences
 
-### 🌐 Course site → **<https://bu-bioinfo.github.io/bf550/>**
+### 🌐 Course site → **<https://bu-cds-bf550.github.io/>**
 
 An applied statistics, AI, and machine-learning course for the BU Bioinformatics MS,
 anchored by molecular-biology and genomics projects and taught in the age of coding
@@ -29,16 +29,16 @@ agents. The course makes a deliberate bet: the primary coding learning objective
 
 ## Course documents
 
-- **[How this course works](https://bu-bioinfo.github.io/bf550/about/)** — student-facing
+- **[How this course works](https://bu-cds-bf550.github.io/about/)** — student-facing
   overview: what you'll learn, the reading-over-authoring focus, and how the pieces fit.
   *(Instructor rationale lives in [`internal/course-design-rationale.md`](internal/course-design-rationale.md).)*
-- **[Learning objectives](https://bu-bioinfo.github.io/bf550/learning-objectives/)** — what students will be able to do.
-- **[Syllabus](https://bu-bioinfo.github.io/bf550/syllabus/)** — the TILT-framed course syllabus.
-- **[Schedule](https://bu-bioinfo.github.io/bf550/schedule/)** — 13-week lecture + lab progression.
-- **[Assignments](https://bu-bioinfo.github.io/bf550/assignments/)** — the design → spec → test →
+- **[Learning objectives](https://bu-cds-bf550.github.io/learning-objectives/)** — what students will be able to do.
+- **[Syllabus](https://bu-cds-bf550.github.io/syllabus/)** — the TILT-framed course syllabus.
+- **[Schedule](https://bu-cds-bf550.github.io/schedule/)** — 13-week lecture + lab progression.
+- **[Assignments](https://bu-cds-bf550.github.io/assignments/)** — the design → spec → test →
   implementation scheme and the four exercise types (A–D), adapted from the
   [bf550-brainstorming](https://github.com/bu-bioinfo/bf550-brainstorming) repo.
-- **[Assessment & AI policy](https://bu-bioinfo.github.io/bf550/assessment/)** — check-in quizzes, the
+- **[Assessment & AI policy](https://bu-cds-bf550.github.io/assessment/)** — check-in quizzes, the
   written midterm, grading, and the per-assessment AIAS mapping.
 
 Instructor-only material is in [`internal/`](internal/): the
