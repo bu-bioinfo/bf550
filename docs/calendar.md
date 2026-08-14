@@ -8,11 +8,15 @@ toc_sticky: true
 Every class meeting, in order, with its **session type**. The [schedule]({{ site.baseurl }}/schedule/)
 explains the topics and the three-act arc; this page tells you what happens on which day.
 
-> **Draft — verify against the registrar.** Dates below are built from the published BU Fall 2026
-> academic calendar. Confirm against the
-> [Office of the University Registrar](https://www.bu.edu/reg/calendars/) before relying on them.
-> Two items in particular are unconfirmed: whether classes meet on **Veterans Day (Wed Nov 11)**,
-> and the exact **study period** dates.
+> **Draft — known error, being revised.** Checked against the
+> [Office of the University Registrar](https://www.bu.edu/reg/calendars/) on 13 Aug 2026. Two
+> previously-flagged items are now **confirmed**: classes *do* meet on **Veterans Day (Wed Nov 11)**,
+> and the **study period is Dec 11–13** with finals Dec 14–18.
+>
+> One item is **wrong**: there is no substitute Monday schedule after Labor Day, so **the Tue Sep 8
+> meeting below does not exist.** The only substitute Monday in Fall 2026 is Tue Oct 13, after
+> Indigenous Peoples' Day. The term therefore has **40 MWF meetings, not 41**, and every date from
+> meeting 3 onward shifts. Do not rely on the dates below until this is re-derived.
 
 ## How to read this page
 
