@@ -41,11 +41,15 @@ agents. The course makes a deliberate bet: the primary coding learning objective
 - **[Assessment & AI policy](https://bu-cds-bf550.github.io/assessment/)** — check-in quizzes, the
   written midterm, grading, and the per-assessment AIAS mapping.
 
-Instructor-only material is in [`internal/`](internal/): the
-[design rationale](internal/course-design-rationale.md),
-[assignment-authoring guidance](internal/assignment-framework-authoring.md),
-[open decisions](internal/open-decisions.md), and the authoring
-[templates](internal/templates/).
+Course design material is in [`internal/`](internal/): the
+[design rationale](internal/course-design-rationale.md), the
+[ML topic inventory](internal/ml-topic-inventory.md), the
+[practice/assessment review](internal/practice-assessment-alignment.md), and
+[open decisions](internal/open-decisions.md).
+
+**Assignments, solutions, authoring guidelines, and anything that would spoil an exercise live in a
+separate private repository**, `bu-cds-bf550/bf550-instructor`. Nothing that gives away an answer
+belongs in this repo — it is public.
 
 ## Planning board
 

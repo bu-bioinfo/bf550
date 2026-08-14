@@ -4,7 +4,7 @@
 > decisions still to be made. Most are also GitHub discussion issues; comment there.
 >
 > Canonical structure: [`course-structure.md`](course-structure.md). Superseded drafts:
-> [`archive/`](archive/).
+> `archive/`, now in the private `bf550-instructor` repo.
 
 ## Blocking
 
@@ -61,6 +61,7 @@
 |---|---|---|
 | **Synthesis project: presentation format at 50–60 students** — traditional presentations don't fit; candidates: poster/gallery session, parallel TA-run tracks, recorded lightning talks + structured peer review, written artifact + oral spot-defense sample | schedule, assessment | *(class size is internal-only)* [#6](https://github.com/bu-bioinfo/bf550/issues/6) |
 | Synthesis project scope: individual vs. team (team-of-2 would halve presentation and grading volume) | schedule, assessment | [#6](https://github.com/bu-bioinfo/bf550/issues/6) |
+| **Public git history still contains answer keys.** Assignment drafts and the v1 planted-defect inventories moved to the private `bf550-instructor` repo on 14 Aug 2026, but this repo is public and removal from HEAD does not remove them from history — the v1 archive README named planted defects with verified numbers. Options: accept (the material is superseded and being re-cut) or rewrite history (destructive; breaks clones and forks; needs an explicit decision). **Not done.** | repo hygiene | new |
 | **Agentic grading assistance** — whether/how TAs use agents; needs a policy note before term | assessment | new |
 | Written midterm logistics | assessment | [#7](https://github.com/bu-bioinfo/bf550/issues/7) |
 | BU/program policy statements; program-outcome mapping | syllabus, learning-objectives | [#8](https://github.com/bu-bioinfo/bf550/issues/8) |

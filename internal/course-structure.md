@@ -10,10 +10,10 @@
 > | [`ml-pedagogy-design.md`](ml-pedagogy-design.md) | The probabilistic frame, notation literacy, week-by-week ML reframes |
 > | [`future-depth-branches.md`](future-depth-branches.md) | Depth branches — designed, deferred to a future offering |
 > | [`textbook-ai-design.md`](textbook-ai-design.md) | The AI-forward textbook and its tutor skill |
-> | [`assignment-framework-authoring.md`](assignment-framework-authoring.md) | Rules for writing exercises |
+> | `assignment-framework-authoring.md` | Rules for writing exercises — **moved to the private `bf550-instructor` repo** |
 > | [`computational-thinking-basis.md`](computational-thinking-basis.md) | What we mean by computational thinking; the literature grounding for the four design steps |
 > | [`textbook-implementation.md`](textbook-implementation.md) | How the textbook gets built: toolchain, chapter anatomy, CI, co-design workflow |
-> | [`archive/`](archive/) | Earlier drafts, retained only for the verified problem statements and planted-defect inventories still to be ported forward (§9) |
+> | `archive/` | Earlier drafts — **moved to the private `bf550-instructor` repo**, because their planted-defect inventories are answer keys |
 >
 > **Status:** agreed direction. The front page, schedule, and assessment pages are published;
 > remaining student-facing propagation is tracked in §9.
@@ -366,4 +366,4 @@ cycles 2–4 + Share-session diagnostic; clustering is one cycle and t-SNE/UMAP 
 | The **strip**; letters A–D retired; the bundle | `docs/assignment-framework.md`, `_labs/` | Full rewrite needed |
 | `_lectures/week-*.md` topics | all 13 files | Still ordered by the old sequence |
 | **Reading carries first exposure** at ~2 hr/week, stated to students | `docs/syllabus.md`, `docs/course-design.md` | |
-| **v2 example problems** — port verified statements + planted-uncertainty inventories from [`archive/examples-v1/`](archive/examples-v1/) into the staggered shape | new `internal/examples/` | |
+| **v2 example problems** — port verified statements + planted-uncertainty inventories forward (sources now in the private `bf550-instructor` repo) | the private `bf550-instructor` repo | |

@@ -13,7 +13,7 @@
 > | [`course-structure.md`](course-structure.md) | **Canonical** week-to-week structure |
 > | [`course-design-rationale.md`](course-design-rationale.md) | Why the course makes the code-literacy bet |
 > | [`textbook-ai-design.md`](textbook-ai-design.md) | The AI-forward textbook and its tutor skill |
-> | [`assignment-framework-authoring.md`](assignment-framework-authoring.md) | Rules for writing problems |
+> | `assignment-framework-authoring.md` | Rules for writing problems — **moved to the private `bf550-instructor` repo** |
 > | [`open-decisions.md`](open-decisions.md) | What is still unsettled |
 >
 > Deferred decisions bearing on this document are indexed in
