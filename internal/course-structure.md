@@ -1,8 +1,27 @@
-# Course Structure — The Staggered Design/Implement Pipeline (INTERNAL)
+# Course Structure — The Staggered Design/Implement Pipeline (INTERNAL — SUPERSEDED)
+
+> ## ⚠ Superseded, 14 Aug 2026
+>
+> **This document describes an architecture the course no longer uses.** The staggered
+> design/build pipeline — the strip, the seat names (Implementer / Verifier / Reverse engineer),
+> the one-cycle lag, sealed materials, the divergence analysis, two problems in flight, and the
+> separate check-in quizzes — was **replaced by weekly simulation-first problem sets**, because the
+> accumulated machinery cost more student and instructor attention than it returned.
+>
+> **Canonical now:** the published [schedule](../docs/schedule.md),
+> [calendar](../docs/calendar.md), and [problem sets page](../docs/assignment-framework.md), plus
+> `AUTHORING.md` in the private `bf550-instructor` repo.
+>
+> **What survives and is still worth reading here:** §6 on scaffolding the design task, §7's
+> grading posture (credit for committing on time; being safe to be wrong), §8 on reading carrying
+> first exposure at ~2 hr/week, and the session-budget arithmetic in §3. The
+> [ML topic inventory](ml-topic-inventory.md) and
+> [practice/assessment review](practice-assessment-alignment.md) record why the change was made.
+>
+> Retained unedited below for the reasoning, not as instructions.
 
 > **Internal design document — not published** (`internal/` is excluded in `_config.yml`).
-> This is the **canonical description of how BF550 is structured week to week.** Where it conflicts
-> with an older internal doc, this one wins.
+> Formerly the canonical description of how BF550 is structured week to week.
 >
 > | Companion | Covers |
 > |---|---|

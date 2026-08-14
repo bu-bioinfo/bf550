@@ -3,16 +3,26 @@
 > **Internal planning index — not published to the course site.** Tracks the design
 > decisions still to be made. Most are also GitHub discussion issues; comment there.
 >
-> Canonical structure: [`course-structure.md`](course-structure.md). Superseded drafts:
-> `archive/`, now in the private `bf550-instructor` repo.
+> Canonical structure: the published [schedule](../docs/schedule.md),
+> [calendar](../docs/calendar.md), and [problem sets page](../docs/assignment-framework.md).
+> [`course-structure.md`](course-structure.md) is **superseded** and retained for its reasoning.
+> Superseded drafts and all answer-bearing material are in the private `bf550-instructor` repo.
+
+> **Redesign, 14 Aug 2026.** The staggered design/build pipeline was replaced by weekly
+> simulation-first problem sets. Decisions that existed only to serve the old machinery — the
+> seat rotation, two problems in flight, the divergence rubric, the separate check-in bank — are
+> closed as moot and removed below. See [`course-structure.md`](course-structure.md) for what was
+> superseded and [`practice-assessment-alignment.md`](practice-assessment-alignment.md) for why.
 
 ## Blocking
 
 | Decision | Where it surfaces | Tracking |
 |---|---|---|
+| **Session roles within a week** — the site says the topic opens in meeting 1 and the rest are working sessions. Whether the three meetings get named functions, and what happens in short weeks (1, 2, 13, 15 have fewer than three), is unresolved | schedule, calendar | new — needed before the textbook fixes its per-week structure |
+| **Grade weights need sign-off.** Now problem sets 40 / midterm 10 / Act III 10 / project 35 / participation 5. Changed because check-ins were absorbed into the per-set no-AI questions — and because the previous published weights summed to **105%** | assessment | new |
+| **Midterm moved to Mon Nov 2** (was Wed Oct 21) to close Act II after GLMs. Later than a conventional midterm; continuous weekly assessment is the argument that it is acceptable | assessment, calendar | new |
 | Finalize biological anchor problems, **written as questions rather than tasks** | schedule | [#1](https://github.com/bu-bioinfo/bf550/issues/1) + author rule 1 |
 | Select & provision the student coding agent — **and the textbook tutor, probably the same procurement** | syllabus, /about/ | [#3](https://github.com/bu-bioinfo/bf550/issues/3) |
-| **Re-derive the Fall 2026 grid — the published one is wrong.** Registrar check (13 Aug 2026) confirms classes *do* meet on Veterans Day and study period is Dec 11–13. But there is **no substitute Monday after Labor Day** — Tue Sep 8 is not a meeting. The term has **40 MWF meetings, not 41** → 13 cycles + **1** spare, and every date from meeting 3 shifts. `docs/calendar.md` carries a warning banner; the table itself is unrevised | schedule, calendar | [#4](https://github.com/bu-bioinfo/bf550/issues/4) · [course-structure §4.1](course-structure.md#41-the-session-stream-holidays-and-the-fall-2026-grid) |
 
 ## Structure & pedagogy
 
@@ -20,20 +30,13 @@
 |---|---|---|
 | **How Bayesian?** MLE/MAP + simulation-based uncertainty vs. full posterior/MCMC | lectures (cycles 3, 5, 7) | [course-structure §9](course-structure.md#9-open-and-pending) |
 | **Simulation's scope** — leaning: front-load cycles 2–4 + Share-session diagnostic, not every cycle | lectures, Share sessions | [ml-pedagogy-design §2.1](ml-pedagogy-design.md#21-the-scope-of-simulation) |
-| **Two problems in flight** — fallback is designing every other cycle (6 not 11) if load proves too high | schedule, assignments | [course-structure §9](course-structure.md#9-open-and-pending) |
 | **Decomposition stopping rule** — how far down D2 should go | design-stage template | [computational-thinking-basis §8](computational-thinking-basis.md#8-what-is-ours-and-open) |
 | **Productive uncertainty** — how much per problem, and whether to disclose the policy | assignments | author rule 3; disclosure currently assumed to happen once at term start |
-| Divergence-analysis rubric | assessment | [course-structure §7](course-structure.md#7-grading-posture); may be a genuine contribution to CT assessment — [computational-thinking-basis §8](computational-thinking-basis.md#8-what-is-ours-and-open) |
 | **What a strong D4 (anticipate failure) looks like** — least-taught step in the literature, no rubric anywhere | assessment | [computational-thinking-basis §8](computational-thinking-basis.md#8-what-is-ours-and-open) |
 | Does D1 ("what process produced this data?") strain on non-probabilistic cycles like trees? | design-stage template | [computational-thinking-basis §8](computational-thinking-basis.md#8-what-is-ours-and-open) |
 | Is computational thinking assessed anywhere **unaided**? | assessment | check-ins currently cover code reading only — **priority raised**, see [practice-assessment-alignment §7](practice-assessment-alignment.md#7-the-gap-nobody-was-looking-for) |
-| **Check-in authoring rule** — adopt "each check-in reads code from a topic the student did *not* build that cycle"? Closes the coverage gap at zero added workload | assessment | [practice-assessment-alignment §5](practice-assessment-alignment.md#5-four-admissible-moves) |
-| **Seat assignment becomes pedagogical** — give the Verifier seat to the most examinable topics, rather than varying it for authoring convenience | assignments | [practice-assessment-alignment §5](practice-assessment-alignment.md#5-four-admissible-moves) |
 | **Exam-authoring constraint** — write down that both exams test *code reading*, not topic recall, before any items exist | assessment | [practice-assessment-alignment §3](practice-assessment-alignment.md#3-worry-3-is-real-but-it-is-an-exam-authoring-problem) |
-| **Weight rebalance?** Check-ins 20 / midterm 10 / Act III 10, holding the no-AI share at 40% but shifting onto the rehearsed instrument | assessment | [practice-assessment-alignment §5](practice-assessment-alignment.md#5-four-admissible-moves) |
-| **Commit-before-run for hand-calculated values** — git history as attestation, so the provided implementation grades a prediction rather than supplying the answer | assignments | [practice-assessment-alignment §6.4](practice-assessment-alignment.md#64-two-changes-that-would-make-this-hold) |
 | **Reframe synthetic/property tests as self-checking technique** — the answer to "how do I know I computed it right" with no trustworthy oracle | assignments, textbook | [practice-assessment-alignment §6.2](practice-assessment-alignment.md#62-three-sources-of-truth-arriving-at-different-times) |
-| **Breadth without build time** — widen readings to method families, give Share block 1 a contrast method, reclaim cycle 12 | schedule, textbook | [ml-topic-inventory](ml-topic-inventory.md) — 11 topics are both `core` and `absent` |
 | **TA briefing: the correct-student-vs-planted-defect case** — a student whose hand-computation is right while the given code is wrong experiences success as failure | advising, TA training | [practice-assessment-alignment §6.5](practice-assessment-alignment.md#65-residual-risk) |
 | **Widening-gap monitoring** — how to track per-student check-in trajectories so struggling students' illusion of competence (Prather et al. 2024) is caught early | assessment, advising | [computational-thinking-basis §4.3](computational-thinking-basis.md#43-the-empirical-warning-the-widening-gap) |
 | Per-problem deliverable rubrics and toolchain | assignments | [#5](https://github.com/bu-bioinfo/bf550/issues/5) — bundle now settled ([course-structure §5](course-structure.md#5-what-the-student-actually-has-to-learn)) |
