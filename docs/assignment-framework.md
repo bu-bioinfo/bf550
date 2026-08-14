@@ -1,98 +1,108 @@
 ---
-title: "Assignments: Design → Spec → Test → Implementation"
+title: "Problem Sets"
 permalink: /assignments/
 toc: true
 toc_sticky: true
 ---
 
-Every coding lab and assignment in BF550 treats a problem as four connected pieces:
+One problem set a week, in a conventional format: numbered questions, due Monday night. What makes
+them unusual is not the packaging — it is that **you generate the data yourself.**
 
-1. **Design** — how the problem breaks down: the interfaces, the data flow, where the
-   complexity lives.
-2. **Specification** — the precise contract: inputs, outputs, types, invariants, edge cases.
-3. **Tests** — executable expectations, with expected values you've worked out by hand.
-4. **Implementation** — code that satisfies the spec and passes the tests.
+## Why you build the data
 
-Each assignment **gives you some of these pieces and asks you to produce the one that's
-missing.** That keeps the focus on a specific skill — and it's why you can use a coding agent
-freely: the part you're graded on (the design, the spec, the tests, the critique) is exactly
-the part an agent can't do for you.
+Almost every question in this course begins by asking you to write a *simulator*: code that produces
+a dataset from settings you choose. Then you analyze what it produced and see whether you can
+recover the settings you started from.
 
-## The four exercise types
+This solves a problem that has no other good solution. When you analyze real data, nobody knows the
+right answer — that is what makes it research. So how do you ever find out whether your method
+works? You test it on a world you built, where you know the answer because you set it.
 
-### Type A — Spec + Tests → Code
+It also solves a smaller and more immediate problem: **you can check your own work.** There is no
+answer key in this course, and there does not need to be one.
 
-You're given a complete specification and a test suite. Produce an implementation that passes
-all the tests, **annotate every non-trivial line** so you can explain what it does, and keep
-a **failure log**: for each test that failed along the way, note whether the problem was in
-the spec, the tests, or the generated code.
+## What a week looks like
 
-*You're practicing:* implementation and directing a coding agent.
+Each set has six questions. They are not labeled by type and you do not need to memorize a
+structure, but the shape repeats, and by week three you will recognize it:
 
-### Type B — Spec + Code → Tests
+- **Build the process.** Turn a description of some biology into code that generates data.
+- **Convince yourself it's right.** Check your simulator against settings whose answers you already
+  know for reasons that have nothing to do with your code.
+- **Explore what it does.** Vary something, run it many times, look at what changes.
+- **Push it until it breaks.** Violate one of its assumptions on purpose and watch what happens to
+  a method that trusted that assumption.
+- **Read someone else's code.** Say precisely what it does, and find where it does not do what it
+  claims.
+- **Go deeper, your way.** Choose at least one of three optional directions (below).
 
-You're given a specification and a working implementation. Write a test suite that includes:
+The middle questions carry most of the biology. The last two carry most of the skill you will be
+examined on.
 
-- **example-based tests** with **hand-calculated expected values shown in the docstring**;
-- at least one **synthetic test** — an input you construct to expose a specific behavior, with
-  your reasoning;
-- at least one **property-based test** — an invariant that should hold for any valid input;
-- at least one **documented expected failure** identifying a known limitation.
+## Checking your own work
 
-The hand-calculated values are the point: writing them means you understand the problem
-yourself.
+The second question every week is the one students underestimate. You have no answer key, and the
+code you are handed may be wrong — so how do you know?
 
-*You're practicing:* verification, and turning biological intuition into tests.
+You run your simulator on settings where the answer follows from the *structure* of the situation
+rather than from any computation. If the allele frequency is zero, nobody can be a carrier. If two
+classes are exactly symmetric, the probability has to be one half. If a cluster contains one point,
+that point is its center. None of those require trusting your code, your agent, or us.
 
-### Type C — Code + Tests → Spec
+Constructing cases like that is a real professional skill and it is one of the most transferable
+things in this course. It is also how you will be expected to check anything, ever, once nobody is
+grading you.
 
-You're given a working implementation and its tests. Write the specification: describe the
-inputs, outputs, and types precisely enough that someone could re-implement it without seeing
-the code, explain the reason behind **every edge case** the tests cover, point out **at least
-two behaviors the tests don't cover** (and propose tests for them), and note anything
-ambiguous in the current implementation.
+**A standing warning:** the code and materials we hand you are written by people with opinions and
+deadlines. They sometimes contain choices you should argue with, and occasionally a genuine
+mistake. Finding those earns credit. Deferring to us because we are the instructors earns nothing.
 
-The gap analysis — what's *not* pinned down — is the most valuable part.
+## AI use, question by question
 
-*You're practicing:* close reading, recovering intent, and spotting underspecification.
+Every question states its [AI level](https://aiassessmentscale.com/) — not every assignment, every
+*question*. Most weeks look like this:
 
-### Type D — All three → Critique & Optimize
+| | Typical level | Why |
+|---|:--:|---|
+| Building simulators, exploring, breaking things | **4** — full AI | Describe the process in words and let the agent write it. The specification is the thinking; the typing is not. |
+| Checking your own work; reading code | **1** — no AI | These are the skills the exams assess, and the ones that quietly disappear if you delegate them. |
+| Depth questions | **3** — collaboration | Draft with the agent, then evaluate and revise what it gives you. |
 
-You're given a complete, correct implementation with its spec and tests. Write a critique on
-three levels:
+There are **two no-AI questions in every problem set.** That is deliberate. Both exams are
+code-reading exams, so those questions are not a hurdle bolted onto the course — they are the
+rehearsal, happening every week, in the ordinary course of the work. By the midterm you will have
+done roughly eighteen of them.
 
-- **Correctness** — does it satisfy the spec even in cases the tests miss? Each gap you find
-  needs a proposed test.
-- **Efficiency** — does it do unnecessary work? Reason about this *from reading the code*
-  (e.g. list vs. generator, recomputation, running counts), not from benchmarking.
-- **Composability** — would it fit into a larger pipeline? Think about its interface and how
-  it would run over many samples.
+## Going deeper, your way
 
-Summarize your findings in a table: for each issue, its impact, the effort to fix, and
-whether the fix would break existing behavior. Deciding what's worth fixing is part of the
-exercise.
+The last question every week offers three directions, and **you must do at least one:**
 
-*You're practicing:* engineering judgment and reasoning about tradeoffs.
+- **Math** — derive the result your simulation approximated.
+- **Compute** — make it fast, robust, or scalable, then use the speed to answer a question the slow
+  version could not.
+- **Bio** — find the assumption real data violates, and show what it costs.
 
-## Where these ideas come from
+**These are directions, not difficulty levels.** They deliberately cut across the backgrounds people
+arrive with, so there is no single ladder to be low on — the mathematically-inclined and the
+wet-lab-experienced are each ahead in a different one. Each may assume knowledge the course itself
+does not cover, which is the point: every one of you has the prerequisites for at least one of them.
 
-The framework borrows from established software-engineering practice — recast as ways of
-*thinking*, not coding mandates:
+Pick by curiosity, not by what sounds impressive. Partial progress with a clear account of where you
+got stuck earns nearly full credit.
 
-- **Test-Driven Development (TDD):** express the behavior you want as tests before the
-  implementation exists.
-- **Behavior-Driven Development (BDD):** phrase tests in plain, domain-meaningful terms
-  ("a pure-GC window has GC fraction 1.0").
-- **Design-Driven Development:** make your interface and decomposition choices explicit and
-  reviewable before committing to code.
+## Practicing without spending your grade
 
-## Using a coding agent on assignments
+Every textbook chapter carries practice problems built the same way, on different content, **with
+worked solutions.** They are ungraded and optional. If you want more repetitions before attempting
+the graded set — or you want to check whether you actually followed the reading — that is what they
+are for.
 
-- **Your design, spec, and tests are your own work** — these aren't delegated to an agent.
-- **You may have an agent generate the code**, but you're accountable for explaining it
-  (line-level annotation) and for diagnosing every test failure before you accept the output.
-- **The failure log is graded** — it shows your refine-and-verify process.
+## What we're looking for
 
-The habit to build: *constrain the problem first (design → spec → tests), then generate the
-code, then verify it.* See the [assessment & AI policy](https://bu-cds-bf550.github.io/assessment/)
-for the AI level that applies to each assignment.
+Answers in complete sentences. A number with no sentence around it earns no credit — the number is
+almost never the point, and in a course where an agent can produce any number you ask for, the
+sentence is the only part that shows you understood it.
+
+On the checking questions, **state your prediction before you run anything.** A prediction that
+turned out wrong, which you caught and corrected, earns full credit. A result reported with no
+prediction does not, even when it is right.

@@ -51,17 +51,16 @@ coding agent.
 
 ## Schedule
 
-See the [schedule](https://bu-cds-bf550.github.io/schedule/) for the 13-week lecture and
-lab progression.
+See the [schedule](https://bu-cds-bf550.github.io/schedule/) for the twelve-week topic
+progression and the three-act arc.
 
 ## Assessment
 
 See [Assessment & AI Policy](https://bu-cds-bf550.github.io/assessment/). Your grade comes
-from weekly labs (design → spec → test → implementation), weekly code-reading check-in
-quizzes, two written code-reading exams (no AI: a midterm on Wed Oct 21 and an Act III exam on
-Mon Nov 30), a synthesis project, and participation. **There is no exam during finals period** —
-the synthesis project is the culminating assessment, and the last two weeks of the course
-belong to it. Every meeting date and deadline is on the [detailed calendar]({{ site.baseurl }}/calendar/). Weights and details: [Assessment & AI policy]({{ site.baseurl }}/assessment/).
+from twelve weekly problem sets (each carrying two no-AI questions), two written code-reading
+exams (no AI: a midterm on Mon Nov 2 and an Act III exam on Mon Nov 30), a synthesis project, and
+participation. **There is no exam during finals period** — the synthesis project is the culminating
+assessment, and the last two and a half weeks of the course belong to it. Every meeting date and deadline is on the [detailed calendar]({{ site.baseurl }}/calendar/). Weights and details: [Assessment & AI policy]({{ site.baseurl }}/assessment/).
 
 ## Materials & tools
 

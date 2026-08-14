@@ -34,12 +34,13 @@ agents. The course makes a deliberate bet: the primary coding learning objective
   *(Instructor rationale lives in [`internal/course-design-rationale.md`](internal/course-design-rationale.md).)*
 - **[Learning objectives](https://bu-cds-bf550.github.io/learning-objectives/)** — what students will be able to do.
 - **[Syllabus](https://bu-cds-bf550.github.io/syllabus/)** — the TILT-framed course syllabus.
-- **[Schedule](https://bu-cds-bf550.github.io/schedule/)** — 13-week lecture + lab progression.
-- **[Assignments](https://bu-cds-bf550.github.io/assignments/)** — the design → spec → test →
-  implementation scheme and the four exercise types (A–D), adapted from the
-  [bf550-brainstorming](https://github.com/bu-bioinfo/bf550-brainstorming) repo.
-- **[Assessment & AI policy](https://bu-cds-bf550.github.io/assessment/)** — check-in quizzes, the
-  written midterm, grading, and the per-assessment AIAS mapping.
+- **[Schedule](https://bu-cds-bf550.github.io/schedule/)** — the twelve-week topic progression,
+  organized by how each week's generative process composes from the last.
+- **[Problem sets](https://bu-cds-bf550.github.io/assignments/)** — the weekly format: build the
+  data before you analyze it, check your own work without an answer key, and choose a depth
+  direction.
+- **[Assessment & AI policy](https://bu-cds-bf550.github.io/assessment/)** — problem sets, the two
+  written exams, grading, and the per-question AIAS mapping.
 
 Course design material is in [`internal/`](internal/): the
 [design rationale](internal/course-design-rationale.md), the

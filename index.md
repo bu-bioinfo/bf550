@@ -40,100 +40,67 @@ read math. Formulas are never the entrance fee here; they are the souvenir.
 
 ## The rhythm
 
-The course runs in **cycles of three sessions**. Every problem lives for two cycles, and you work
-on it twice.
+One topic a week, one problem set a week, three 105-minute meetings. The week's topic opens in the
+first meeting; the rest are working sessions with instructors and TAs in the room.
 
-**First cycle: you design.** You get a biological question — a real one, like *"which of these
-sequencing reads are ribosomal RNA, and how confident can you be about any single call?"* — and
-nothing else. No starter code, no instructions. Over the cycle, you write down your approach:
-What process produced this data? What would have to be computed or estimated? What would the
-right method need to be able to do? And — the question that separates scientists from
-software — *how would your approach lie to you?* You commit your design at the end of the cycle —
-before the next cycle's Build session, which is when its materials unseal. It is graded only for
-being on time. **Being wrong in a design is not just acceptable, it is the point**, and you will
-see why when the materials unseal.
+**You build the data before you analyze it.** Nearly every week starts by asking you to write a
+*simulator*: code that produces a dataset from settings you choose. Then you analyze what came out
+and see whether you can recover the settings you put in.
 
-**Second cycle: you compare and build.** Our materials for that problem unseal: a specification, a
-test suite, and an implementation — minus one piece, which is yours to produce. Before you
-build anything, you write a short **divergence analysis**: where did our approach differ from
-the one you committed to? What did we handle that you didn't think of? And — a question we mean
-sincerely — *where was your design better than ours?* Our materials are written by people with
-opinions and deadlines. Sometimes they contain choices you should argue with. Occasionally
-they contain a genuine mistake. Finding those earns credit. Deferring to us because we're the
-instructors earns nothing.
+That one habit does a surprising amount of work. It is how scientists actually find out whether a
+method can be trusted — you cannot validate anything against real data, because with real data
+nobody knows the right answer. It is also why this course does not need an answer key: **you know
+the truth, because you set it.**
 
-Which piece we withhold varies, and the assignment header always shows it:
+And it means the mathematics arrives in a bearable order. You will meet sampling variability as
+three histograms getting narrower, not as a formula. You will meet a p-value as *how often the
+simulation is at least as extreme*, not as an integral. You will discover overdispersion because
+your own data turns out messier than your own model predicted. The formulas show up later, as
+compressed summaries of things you have already watched happen.
 
-```
-Design cycle     DESIGN      SPEC      TESTS      CODE
-                ★ YOURS    ▨ sealed  ▨ sealed   ▨ sealed
-
-Build cycle      DESIGN      SPEC      TESTS      CODE
-              (committed)    given     given    ★ YOURS
-```
-
-Where the star lands, you have a seat: **Implementer** (make it work, and be able to explain
-every line), **Verifier** (prove it works, with expected values you calculated by hand), or
-**Reverse engineer** (recover the specification nobody wrote down, and find what the tests fail
-to pin down).
-
-**Each cycle is three 105-minute sessions, named for what happens in them:**
-
-- **① Design** — a short check-in on the reading, then we work with the ideas you read about. This
-  course is flipped: the textbook is where you meet material first. The session ends by opening
-  the new problem.
-- **② Build** — studio. Materials unseal, you compare and build, with instructors and TAs in the room.
-- **③ Share** — we break things. We take the method you just built and make it fail: violated
-  assumptions, leaked data, overconfident scores — because knowing *how a method lies* is the
-  difference between using it and being used by it. This is also where designs get compared
-  across the room, and where the design clinic for your problem in flight happens.
-
-We meet three times a week, but **the term starts mid-week and holidays fall unevenly, so a cycle
-does not always line up with a calendar week.** Don't track weekdays — track the session type,
-which is posted for every meeting on the [detailed calendar]({{ site.baseurl }}/calendar/). The
-sequence never breaks: if a meeting is cancelled, the next one picks up where we left off.
+**Each week composes.** Once you can build one process, you repeat it, mix two of them, nest one
+inside another, or make its settings depend on something you measured. Those four moves generate
+essentially every model in the course — which is why there is no separate "how this course works"
+to learn on top of the statistics. The organizing principle *is* the statistics.
 
 Topics and the three-act arc are on the [schedule]({{ site.baseurl }}/schedule/); every meeting
-date and session type is on the [calendar]({{ site.baseurl }}/calendar/).
+date and deadline is on the [calendar]({{ site.baseurl }}/calendar/).
 
 ## Using AI
 
-You'll have a provided coding agent and a textbook tutor, and every assignment states its
-[AI level](https://aiassessmentscale.com/) plainly:
+You'll have a provided coding agent and a textbook tutor, and **every individual question** states
+its [AI level](https://aiassessmentscale.com/) — not every assignment, every question:
 
-- **Designing — AI for brainstorming only.** The design must be your thinking. This is the
-  one place the course asks you to work mostly unaided, because it is the one skill that dies
-  if you delegate it.
-- **Building — full AI, encouraged.** Let the agent write code. What we grade is what agents
-  can't fake: your hand-calculated values, your annotations, your account of what the agent
-  silently decided on your behalf.
-- **Check-ins and the two exams — no AI.** Short code-reading exercises, every other week,
-  closed-book, plus a midterm (Oct 21) and an Act III exam (Nov 30). These exist for your
-  benefit as much as ours: research on novices using AI finds that the students who struggle
-  most are often the ones most convinced they're doing fine. The check-ins are how you and we
-  both see your *unaided* skill actually growing — so nobody discovers a gap for the first
-  time during an exam.
+- **Building simulators, exploring, breaking things — full AI, encouraged.** Describe the process
+  in words and let the agent write it. Specifying what generates your data is the thinking; typing
+  it is not.
+- **Checking your own work, and reading code — no AI.** Two questions every week. These are the
+  skills that quietly disappear if you delegate them, and they are exactly what the exams assess.
+- **The two exams — no AI.** A midterm (Nov 2) and an Act III exam (Nov 30), closed-book, both
+  code-reading.
+
+The no-AI questions exist for your benefit as much as ours. Research on novices using AI finds that
+the students who struggle most are often the ones most convinced they're doing fine. Two unaided
+questions a week are how you and we both watch your own skill actually growing — so nobody
+discovers a gap for the first time during an exam.
 
 ## What you hand in, and what it's worth
 
-Every problem, the same shape: your committed `design.md`, the artifact your seat produces,
-and one `notes.md` holding your divergence analysis and your annotations or analysis.
+One notebook a week: your code, your figures, and your answers in complete sentences.
 
 | | Weight | AI level |
 |---|---:|---|
-| Problems (designs + builds) | 30% | Design: planning only · Build: full |
-| Check-in quizzes (biweekly, code reading) | 10% | None |
-| Written midterm (Oct 21) | 15% | None |
-| Act III exam (Nov 30) | 15% | None |
-| Synthesis project | 30% | Full, with your design as the spine |
-| Participation (Share sessions count) | 5% | — |
+| Weekly problem sets (12) | 40% | Stated per question — two are no-AI every week |
+| Written midterm (Mon Nov 2) | 10% | None |
+| Act III exam (Mon Nov 30) | 10% | None |
+| Synthesis project | 35% | Full |
+| Participation | 5% | — |
 
 The synthesis project is the course in miniature and the culminating assessment — **there is no
-exam during finals period**: a complete design → specification → tests → implementation for a
-real method on a real biological problem, every decision defended. Its design is your twelfth
-design slot, and the last four sessions of the course are project studio. By then you'll have
-done the design move eleven times. It will feel like the most natural thing in the world.
+exam during finals period**. You design a generative process for a biological question you care
+about, then show what a method can and cannot recover from it. By then you'll have made that move
+twelve times; the difference is that this time you choose the question.
 
-**If you miss a cycle** — it happens — the design converts to a hindsight-critique variant with
-the same credit, and you rejoin the pipeline at the next Design session. One missed cycle costs
-one cycle, never more. Ask early.
+**If you miss a week** — it happens — the problem set stays open with no penalty until the
+following Monday, and the questions that depend on earlier weeks always come with a reference
+implementation so a bad week never blocks a good one. Ask early.

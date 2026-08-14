@@ -5,121 +5,84 @@ toc: true
 toc_sticky: true
 ---
 
-Every class meeting, in order, with its **session type**. The [schedule]({{ site.baseurl }}/schedule/)
-explains the topics and the three-act arc; this page tells you what happens on which day.
+Every class meeting, by week, with the topic and what is due. The
+[schedule]({{ site.baseurl }}/schedule/) explains the topics and the three-act arc; this page tells
+you which days we meet and when things are due.
 
-> **Draft — known error, being revised.** Checked against the
-> [Office of the University Registrar](https://www.bu.edu/reg/calendars/) on 13 Aug 2026. Two
-> previously-flagged items are now **confirmed**: classes *do* meet on **Veterans Day (Wed Nov 11)**,
-> and the **study period is Dec 11–13** with finals Dec 14–18.
->
-> One item is **wrong**: there is no substitute Monday schedule after Labor Day, so **the Tue Sep 8
-> meeting below does not exist.** The only substitute Monday in Fall 2026 is Tue Oct 13, after
-> Indigenous Peoples' Day. The term therefore has **40 MWF meetings, not 41**, and every date from
-> meeting 3 onward shifts. Do not rely on the dates below until this is re-derived.
+> **Draft.** Dates are derived from the published BU Fall 2026 academic calendar and were checked
+> against the [Office of the University Registrar](https://www.bu.edu/reg/calendars/) on 13 Aug 2026.
+> Meeting times and room are still TBD. Topics may shift; dates will not.
 
-## How to read this page
+## How the week works
 
-Sessions are named by **what happens in them**, not by weekday:
+We meet three times a week for 105 minutes. The week's topic opens in the first meeting; the
+remaining meetings are working sessions with instructors and TAs in the room, where you build the
+week's process, break it, and compare what you found with the rest of the room.
 
-| | Session | What happens |
-|---|---|---|
-| **①** | **Design** | A short reading check-in, then we work with the ideas you read about. Ends by opening the new problem. |
-| **②** | **Build** | Studio. The previous problem's materials unseal; you write your divergence analysis and produce your piece. |
-| **③** | **Share** | We break the method you just built, compare designs across the room, and hold the design clinic for the problem in flight. |
+**Problem sets are due Monday at 11:59 pm**, covering the previous week's topic. Two weeks are
+short — the term begins on a Wednesday and Thanksgiving removes two meetings — and the deadlines
+adjust around them; the table below is authoritative.
 
-**Three sessions make a cycle**, and the sequence never breaks. Because the term starts mid-week and
-holidays fall unevenly, **a cycle does not always line up with a calendar week** — cycles 1–12 run
-Wednesday → Friday → Monday, and after Thanksgiving cycles 13–14 run Monday → Wednesday → Friday.
-Don't track weekdays; track the session type, which is always posted for each meeting.
-
-**Designs are due Tuesday at 11:59 pm** in the normal rhythm — the deadline always falls before the
-next cycle's Build session, which is when that problem's materials unseal. Exceptions are marked in
-the table.
+Because the calendar is uneven, **do not count on a fixed number of meetings per week.** Weeks 1, 2
+and 15 have two meetings, and the week of Thanksgiving has one.
 
 ## Fall 2026
 
 BU holidays and recesses are shown in the flow so you can see where the sequence carries across them.
 
-| # | Date | Cycle | Session | Act | What happens | Due |
-|--:|---|--:|---|:--:|---|---|
-| 1 | Wed Sep 2 | 1 | **① Design** | I | Course intro: how this course works, reading code. Launch **P1** *(where does GC content change?)* | |
-| 2 | Fri Sep 4 | 1 | **② Build** | I | **Setup studio** — git, the repo, the test runner, the agent, the tutor skill. (No prior problem to build.) | |
-| — | *Mon Sep 7* | | *no class* | | *Labor Day — BU holiday* | |
-| 3 | Tue Sep 8 | 1 | **③ Share** | I | *Substitute Monday schedule.* Walkthrough of a full cycle; code-reading practice; **P1 design clinic** | **P1 design** (Tue 11:59 pm) |
-| 4 | Wed Sep 9 | 2 | **① Design** | I | Estimation & uncertainty: sampling, error bars, multiple tests. Launch **P2** | |
-| 5 | Fri Sep 11 | 2 | **② Build** | I | **P1 materials unseal** → divergence analysis → build | |
-| 6 | Mon Sep 14 | 2 | **③ Share** | I | Break P1; divergence share-out; **P2 design clinic** | **P2 design** (Tue Sep 15) |
-| 7 | Wed Sep 16 | 3 | **① Design** | I | Bayes' theorem; estimating probabilities from counts. Launch **P3** | |
-| 8 | Fri Sep 18 | 3 | **② Build** | I | **P2 unseal** → divergence → build | |
-| 9 | Mon Sep 21 | 3 | **③ Share** | I | Break P2; share-out; **P3 design clinic** · *check-in quiz* | **P3 design** (Tue Sep 22) |
-| 10 | Wed Sep 23 | 4 | **① Design** | II | Naive Bayes: classification as a generative story. Launch **P4** | |
-| 11 | Fri Sep 25 | 4 | **② Build** | II | **P3 unseal** → divergence → build | |
-| 12 | Mon Sep 28 | 4 | **③ Share** | II | Break P3; share-out; **P4 design clinic** | **P4 design** (Tue Sep 29) |
-| 13 | Wed Sep 30 | 5 | **① Design** | II | Evaluation: overfitting, cross-validation, leakage, calibration. Launch **P5** | |
-| 14 | Fri Oct 2 | 5 | **② Build** | II | **P4 unseal** → divergence → build | |
-| 15 | Mon Oct 5 | 5 | **③ Share** | II | Break P4; share-out; **P5 design clinic** · *check-in quiz* | **P5 design** (Tue Oct 6) |
-| 16 | Wed Oct 7 | 6 | **① Design** | II | Logistic regression: modeling the boundary directly. Launch **P6** | |
-| 17 | Fri Oct 9 | 6 | **② Build** | II | **P5 unseal** → divergence → build | |
-| — | *Mon Oct 12* | | *no class* | | *Indigenous Peoples' Day — BU holiday* | |
-| 18 | Tue Oct 13 | 6 | **③ Share** | II | *Substitute Monday schedule.* Break P5; share-out; **P6 design clinic** | |
-| 19 | Wed Oct 14 | 7 | **① Design** | II | Linear regression & regularization. Launch **P7** | **P6 design** (Wed Oct 14 — shifted, see note) |
-| 20 | Fri Oct 16 | 7 | **② Build** | II | **P6 unseal** → divergence → build | |
-| 21 | Mon Oct 19 | 7 | **③ Share** | II | Break P6; share-out; **P7 design clinic** · *check-in quiz* | **P7 design** (Tue Oct 20) |
-| 22 | Wed Oct 21 | 8 | **① Design** | II | **MIDTERM** (no AI, closed book — Acts I & II). Launch **P8** *(method selection)* | |
-| 23 | Fri Oct 23 | 8 | **② Build** | II | **P7 unseal** → divergence → build *(light build)* | |
-| 24 | Mon Oct 26 | 8 | **③ Share** | II | Midterm debrief; break P7; **P8 design clinic** | **P8 design** (Tue Oct 27) |
-| 25 | Wed Oct 28 | 9 | **① Design** | III | Trees & forests: prediction without the probability story. Launch **P9** | |
-| 26 | Fri Oct 30 | 9 | **② Build** | III | **P8 unseal** → divergence → build | |
-| 27 | Mon Nov 2 | 9 | **③ Share** | III | Break P8; share-out; **P9 design clinic** · *check-in quiz* | **P9 design** (Tue Nov 3) |
-| 28 | Wed Nov 4 | 10 | **① Design** | III | Dimensionality reduction: PCA (t-SNE/UMAP demo). Launch **P10** | |
-| 29 | Fri Nov 6 | 10 | **② Build** | III | **P9 unseal** → divergence → build | |
-| 30 | Mon Nov 9 | 10 | **③ Share** | III | Break P9; share-out; **P10 design clinic** | **P10 design** (Tue Nov 10) · **project proposal** |
-| 31 | Wed Nov 11 | 11 | **① Design** | III | Clustering: mixture models → k-means; validating *k*. Launch **P11** *(verify Veterans Day)* | |
-| 32 | Fri Nov 13 | 11 | **② Build** | III | **P10 unseal** → divergence → build | |
-| 33 | Mon Nov 16 | 11 | **③ Share** | III | Break P10; share-out; **P11 design clinic** · *check-in quiz* | **P11 design** (Tue Nov 17) |
-| 34 | Wed Nov 18 | 12 | **① Design** | III | Frontiers: neural nets as the same machinery, stacked *(not on the exam)*. Launch **synthesis project design** | |
-| 35 | Fri Nov 20 | 12 | **② Build** | III | **P11 unseal** → divergence → build | |
-| 36 | Mon Nov 23 | 12 | **③ Share** | III | Break P11 — the Act III critique clinic; **project design clinic** | |
-| — | *Wed Nov 25 – Sun Nov 29* | | *no class* | | *Thanksgiving recess* | |
-| 37 | Mon Nov 30 | 13 | **① Design** | — | **ACT III EXAM** (no AI, closed book — trees, PCA, clustering) | |
-| 38 | Wed Dec 2 | 13 | **② Build** | — | **Project studio** | **Project design** (Wed Dec 2) |
-| 39 | Fri Dec 4 | 13 | **③ Share** | — | **Project studio** + structured peer review | |
-| 40 | Mon Dec 7 | 14 | **① Design** | — | **Project studio** | |
-| 41 | Wed Dec 9 | 14 | **② Build** | — | **Project studio** — last class meeting | |
-| — | *Thu Dec 10* | | | | *Last day of classes (no MWF meeting)* | |
-| — | *finals period* | | | | **No exam.** Project deliverable due; oral defenses scheduled | **Project bundle** |
+| Week | Meetings | Topic | Due |
+|---:|---|---|---|
+| 1 | Wed **Sep 2** · Fri **Sep 4** | Course intro and setup; simulating a process; binomial counts | |
+| — | *Mon Sep 7* | *Labor Day — no class* | |
+| 2 | Wed **Sep 9** · Fri **Sep 11** | Null distributions; what a p-value is; multiple testing | **PS1** (Mon Sep 14) |
+| 3 | Mon **Sep 14** · Wed **Sep 16** · Fri **Sep 18** | Nesting; overdispersion; why counts vary more than they should | **PS2** (Mon Sep 21) |
+| 4 | Mon **Sep 21** · Wed **Sep 23** · Fri **Sep 25** | Bayes' theorem; estimating probabilities from counts | **PS3** (Mon Sep 28) |
+| 5 | Mon **Sep 28** · Wed **Sep 30** · Fri **Oct 2** | Naive Bayes: classification as a generative story | **PS4** (Mon Oct 5) |
+| 6 | Mon **Oct 5** · Wed **Oct 7** · Fri **Oct 9** | Evaluation: overfitting, cross-validation, leakage, calibration | **PS5** (Mon Oct 12) |
+| — | *Mon Oct 12* | *Indigenous Peoples' Day — no class* | |
+| 7 | Tue **Oct 13** · Wed **Oct 14** · Fri **Oct 16** | Logistic regression: modeling the boundary directly | **PS6** (Mon Oct 19) |
+| 8 | Mon **Oct 19** · Wed **Oct 21** · Fri **Oct 23** | Linear regression and regularization | **PS7** (Mon Oct 26) |
+| 9 | Mon **Oct 26** · Wed **Oct 28** · Fri **Oct 30** | Generalized linear models: Poisson and negative binomial regression | **PS8** (Mon Nov 2) |
+| 10 | Mon **Nov 2** · Wed **Nov 4** · Fri **Nov 6** | **MIDTERM Mon Nov 2** (no AI, closed book — Acts I & II), then trees, forests, and boosting | **PS9** (Mon Nov 9) |
+| 11 | Mon **Nov 9** · Wed **Nov 11** · Fri **Nov 13** | Dimensionality reduction: PCA (t-SNE/UMAP demo) | **PS10** (Mon Nov 16) |
+| 12 | Mon **Nov 16** · Wed **Nov 18** · Fri **Nov 20** | Clustering: mixture models → k-means; validating *k* | **PS11** (Mon Nov 23) |
+| 13 | Mon **Nov 23** | Project launch; choosing a process worth simulating | **PS12** (Mon Nov 30) |
+| — | *Wed Nov 25 – Sun Nov 29* | *Thanksgiving recess — no class* | |
+| 14 | Mon **Nov 30** · Wed **Dec 2** · Fri **Dec 4** | **ACT III EXAM Mon Nov 30** (no AI, closed book — weeks 10–12), then project studio | **Project proposal** (Wed Dec 2) |
+| 15 | Mon **Dec 7** · Wed **Dec 9** | Project studio — **Dec 9 is the last class meeting** | |
+| — | *Thu Dec 10* | *Last day of classes (we do not meet Thursdays)* | |
+| — | *Dec 11–13* | *Study period* | |
+| — | *Dec 14–18* | *Final exams period —* **no exam for this course** | **Project bundle** |
 
-**Notes on the two shifted deadlines.** Cycle 6's Share session lands on Tue Oct 13 because of the
-substitute Monday schedule, so its design clinic and the usual Tuesday deadline would collide — the
-**P6 design** deadline moves to Wed Oct 14, still safely before P6's materials unseal on Fri Oct 16.
-The **project design** is due Wed Dec 2 rather than before the Act III exam, so you are not doing
-both over Thanksgiving.
+**Tue Oct 13 is a class day.** Boston University substitutes a Monday schedule that day to make up
+for Indigenous Peoples' Day, so our Monday section meets on a Tuesday that once. It is the only
+substitute day this term — Labor Day is not made up.
+
+**Wed Nov 11 is a class day.** Veterans Day is not a BU holiday in Fall 2026.
+
+**The term has 40 class meetings.** Weeks 1, 2 and 15 have two; the week of Thanksgiving has one.
 
 ## Exams
 
 | | When | Covers | Format |
 |---|---|---|---|
-| **Midterm** | Wed Oct 21 (cycle 8, Design session) | Acts I & II — estimation through regression | Closed book, no AI, code reading |
-| **Act III exam** | Mon Nov 30 (cycle 13, Design session) | Trees, PCA, clustering (cycles 9–11). *Frontiers material is not examined.* | Closed book, no AI, code reading |
+| **Midterm** | Mon Nov 2 | Acts I & II — simulating processes through generalized linear models | Closed book, no AI, code reading |
+| **Act III exam** | Mon Nov 30 | Weeks 10–12 — trees, PCA, clustering | Closed book, no AI, code reading |
 
 **There is no exam during finals period.** After Nov 30, every remaining session is project studio.
 
 ## Reading
 
-Read the textbook chapter for a cycle **before that cycle's Design session** — the course is
-flipped, and the Design session works with material you have already met. Budget about two hours:
-one chapter plus a short worked notebook. The reading check-in that opens each Design session is
-ungraded; its job is to tell us where to spend the session.
+Read the textbook chapter for a week **before that week's first meeting** — the course is flipped,
+and the opening session works with material you have already met. Budget about two hours: one
+chapter plus a short worked notebook. Every chapter carries practice problems with worked solutions;
+they are ungraded, they are the same shape as the problem set, and they are the cheapest way to find
+out whether you actually followed the reading.
 
 ## When the calendar changes
 
-Weather, illness, and university closures happen. **The session sequence absorbs them**: if a
-meeting is cancelled, the next meeting takes the next session type, and every cycle still gets its
-Design, Build, and Share. Nothing is skipped and nothing is doubled up — the dates shift, the
-sequence does not. This page is the authoritative mapping and will be updated if that happens.
-
-Two consequences worth knowing: **your design deadline is always tied to the next Build session**,
-not to a weekday, so check this page rather than assuming Tuesday; and the last two class meetings
-(Dec 7 and Dec 9) are deliberate slack — if we lose a day earlier in the term, it is absorbed here
-rather than by cutting content.
+Weather, illness, and university closures happen. Because the course is organized by week rather
+than by a pipeline, a lost meeting is absorbed within its week: the topic and the deadline stay put
+and the remaining sessions carry the work. If a whole week is lost, everything after it shifts by a
+week and the last project studio absorbs the difference. **This page is the authoritative mapping**
+and will be updated if that happens.

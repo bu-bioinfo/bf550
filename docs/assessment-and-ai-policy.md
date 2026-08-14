@@ -17,31 +17,38 @@ finals period** — the last two weeks of the course belong to your project.
 
 | Component | What it measures | AI level | Weight |
 |---|---|:--:|--:|
-| Problems (design + build, one per cycle) | problem framing + applied ML + code literacy + agent use | 2 / 4 | 30% |
-| Check-in quizzes (biweekly, code reading) | reading and explaining code | 1 | 10% |
-| Written midterm — Wed Oct 21 (code reading) | Acts I–II, under exam conditions | 1 | 15% |
-| Act III exam — Mon Nov 30 (code reading) | cycles 9–11, under exam conditions | 1 | 15% |
-| Synthesis project (design + spec + tests + impl) | end-to-end judgment on a real problem | 4 | 30% |
-| Participation (Share sessions count) | engagement in studio and share-outs | — | 5% |
+| Weekly problem sets (12) | problem framing + applied ML + code literacy + agent use | per question | 40% |
+| Written midterm — Mon Nov 2 (code reading) | Acts I–II, under exam conditions | 1 | 10% |
+| Act III exam — Mon Nov 30 (code reading) | weeks 10–12, under exam conditions | 1 | 10% |
+| Synthesis project | end-to-end judgment on a problem you chose | 4 | 35% |
+| Participation | engagement in working sessions | — | 5% |
 
-### Problems
+### Problem sets
 
-Each problem spans two cycles. The **design** is graded for committing on time — being wrong in a
-design is expected and productive, and it's safe to be. The **build** is graded on your divergence
-analysis and the artifact your seat produces: hand-calculated test values, a reimplementable
-specification, or annotated code with an honest account of what your agent decided for you.
-Designs are due before the next cycle's Build session, when that problem's materials unseal; the
-[calendar]({{ site.baseurl }}/calendar/) lists every deadline. If you miss a cycle, the design
-converts to a hindsight-critique variant with the same credit — one missed cycle costs one cycle,
-never more.
+One a week, due Monday at 11:59 pm, covering the previous week's topic. Six questions: you build a
+generative process, check it against cases whose answers follow from structure, explore it, break
+it, read someone else's code, and choose at least one depth direction. The
+[problem sets page]({{ site.baseurl }}/assignments/) explains the format; the
+[calendar]({{ site.baseurl }}/calendar/) lists every deadline.
 
-### Check-in quizzes
+**There is no answer key, and there doesn't need to be one** — you set the parameters that generated
+your data, so you already know the truth. Checking your own work is a graded skill here, not an
+afterthought: on those questions, state your prediction *before* you run anything. A prediction that
+turned out wrong, which you caught and corrected, earns full credit.
 
-Short, low-stakes, roughly every other cycle. You're given a code snippet and asked to describe
-what it does — its behavior, its edge cases, and (later in the term) its design intent. These are
-direct practice for both exams, and they're **AI level 1 (no AI)** because the whole point is
-your own reading. Watch your own trajectory on these: it's the most honest signal you'll get
-about whether your unaided skills are growing alongside your agent-assisted work.
+If you miss a week, the set stays open with no penalty until the following Monday. Questions that
+depend on earlier weeks ship with a reference implementation, so one bad week never blocks the next.
+
+### The no-AI questions
+
+**Two questions in every problem set are AI level 1.** One asks you to verify your own simulator
+without help; one asks you to read code and say precisely what it does and where it fails. They are
+not a hurdle bolted onto the course — both exams are code-reading exams, so these questions are the
+rehearsal, happening weekly in the ordinary course of the work. By the midterm you'll have done
+roughly eighteen of them.
+
+Watch your own trajectory on them. It's the most honest signal you'll get about whether your unaided
+skills are growing alongside your agent-assisted work.
 
 ### The two exams
 
@@ -49,18 +56,18 @@ Each act of the course closes with a **closed-book, no-AI code-reading exam (lev
 provided snippets, describe their behavior, recover their intent, spot edge cases and bugs —
 the same skill the check-ins rehearse, assessed all at once.
 
-- **Midterm — Wed Oct 21** (cycle 8's Design session): Acts I and II — estimation through
-  regression.
-- **Act III exam — Mon Nov 30** (cycle 13's Design session): trees, dimensionality reduction, and
-  clustering (cycles 9–11). Cycle 12's frontiers material is not examined.
+- **Midterm — Mon Nov 2:** Acts I and II — simulating processes, estimation, Bayes, evaluation, and
+  regression through generalized linear models.
+- **Act III exam — Mon Nov 30:** weeks 10–12 — trees and forests, dimensionality reduction, and
+  clustering.
 
 ### Synthesis project
 
-The capstone and the course's **culminating assessment**: produce a complete **design,
-specification, tests, and implementation** for a real method on a real molecular-biology
-problem, with every design decision justified mathematically or biologically. Its design is
-your twelfth design slot; the last four sessions of the term are project studio. It's **AI level 4** — use
-the agent freely; your design, tests, verification, and critique are what's graded.
+The capstone and the course's **culminating assessment**: design a generative process for a
+biological question you care about, then show what a method can and cannot recover from it — with
+every decision justified mathematically or biologically. Same move you'll have made twelve times by
+then, on a question you chose. The last two and a half weeks of the term are project studio. It's
+**AI level 4** — use the agent freely; your design, your checks, and your critique are what's graded.
 
 ## AI use levels
 
@@ -69,15 +76,16 @@ assignment names a level so the expectations are explicit:
 
 | Level | Name | What it means for you |
 |------:|------|---|
-| 1 | No AI | Work on your own — check-in quizzes and the two exams. |
+| 1 | No AI | Work on your own — two questions on every problem set, and both exams. |
 | 2 | AI Planning | Use AI to brainstorm or outline; develop the ideas yourself. |
 | 3 | AI Collaboration | AI helps draft; you critically evaluate and revise its output. |
 | 4 | Full AI | Use the agent throughout; you direct it, verify it, and own the result. |
 | 5 | AI Exploration | Open-ended, creative use. |
 
-**Designing is level 2; building and the project are level 4.** Using a coding agent
-at level 4 is expected, not a shortcut — what's graded is your design, specification,
-hand-calculated tests, and critique, the parts an agent can't produce for you.
+**Levels are set per question, not per assignment.** A single problem set routinely spans levels 1
+through 4. Using a coding agent at level 4 is expected, not a shortcut — what's graded is your
+specification of the process, your checks, and your critique, the parts an agent can't produce for
+you.
 
 ## Academic integrity in an AI-positive course
 
@@ -86,5 +94,5 @@ hand-calculated tests, and critique, the parts an agent can't produce for you.
   annotation that doesn't match the code, "hand-calculated" test values you didn't actually
   work out, or a critique that misreads the implementation. These show up naturally, because
   the deliverables require you to demonstrate that you understand.
-- The level-1 check-ins and exams give an AI-free picture of your own code literacy
-  alongside your agent-assisted work.
+- The level-1 questions and the exams give an AI-free picture of your own code literacy alongside
+  your agent-assisted work.

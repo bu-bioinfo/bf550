@@ -63,17 +63,15 @@ ambiguity about what's allowed.
 
 | Component | What you do |
 |---|---|
-| **Lectures** (2 × 75 min/week) | Build the concepts: statistics foundations, the classes of ML algorithms, how to choose a method, and how methods are evaluated. |
-| **Lab** (1–2 hr/week) | Hands-on exercises using the **design → spec → test → implementation** framework, agent-assisted and grounded in a real biological problem. |
-| **Weekly check-in quizzes** | Short code-reading practice: you're given a snippet and describe what it does. |
-| **Written midterm** | Code reading under exam conditions (no AI). |
-| **Synthesis project** | Bring it all together: design, specify, test, and build a real method for a real molecular-biology problem. |
+| **Three meetings a week** (105 min each) | The week's topic opens in the first; the rest are working sessions with instructors and TAs in the room. |
+| **Weekly problem set** | Build a generative process, check it, explore it, break it, read code, and choose a depth direction. |
+| **Two no-AI questions every week** | Verify your own work unaided, and read code closely. Direct rehearsal for both exams. |
+| **Two written exams** | Code reading under exam conditions (no AI): a midterm and an Act III exam. |
+| **Synthesis project** | Design a generative process for a question you chose, and show what a method can and cannot recover from it. |
 
-Labs use a framework where each exercise gives you some pieces of a problem and asks you to
-produce the missing one — sometimes you write the tests, sometimes you recover the
-specification, sometimes you critique an implementation. See the
-[assignment framework](https://bu-cds-bf550.github.io/assignments/) for
-details.
+Problem sets ask you to build the data before you analyze it, so you always know the true answer and
+can check your own work without an answer key. See the
+[problem sets page](https://bu-cds-bf550.github.io/assignments/) for the format.
 
 ## Two things you'll see on every assignment
 
@@ -82,9 +80,9 @@ you're doing it, *what* exactly to do, and *how* it will be evaluated — so you
 what success looks like before you start. (This follows the
 [TILT](https://www.tilthighered.com/resources) transparent-assignment framework.)
 
-**An AI use level.** Every assignment is labeled with a level on the
+**An AI use level.** Every *question* is labeled with a level on the
 [AI Assessment Scale (AIAS)](https://aiassessmentscale.com/), telling you how much AI use is
-expected:
+expected — a single problem set routinely spans levels 1 through 4:
 
 | Level | Name | What it means |
 |------:|------|---------------|
