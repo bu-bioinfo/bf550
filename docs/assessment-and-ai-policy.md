@@ -25,11 +25,18 @@ finals period** — the last two weeks of the course belong to your project.
 
 ### Problem sets
 
-One a week, due Monday at 11:59 pm, covering the previous week's topic. Six questions: you build a
+One a week, due Monday at 11:59 pm, in three sections. **Practice** — short warm-ups on this week's
+ideas, graded on completion, and the place to ask for help freely. **Design** — your own approach to
+this week's problem, committed before you see ours, graded for being on time rather than for being
+right. **Build** — last week's problem, whose materials have now unsealed: you open with a
+divergence analysis against the design you committed, then work six questions in which you build a
 generative process, check it against cases whose answers follow from structure, explore it, break
 it, read someone else's code, and choose at least one depth direction. The
 [problem sets page]({{ site.baseurl }}/assignments/) explains the format; the
 [calendar]({{ site.baseurl }}/calendar/) lists every deadline.
+
+**Being wrong in a design is expected and safe.** It is the comparison that teaches, and the
+comparison only works if you committed to something before you saw our approach.
 
 **There is no answer key, and there doesn't need to be one** — you set the parameters that generated
 your data, so you already know the truth. Checking your own work is a graded skill here, not an

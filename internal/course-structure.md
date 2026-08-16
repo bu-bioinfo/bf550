@@ -2,11 +2,30 @@
 
 > ## ⚠ Superseded, 14 Aug 2026
 >
-> **This document describes an architecture the course no longer uses.** The staggered
-> design/build pipeline — the strip, the seat names (Implementer / Verifier / Reverse engineer),
-> the one-cycle lag, sealed materials, the divergence analysis, two problems in flight, and the
-> separate check-in quizzes — was **replaced by weekly simulation-first problem sets**, because the
-> accumulated machinery cost more student and instructor attention than it returned.
+> **This document describes an architecture the course no longer uses** — but see the partial
+> reversal below. The staggered design/build pipeline — the strip, the seat names (Implementer /
+> Verifier / Reverse engineer), the one-cycle lag, sealed materials, the divergence analysis, two
+> problems in flight, and the separate check-in quizzes — was **replaced by weekly simulation-first
+> problem sets**, because the accumulated machinery cost more student and instructor attention than
+> it returned.
+>
+> ### Partial reversal, 16 Aug 2026
+>
+> **The seal and the divergence analysis are back**, reinstated inside the weekly format as
+> sections 2 and 3 of every problem set. Removing them had left computational thinking with no home
+> in the assignments — D1 (frame) and D4 (anticipate) survived in the simulation questions, but D2
+> (decompose) and D3 (select) vanished entirely, and three of the five countermeasures against the
+> widening-gap risk (§4.3 of [`computational-thinking-basis.md`](computational-thinking-basis.md))
+> went with them.
+>
+> **Still retired, and staying retired:** the strip, the seat names, two problems in flight as a
+> *cycle* structure, the separate check-in bank, and all cycle vocabulary. The reinstatement is
+> narrow and deliberately cheap — a sealed design section and a divergence prompt, inside a
+> conventional numbered problem set.
+>
+> §3's session budgets below assume the old Design/Build/Share naming and the pre-14-Aug calendar.
+> **Both are stale** — re-derive against [`docs/calendar.md`](../docs/calendar.md) before using the
+> arithmetic.
 >
 > **Canonical now:** the published [schedule](../docs/schedule.md),
 > [calendar](../docs/calendar.md), and [problem sets page](../docs/assignment-framework.md), plus

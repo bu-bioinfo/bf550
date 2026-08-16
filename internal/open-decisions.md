@@ -13,6 +13,17 @@
 > seat rotation, two problems in flight, the divergence rubric, the separate check-in bank — are
 > closed as moot and removed below. See [`course-structure.md`](course-structure.md) for what was
 > superseded and [`practice-assessment-alignment.md`](practice-assessment-alignment.md) for why.
+>
+> **Partial reversal, 16 Aug 2026.** Two of those — **the seal and the divergence analysis** — are
+> reinstated inside the weekly format as sections 2 and 3 of each problem set, because removing them
+> left computational thinking with no home: D2 (decompose) and D3 (select) had disappeared from the
+> assignments entirely, and three of the five documented countermeasures against the widening-gap
+> risk went with them. The expensive machinery stays retired — no seats, no strip, no separate
+> check-in bank, no cycle vocabulary. **The divergence rubric is therefore reopened and is now
+> blocking**, since divergence is graded every week rather than on six heavy problems.
+>
+> The load objection that closed "two problems in flight" applies to this in weaker form — a design
+> section and a build section are in flight each week — and needs piloting rather than assertion.
 
 ## Blocking
 
@@ -21,6 +32,8 @@
 | **Session roles within a week** — the site says the topic opens in meeting 1 and the rest are working sessions. Whether the three meetings get named functions, and what happens in short weeks (1, 2, 13, 15 have fewer than three), is unresolved | schedule, calendar | new — needed before the textbook fixes its per-week structure |
 | **Grade weights need sign-off.** Now problem sets 40 / midterm 10 / Act III 10 / project 35 / participation 5. Changed because check-ins were absorbed into the per-set no-AI questions — and because the previous published weights summed to **105%** | assessment | new |
 | **Midterm moved to Mon Nov 2** (was Wed Oct 21) to close Act II after GLMs. Later than a conventional midterm; continuous weekly assessment is the argument that it is acceptable | assessment, calendar | new |
+| **Divergence rubric** — reopened 16 Aug. Now graded weekly, not on six heavy problems, so it needs to be cheap to apply and consistent across graders. Nothing in the CT literature to borrow: performance-based assessment of design-under-seal does not exist elsewhere | assessment | reopened — [computational-thinking-basis §8](computational-thinking-basis.md#8-what-is-ours-and-open) |
+| **Weekly load with three sections** — practice + design + build against a ~6.5 hr envelope including reading. The build section alone is roughly the current six-question set. Something has to shrink; likely some current build questions become practice | assignments | new — needs piloting before term |
 | Finalize biological anchor problems, **written as questions rather than tasks** | schedule | [#1](https://github.com/bu-bioinfo/bf550/issues/1) + author rule 1 |
 | Select & provision the student coding agent — **and the textbook tutor, probably the same procurement** | syllabus, /about/ | [#3](https://github.com/bu-bioinfo/bf550/issues/3) |
 
