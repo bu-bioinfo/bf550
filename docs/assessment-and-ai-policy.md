@@ -72,8 +72,8 @@ the same skill the check-ins rehearse, assessed all at once.
 
 The capstone and the course's **culminating assessment**: design a generative process for a
 biological question you care about, then show what a method can and cannot recover from it — with
-every decision justified mathematically or biologically. Same move you'll have made twelve times by
-then, on a question you chose. The last two and a half weeks of the term are project studio. It's
+every decision justified mathematically or biologically. It is the same thing you will have done
+twelve times by then, on a question you chose. The last two and a half weeks of the term are project studio. It's
 **AI level 4** — use the agent freely; your design, your checks, and your critique are what's graded.
 
 ## AI use levels
