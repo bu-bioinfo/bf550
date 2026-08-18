@@ -39,11 +39,11 @@ By the end of BF550, you will be able to:
 
 ## Working with generative AI / coding agents
 
-10. **Decompose a problem into design → spec → tests *before* generating code**, and direct a
-    coding agent to satisfy those constraints.
-11. **Verify agent-generated code** — write example-based, synthetic, and property-based
-    tests with hand-calculated expected values; diagnose whether a failure originates in the
-    spec, the tests, or the generated code.
+10. **Frame, decompose, select, and anticipate failure *before* generating code**, and
+    direct a coding agent to satisfy those constraints.
+11. **Verify agent-generated code** — construct cases whose answers follow from the structure
+    of the situation rather than from any computation, and use them to check code you did not
+    write; diagnose whether a failure originates in the approach or in the generated code.
 12. **Exercise engineering judgment** — critique an implementation for correctness,
     efficiency, and composability, and decide what is worth fixing vs. deferring.
 

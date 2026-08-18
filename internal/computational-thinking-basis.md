@@ -1,5 +1,19 @@
 # Computational Thinking: What BF550 Means By It (INTERNAL)
 
+> ## ⚠ Predates the current architecture
+>
+> Written before **14 Aug 2026**, when the staggered design/build pipeline was replaced by weekly
+> simulation-first problem sets, and before **16 Aug 2026**, when the seal and divergence analysis
+> returned as sections 2 and 3 of every set. Passages below referring to **Design / Build / Share
+> sessions**, **cycles**, **seat names** (Implementer / Verifier / Reverse engineer), the **strip**,
+> the **model card**, or **check-in quizzes** describe machinery the course no longer uses.
+>
+> **Canonical now:** the published [schedule](../docs/schedule.md),
+> [calendar](../docs/calendar.md), and [problem sets page](../docs/assignment-framework.md), plus
+> `AUTHORING.md` and `GLOSSARY.md` in the private `bf550-instructor` repo.
+>
+> Retained for its reasoning, which mostly still applies. Not retained as instructions.
+
 > **Internal design document — not published** (`internal/` is excluded in `_config.yml`).
 > Grounds the course's four design steps in the computational-thinking literature — foundational
 > and current through 2026 — states where we depart from it deliberately, and marks what is ours to

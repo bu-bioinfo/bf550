@@ -7,7 +7,7 @@ main:
   - title: "Calendar"
     url: "/calendar/"
   - title: "Github"
-    url: "https://github.com/bu-bioinfo/bf550"
+    url: "https://github.com/bu-cds-bf550/bu-cds-bf550.github.io"
 
 # Sidebar navigation
 sidebar:
@@ -57,14 +57,10 @@ sidebar:
       - title: "Week 13"
         url: "/lectures/week-13/"
 
-  - title: "Labs"
-    children:
-      - title: "Overview"
-        url: "/labs/lab-overview/"
 
 # Footer links
 footer:
   - title: "GitHub"
-    url: "https://github.com/bu-bioinfo/bf550"
+    url: "https://github.com/bu-cds-bf550/bu-cds-bf550.github.io"
   - title: "Boston University"
     url: "https://www.bu.edu/"

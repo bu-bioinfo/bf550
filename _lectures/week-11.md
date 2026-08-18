@@ -1,14 +1,19 @@
 ---
-title: "Week 11 — Clustering II"
+title: "Week 11 — Dimensionality reduction: PCA (t-SNE/UMAP as demo)"
 ---
 
 > **Under construction.** Lecture materials for Week 11 will be posted here.
 
 ## Topic
 
-Clustering II: density-based clustering and the practical question of how many clusters there
-are. We look at choosing *k* and validating clusters without peeking at the labels we are
-trying to discover.
+Dimensionality reduction: PCA (t-SNE/UMAP as demo).
+
+**Act III.**  
+**Composition operation:** latent  
+**The question you're answering:** *What structure hides in this expression matrix?*
+
+See the [schedule]({{ site.baseurl }}/schedule/) for how this week fits the three-act arc, and the
+[detailed calendar]({{ site.baseurl }}/calendar/) for dates.
 
 ## Materials
 

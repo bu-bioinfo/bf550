@@ -21,8 +21,8 @@ agents. The course makes a deliberate bet: the primary coding learning objective
 | | |
 |---|---|
 | **Credits** | 4 |
-| **Contact** | 2 × 75-min lectures + 1 × 1–2 hr lab per week |
-| **Length** | 13 weeks |
+| **Contact** | Three 105-minute sessions per week |
+| **Length** | 15 weeks (see the calendar) |
 | **Prereq** | Some programming experience (range expected: rudimentary → advanced) |
 | **Coding agents** | Provided to students; assumed, allowed, and encouraged |
 | **Pedagogical frameworks** | [TILT](https://www.tilthighered.com/resources) (transparent assignments) · [AIAS](https://aiassessmentscale.com/) (AI Assessment Scale) |

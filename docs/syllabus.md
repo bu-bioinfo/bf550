@@ -14,7 +14,7 @@ toc_sticky: true
 |---|---|
 | **Title** | Applied Statistics & Machine Learning for the Life Sciences |
 | **Number / credits** | BF550 · 4 credits |
-| **Meetings** | 2 × 75-min lectures + 1 × 1–2 hr lab per week, 13 weeks |
+| **Meetings** | Three 105-minute sessions per week |
 | **Term** | Fall |
 | **Instructor(s)** | *TBD* |
 | **Prerequisites** | Some programming experience; introductory biology / molecular biology |
@@ -60,7 +60,19 @@ See [Assessment & AI Policy](https://bu-cds-bf550.github.io/assessment/). Your g
 from twelve weekly problem sets (each carrying two no-AI questions), two written code-reading
 exams (no AI: a midterm on Mon Nov 2 and an Act III exam on Mon Nov 30), a synthesis project, and
 participation. **There is no exam during finals period** — the synthesis project is the culminating
-assessment, and the last two and a half weeks of the course belong to it. Every meeting date and deadline is on the [detailed calendar]({{ site.baseurl }}/calendar/). Weights and details: [Assessment & AI policy]({{ site.baseurl }}/assessment/).
+assessment, and the last two and a half weeks of the course belong to it.
+
+| Component | Weight |
+|---|---:|
+| Weekly problem sets (12) | 40% |
+| Written midterm — Mon Nov 2 | 10% |
+| Act III exam — Mon Nov 30 | 10% |
+| Synthesis project | 35% |
+| Participation | 5% |
+
+Every meeting date and deadline is on the [detailed calendar]({{ site.baseurl }}/calendar/).
+Full details, including the AI level attached to each question:
+[Assessment & AI policy]({{ site.baseurl }}/assessment/).
 
 ## Materials & tools
 
@@ -81,7 +93,7 @@ In the spirit of the AI-use expectations we set for you, here's how these course
 were made.
 
 This course was designed by the instructor team. The pedagogical choices — the focus on code
-literacy, the design → spec → test → implementation framework, the choice of biological
+literacy, the three-section problem-set structure, the choice of biological
 problems, and the assessment structure — are the team's own. Generative AI (Claude, by
 Anthropic) was used substantially to draft and organize the written materials on this site
 from the team's specifications and intent, working at roughly **AI Assessment Scale level 3–4
