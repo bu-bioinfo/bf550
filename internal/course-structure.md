@@ -33,7 +33,13 @@
 >
 > **What survives and is still worth reading here:** §6 on scaffolding the design task, §7's
 > grading posture (credit for committing on time; being safe to be wrong), §8 on reading carrying
-> first exposure at ~2 hr/week, and the session-budget arithmetic in §3. The
+> first exposure at ~2 hr/week, and the session-budget arithmetic in §3.
+>
+> **Two numbers below are superseded — do not quote them.** §7's weights line
+> (30 · 10 · 15 · 15 · 30) predates the published **40 · 10 · 10 · 35 · 5** in
+> [`docs/assessment-and-ai-policy.md`](../docs/assessment-and-ai-policy.md). §4.1's
+> "41 meetings, 13 cycles" predates the calendar's **40 meetings**. The *posture* in §7 stands;
+> the arithmetic does not. The
 > [ML topic inventory](ml-topic-inventory.md) and
 > [practice/assessment review](practice-assessment-alignment.md) record why the change was made.
 >
@@ -329,7 +335,7 @@ selection as the menu fills.
 
 ## 7. Grading posture
 
-**Weights: weekly problems 30 · check-ins 10 · midterm 15 · Act III exam 15 · synthesis
+**Weights (SUPERSEDED — see the banner; published weights are 40 · 10 · 10 · 35 · 5): weekly problems 30 · check-ins 10 · midterm 15 · Act III exam 15 · synthesis
 project 30 · participation 5.** Two secured exams, one per act boundary; the project stays at
 30% so the incentive structure and the course's stated philosophy agree. (Supersedes the
 weights in issue #2, which predate the Act III exam.)

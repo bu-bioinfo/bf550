@@ -1,20 +1,11 @@
 ---
-title: "Labs — Overview"
+title: "Labs"
 ---
 
-> **Under construction.**
+> **This page is retained only as a redirect.** The course no longer has separate labs.
 
-Weekly labs are built on the **design → spec → test → implementation** framework. Each lab
-provides some of these components and asks you to produce the missing one(s), isolating a
-specific code-literacy skill. The four exercise types:
+The weekly work is a **problem set**, in three sections — Practice, Design, and Build. Every class
+meeting includes working time on it, with instructors and TAs in the room.
 
-- **Type A — Spec + Tests → Code:** produce an implementation; annotate every line; keep a
-  failure log.
-- **Type B — Spec + Code → Tests:** write tests with **hand-calculated** expected values.
-- **Type C — Code + Tests → Spec:** recover the specification and identify gaps.
-- **Type D — All three → Critique:** review correctness, efficiency, and composability.
-
-Coding agents are assumed and encouraged ([AIAS](https://aiassessmentscale.com/) Level 4 for
-most labs): your design, specification, tests, and critique are the graded product.
-
-Full details: [assignment framework](https://github.com/bu-bioinfo/bf550/blob/main/docs/assignment-framework.md).
+See **[Problem Sets]({{ site.baseurl }}/assignments/)** for how they are structured, how they are
+graded, and the AI level attached to each question.

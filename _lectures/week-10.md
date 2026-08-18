@@ -1,13 +1,18 @@
 ---
-title: "Week 10 — Clustering I"
+title: "Week 10 — Trees, forests, and boosting: prediction with no probability story"
 ---
 
 > **Under construction.** Lecture materials for Week 10 will be posted here.
 
 ## Topic
 
-Clustering I: unsupervised grouping with k-means and hierarchical clustering, and how the
-choice of distance metric shapes the results.
+Trees, forests, and boosting: prediction with no probability story.
+
+**Act III.**  
+**The question you're answering:** *Which genes mark treatment response?*
+
+See the [schedule]({{ site.baseurl }}/schedule/) for how this week fits the three-act arc, and the
+[detailed calendar]({{ site.baseurl }}/calendar/) for dates.
 
 ## Materials
 

@@ -1,5 +1,19 @@
 # Course Design Rationale (INTERNAL)
 
+> ## ⚠ Predates the current architecture
+>
+> Written before **14 Aug 2026**, when the staggered design/build pipeline was replaced by weekly
+> simulation-first problem sets, and before **16 Aug 2026**, when the seal and divergence analysis
+> returned as sections 2 and 3 of every set. Passages below referring to **Design / Build / Share
+> sessions**, **cycles**, **seat names** (Implementer / Verifier / Reverse engineer), the **strip**,
+> the **model card**, or **check-in quizzes** describe machinery the course no longer uses.
+>
+> **Canonical now:** the published [schedule](../docs/schedule.md),
+> [calendar](../docs/calendar.md), and [problem sets page](../docs/assignment-framework.md), plus
+> `AUTHORING.md` and `GLOSSARY.md` in the private `bf550-instructor` repo.
+>
+> Retained for its reasoning, which mostly still applies. Not retained as instructions.
+
 > **Internal planning document — not published to the course site.** This captures the
 > *why* behind BF550's design for the instructor team. The student-facing version of this
 > material is the **"How This Course Works"** page (`docs/course-design.md`,

@@ -1,15 +1,19 @@
 ---
-title: "Week 7 — Interpretable & tree-based methods"
+title: "Week 7 — Logistic regression: modeling the boundary directly"
 ---
 
 > **Under construction.** Lecture materials for Week 7 will be posted here.
 
 ## Topic
 
-Interpretable & tree-based methods: decision trees and random forests, and reading feature
-importance to interpret a model. Tree depth gives us a concrete way to revisit the
-bias–variance tradeoff, and feature selection gives us a fresh way for data leakage to creep
-in if it is done on the full dataset.
+Logistic regression: modeling the boundary directly.
+
+**Act II.**  
+**Composition operation:** condition  
+**The question you're answering:** *Is this variant pathogenic?*
+
+See the [schedule]({{ site.baseurl }}/schedule/) for how this week fits the three-act arc, and the
+[detailed calendar]({{ site.baseurl }}/calendar/) for dates.
 
 ## Materials
 

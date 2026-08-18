@@ -1,14 +1,19 @@
 ---
-title: "Week 9 — Dimensionality reduction"
+title: "Week 9 — Generalized linear models: Poisson and negative binomial regression"
 ---
 
 > **Under construction.** Lecture materials for Week 9 will be posted here.
 
 ## Topic
 
-Dimensionality reduction: PCA together with the intuition behind t-SNE and UMAP, and when
-and why reducing dimensions helps. We also note how data leakage sneaks in when a reduction
-is fit on all the data before splitting.
+Generalized linear models: Poisson and negative binomial regression.
+
+**Act II.**  
+**Composition operation:** nest + condition  
+**The question you're answering:** *Are these genes really differentially expressed?*
+
+See the [schedule]({{ site.baseurl }}/schedule/) for how this week fits the three-act arc, and the
+[detailed calendar]({{ site.baseurl }}/calendar/) for dates.
 
 ## Materials
 

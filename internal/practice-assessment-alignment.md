@@ -1,5 +1,19 @@
 # Practice, Assessment, and the Oracle Problem (INTERNAL)
 
+> ## ⚠ Predates the current architecture
+>
+> Written before **14 Aug 2026**, when the staggered design/build pipeline was replaced by weekly
+> simulation-first problem sets, and before **16 Aug 2026**, when the seal and divergence analysis
+> returned as sections 2 and 3 of every set. Passages below referring to **Design / Build / Share
+> sessions**, **cycles**, **seat names** (Implementer / Verifier / Reverse engineer), the **strip**,
+> the **model card**, or **check-in quizzes** describe machinery the course no longer uses.
+>
+> **Canonical now:** the published [schedule](../docs/schedule.md),
+> [calendar](../docs/calendar.md), and [problem sets page](../docs/assignment-framework.md), plus
+> `AUTHORING.md` and `GLOSSARY.md` in the private `bf550-instructor` repo.
+>
+> Retained for its reasoning, which mostly still applies. Not retained as instructions.
+
 > **Deliberation record, August 2026.** Captures a design review that started as "are we covering
 > enough ML?" and turned into three sharper questions: what practice each build seat actually
 > generates, whether the two exams can fairly test it, and — the one with no clean answer yet —

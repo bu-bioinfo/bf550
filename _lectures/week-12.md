@@ -1,14 +1,19 @@
 ---
-title: "Week 12 — Regression & regularization"
+title: "Week 12 — Clustering: mixture models → k-means; validating *k*"
 ---
 
 > **Under construction.** Lecture materials for Week 12 will be posted here.
 
 ## Topic
 
-Regression & regularization: linear regression and regularized variants. We use
-cross-validation to trace the regularization path, revisiting model selection one more time
-in a continuous-prediction setting.
+Clustering: mixture models → k-means; validating *k*.
+
+**Act III.**  
+**Composition operation:** mix, hidden  
+**The question you're answering:** *Do these cells form distinct types — and how many?*
+
+See the [schedule]({{ site.baseurl }}/schedule/) for how this week fits the three-act arc, and the
+[detailed calendar]({{ site.baseurl }}/calendar/) for dates.
 
 ## Materials
 

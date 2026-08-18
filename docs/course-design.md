@@ -50,10 +50,11 @@ You'll be **provided with coding-agent tools, and you're encouraged to use them.
 course is built around them rather than against them.
 
 The work you turn in is structured so that the agent handles what it's good at (generating
-code) while *you* do the thinking that matters: defining the problem, specifying what a
-correct solution looks like, writing tests, and verifying the result. In practice that means
-working the way professional engineers do — **constrain the problem first (design →
-specification → tests), then generate the code, then check it against what you specified.**
+code) while *you* do the thinking that matters: framing the problem, deciding what has to be
+computed, choosing an approach, and anticipating how it could mislead you. In practice that
+means **committing to an approach before you generate anything, then checking the result
+against a case whose answer you already know for reasons that have nothing to do with the
+code.**
 
 Each assignment tells you exactly what level of AI use is expected (see
 [AI levels](#two-things-youll-see-on-every-assignment) below), so there's never any
@@ -92,7 +93,7 @@ expected — a single problem set routinely spans levels 1 through 4:
 | 4 | Full AI | Use the agent throughout; you direct it, verify it, and own the result. |
 | 5 | AI Exploration | Open-ended, creative use. |
 
-Most labs and the project are **Level 4** — use the agent freely, with your design,
+Building simulators, exploring, and the project are **Level 4** — use the agent freely, with your design,
 specifications, tests, and verification as the work that's graded. The code-reading
 check-ins and midterm are **Level 1**, so you and we can both see your unaided reading skills
 grow over the term.
