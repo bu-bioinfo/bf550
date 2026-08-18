@@ -118,7 +118,7 @@ misconceptions:
 ## Where the numbers come from    <!-- estimation, still in code -->
 ## The notation                   <!-- the compression, LAST; feeds notation decoder -->
 ## A worked design                <!-- D1-D4 on an ANALOGOUS problem, not the week's lab -->
-## How it lies to you             <!-- assumptions, failure modes; executed demo of one -->
+## When the model is wrong        <!-- assumptions, failure modes; executed demo of one -->
 ## Practice problems              <!-- ungraded; see §4 -->
 ```
 
@@ -128,7 +128,7 @@ Three sections earn special comment:
   ([`course-structure.md`](course-structure.md) §6): the student sees a complete D1–D4 pass on a
   problem *adjacent to* the week's design task. Choosing the analogous problem is a real authoring
   decision per chapter — close enough to transfer, far enough not to leak.
-- **"How it lies to you"** must contain at least one *executed* failure — a chunk that visibly
+- **"When the model is wrong"** must contain at least one *executed* failure — a chunk that visibly
   breaks the method by violating its assumption. This is where the simulation-as-diagnostic
   commitment ([`ml-pedagogy-design.md`](ml-pedagogy-design.md) §2.1) lives in the text.
 - **The notation section** emits its symbols to the decoder appendix. The decoder is generated, not
@@ -141,7 +141,7 @@ Ungraded, in-chapter, and the tutor skill needs to know what each is for. Frontm
 ```yaml
 practice_problems:
   - id: p4-2
-    kind: predict-the-output        # | modify-the-story | hand-calculate | spot-the-lie | read-the-notation
+    kind: predict-the-output        # | modify-the-story | hand-calculate | spot-the-mismatch | read-the-notation
     objective: >
       Predict how the posterior shifts when the class prior changes,
       before running the code.
@@ -157,7 +157,7 @@ content varies (the same one-thing-with-a-moving-hole principle as the labs):
 | `predict-the-output` | Read code, commit to a prediction, then run | Code literacy; check-in prep |
 | `modify-the-story` | Change the generative story; say what changes downstream | D1; the probabilistic frame |
 | `hand-calculate` | Tiny instance, worked by hand | Verifier-seat prep |
-| `spot-the-lie` | Given output that is subtly wrong, find the violated assumption | D4; critique-clinic prep |
+| `spot-the-mismatch` | Given output that is subtly wrong, find where the model stopped matching the world | D4; critique-clinic prep |
 | `read-the-notation` | Translate a formula to prose/code or back | Notation literacy; story↔code check-ins |
 
 Every problem carries an explicit objective sentence. The objective is student-visible — TILT

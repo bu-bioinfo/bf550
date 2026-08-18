@@ -62,8 +62,10 @@ Write down how you would approach it, in four parts:
   that each one is something you could look up a method for.
 - **Select** — early in the term: what would the right method need to be able to do? Later, once you
   have a toolbox: which method, and why that one rather than the alternatives?
-- **Anticipate** — how would your approach lie to you? Where would it look like it worked when it
-  did not?
+- **Anticipate** — how could your answer be wrong, and how would you know? A model never lies:
+  when its answer is wrong, it is because the model was wrong about the process that made the
+  data. Say where yours is most likely wrong, and what that would look like — especially where it
+  would look like it worked when it did not.
 
 That last one is the hardest, the least taught anywhere, and the one this course cares about most.
 

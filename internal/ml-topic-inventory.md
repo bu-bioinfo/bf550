@@ -236,7 +236,7 @@ One BF550 cycle. PCA is taught properly, which is the right priority, but NMF is
 | PCA; loadings, scree plots, variance explained | The first plot made on any expression matrix, and the first batch-effect detector | taught | core |
 | PCA as SVD | Connects the method to the linear algebra rather than leaving it a recipe | touched | core |
 | t-SNE and UMAP | Every single-cell paper has one; almost every reader over-interprets it | touched | core |
-| Why t-SNE/UMAP distances and cluster sizes lie | The critique a graduate must be able to deliver in a lab meeting | touched | core |
+| Why t-SNE/UMAP distances and cluster sizes must not be read literally | The critique a graduate must be able to deliver in a lab meeting | touched | core |
 | Non-negative matrix factorization | Mutational signatures and cell type deconvolution both rest on NMF | absent | recognize |
 | ICA and factor analysis | Separating mixed biological signals | absent | optional |
 | MDS and distance-based embedding | Ecology and microbiome ordination (PCoA) is standard practice | absent | optional |

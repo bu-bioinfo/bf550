@@ -153,7 +153,7 @@ task** (`course-structure.md` §6, grounded in [`computational-thinking-basis.md
 | **The story** | What process would generate data like this? (prose *and* ~10 lines of code) | D1 · Frame |
 | **What's unknown** | Which parts of the story are parameters? | D2 · Decompose |
 | **How we pin them down** | Counting, optimizing a loss, or a posterior | D3 · Select |
-| **How it lies to you** | Assumptions violated, failure modes, what a fooled version looks like | D4 · Anticipate |
+| **How it can be wrong** | Assumptions violated, failure modes, what a fooled version looks like | D4 · Anticipate |
 
 Because the design task and the exposition share a template, **the design stage never starts from a
 blank page** — it is four prompts, not an empty file.
@@ -203,7 +203,7 @@ offering**; the complete design, rationale, and reintroduction checklist are in
 [`future-depth-branches.md`](future-depth-branches.md).
 
 Year one's differentiation relies on the mechanisms with no ceiling: the design stage ("how
-would it lie to you?" rewards all the sophistication a student brings), the divergence analysis
+could the answer be wrong?" rewards all the sophistication a student brings), the divergence analysis
 ("where was your design better than ours?"), and the textbook's ungraded practice problems.
 Watch the strong tail for boredom — that is the symptom depth branches exist to prevent, and
 the trigger for reintroducing them.

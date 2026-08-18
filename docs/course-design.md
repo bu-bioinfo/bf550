@@ -51,7 +51,7 @@ course is built around them rather than against them.
 
 The work you turn in is structured so that the agent handles what it's good at (generating
 code) while *you* do the thinking that matters: framing the problem, deciding what has to be
-computed, choosing an approach, and anticipating how it could mislead you. In practice that
+computed, choosing an approach, and anticipating how the answer could be wrong. In practice that
 means **committing to an approach before you generate anything, then checking the result
 against a case whose answer you already know for reasons that have nothing to do with the
 code.**

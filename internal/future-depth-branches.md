@@ -127,7 +127,7 @@ worked examples of branch prompts and their instructor notes, useful when reintr
 Removing depth removes the course's only *named* differentiation mechanism. The honest interim
 answer for strong students:
 
-- **The design stage has no ceiling.** "How would it lie to you?" rewards exactly as much
+- **The design stage has no ceiling.** "How could the answer be wrong?" rewards exactly as much
   sophistication as a student brings.
 - **The divergence analysis has no ceiling** — "where was your design better than ours?" is a
   standing invitation to out-think the materials.

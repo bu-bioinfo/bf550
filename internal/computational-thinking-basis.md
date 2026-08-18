@@ -48,7 +48,7 @@ Every problem opens with these, one week before the implementation materials app
 | **D1** | **Frame** | What process produced this data? | Abstraction / modeling — deciding what to represent and what to ignore |
 | **D2** | **Decompose** | What has to be computed or estimated? | Decomposition into computable questions |
 | **D3** | **Select** | *Early:* what would the right method need to do? *Later:* which method, and why that one? | Algorithm and tool selection |
-| **D4** | **Anticipate** | How would it lie to you? | Evaluation, debugging, assessing alternatives |
+| **D4** | **Anticipate** | How could the answer be wrong — and how would you know? | Evaluation, debugging, assessing alternatives |
 
 These are also the four slots of the model card ([`ml-pedagogy-design.md`](ml-pedagogy-design.md)
 §4), so exposition and design share one template.
@@ -118,7 +118,7 @@ Tedre, *Computational Thinking*, MIT Press, 2019, as the book-length treatment)
 > Starting the design steps with modeling rather than decomposition is therefore not a departure
 > from CT that needs defending (as §7 once had to argue from Weintrop alone) — it is the ML-era
 > form of CT. D4 likewise: when correctness-by-construction is unavailable, *anticipating how the
-> model lies* is the CT 2.0 replacement for program verification.
+> model is wrong* is the CT 2.0 replacement for program verification.
 
 ### 4.2 The generative-AI turn in computing education
 

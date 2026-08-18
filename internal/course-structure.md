@@ -327,7 +327,7 @@ computational-thinking literature, and where we depart from it, is in
 | **D1 · Frame** | What process produced this data? | The story |
 | **D2 · Decompose** | What has to be computed or estimated? | What's unknown |
 | **D3 · Select** | *Early:* what would the right method need to do? *Later:* which method, and why that one? | How we pin them down |
-| **D4 · Anticipate** | How would it lie to you? | How it fails |
+| **D4 · Anticipate** | How could the answer be wrong — and how would you know? | How it fails |
 
 The D3 two-stage framing exists because **method selection is degenerate when the toolbox holds one
 item.** "What properties would it need?" is answerable with an empty toolbox and matures into real
