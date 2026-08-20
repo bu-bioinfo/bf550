@@ -6,6 +6,11 @@ on:
   push:
     branches: ["main"]
 
+  # Build and run the content checks on PRs too, so the instructor-content gate is
+  # exercised before merge rather than discovered at deploy time. The deploy job below
+  # is guarded so pull requests never publish.
+  pull_request:
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -54,6 +59,7 @@ jobs:
 
   # Deployment job
   deploy:
+    if: github.event_name != 'pull_request'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
