@@ -5,8 +5,8 @@ toc: true
 toc_sticky: true
 ---
 
-> *This syllabus is a draft and will be finalized before the term begins. Meeting times,
-> location, and policy statements will be filled in.*
+> *Meeting times, room, office hours, and the standard BU policy statements are still to be
+> confirmed. Everything else here — structure, assessment, and the calendar — is settled.*
 
 ## Course information
 
@@ -15,8 +15,9 @@ toc_sticky: true
 | **Title** | Applied Statistics & Machine Learning for the Life Sciences |
 | **Number / credits** | BF550 · 4 credits |
 | **Meetings** | Three 105-minute sessions per week |
-| **Term** | Fall |
-| **Instructor(s)** | *TBD* |
+| **Term** | Fall 2026 |
+| **Instructor** | Adam Labadorf (co-instructors and TAs to be announced) |
+| **Office hours** | To be announced in the first week |
 | **Prerequisites** | Some programming experience; introductory biology / molecular biology |
 
 ## Course description
@@ -78,8 +79,11 @@ Full details, including the AI level attached to each question:
 
 - **Coding agent:** provided — details at the start of the term.
 - **Language / runtime:** Python.
-- **Readings:** primarily selected papers and chapters (e.g. the RDP Naive Bayes classifier
-  paper); no single required textbook.
+- **Textbook:** [*BF550 — Biological Data Analysis, Simulation First*](https://bu-cds-bf550.github.io/bf550-textbook/),
+  written for this course and free to read online. One chapter a week, before that week's first
+  meeting. Every chapter carries ungraded practice problems with worked solutions.
+- **Other readings:** selected papers where a primary source is the better teacher (e.g. the RDP
+  Naive Bayes classifier paper). **Nothing in this course has to be bought.**
 
 ## Policies
 
@@ -105,5 +109,5 @@ open about where these tools help, and keeping human judgment accountable for th
 exactly the practice this course is trying to teach.
 
 The full account — who did what, the workflow, and what it means for the materials — is in
-[`AI_DISCLOSURE.md`](https://github.com/bu-bioinfo/bf550/blob/main/AI_DISCLOSURE.md) in the
+[`AI_DISCLOSURE.md`](https://github.com/bu-cds-bf550/bu-cds-bf550.github.io/blob/main/AI_DISCLOSURE.md) in the
 course repository.

@@ -6,6 +6,8 @@ main:
     url: "/schedule/"
   - title: "Calendar"
     url: "/calendar/"
+  - title: "Textbook"
+    url: "https://bu-cds-bf550.github.io/bf550-textbook/"
   - title: "Github"
     url: "https://github.com/bu-cds-bf550/bu-cds-bf550.github.io"
 
@@ -19,6 +21,8 @@ sidebar:
         url: "/learning-objectives/"
       - title: "Syllabus"
         url: "/syllabus/"
+      - title: "Textbook"
+        url: "https://bu-cds-bf550.github.io/bf550-textbook/"
       - title: "Schedule"
         url: "/schedule/"
       - title: "Detailed Calendar"

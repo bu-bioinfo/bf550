@@ -34,8 +34,8 @@
 | **Midterm moved to Mon Nov 2** (was Wed Oct 21) to close Act II after GLMs. Later than a conventional midterm; continuous weekly assessment is the argument that it is acceptable | assessment, calendar | new |
 | **Divergence rubric** — reopened 16 Aug. Now graded weekly, not on six heavy problems, so it needs to be cheap to apply and consistent across graders. Nothing in the CT literature to borrow: performance-based assessment of design-under-seal does not exist elsewhere | assessment | reopened — [computational-thinking-basis §8](computational-thinking-basis.md#8-what-is-ours-and-open) |
 | **Weekly load with three sections** — practice + design + build against a ~6.5 hr envelope including reading. The build section alone is roughly the current six-question set. Something has to shrink; likely some current build questions become practice | assignments | new — needs piloting before term |
-| Finalize biological anchor problems, **written as questions rather than tasks** | schedule | [#1](https://github.com/bu-bioinfo/bf550/issues/1) + author rule 1 |
-| Select & provision the student coding agent — **and the textbook tutor, probably the same procurement** | syllabus, /about/ | [#3](https://github.com/bu-bioinfo/bf550/issues/3) |
+| Finalize biological anchor problems, **written as questions rather than tasks** | schedule | [#1](https://github.com/bu-cds-bf550/bu-cds-bf550.github.io/issues/1) + author rule 1 |
+| Select & provision the student coding agent — **and the textbook tutor, probably the same procurement** | syllabus, /about/ | [#3](https://github.com/bu-cds-bf550/bu-cds-bf550.github.io/issues/3) |
 
 ## Structure & pedagogy
 
@@ -52,7 +52,7 @@
 | **Reframe synthetic/property tests as self-checking technique** — the answer to "how do I know I computed it right" with no trustworthy oracle | assignments, textbook | [practice-assessment-alignment §6.2](practice-assessment-alignment.md#62-three-sources-of-truth-arriving-at-different-times) |
 | **TA briefing: the correct-student-vs-planted-defect case** — a student whose hand-computation is right while the given code is wrong experiences success as failure | advising, TA training | [practice-assessment-alignment §6.5](practice-assessment-alignment.md#65-residual-risk) |
 | **Widening-gap monitoring** — how to track per-student check-in trajectories so struggling students' illusion of competence (Prather et al. 2024) is caught early | assessment, advising | [computational-thinking-basis §4.3](computational-thinking-basis.md#43-the-empirical-warning-the-widening-gap) |
-| Per-problem deliverable rubrics and toolchain | assignments | [#5](https://github.com/bu-bioinfo/bf550/issues/5) — bundle now settled ([course-structure §5](course-structure.md#5-what-the-student-actually-has-to-learn)) |
+| Per-problem deliverable rubrics and toolchain | assignments | [#5](https://github.com/bu-cds-bf550/bu-cds-bf550.github.io/issues/5) — bundle now settled ([course-structure §5](course-structure.md#5-what-the-student-actually-has-to-learn)) |
 
 ## Textbook & tutor
 
@@ -75,13 +75,13 @@
 
 | Decision | Where it surfaces | Tracking |
 |---|---|---|
-| **Synthesis project: presentation format at 50–60 students** — traditional presentations don't fit; candidates: poster/gallery session, parallel TA-run tracks, recorded lightning talks + structured peer review, written artifact + oral spot-defense sample | schedule, assessment | *(class size is internal-only)* [#6](https://github.com/bu-bioinfo/bf550/issues/6) |
-| Synthesis project scope: individual vs. team (team-of-2 would halve presentation and grading volume) | schedule, assessment | [#6](https://github.com/bu-bioinfo/bf550/issues/6) |
+| **Synthesis project: presentation format at 50–60 students** — traditional presentations don't fit; candidates: poster/gallery session, parallel TA-run tracks, recorded lightning talks + structured peer review, written artifact + oral spot-defense sample | schedule, assessment | *(class size is internal-only)* [#6](https://github.com/bu-cds-bf550/bu-cds-bf550.github.io/issues/6) |
+| Synthesis project scope: individual vs. team (team-of-2 would halve presentation and grading volume) | schedule, assessment | [#6](https://github.com/bu-cds-bf550/bu-cds-bf550.github.io/issues/6) |
 | **Public git history still contains answer keys.** Assignment drafts and the v1 planted-defect inventories moved to the private `bf550-instructor` repo on 14 Aug 2026, but this repo is public and removal from HEAD does not remove them from history — the v1 archive README named planted defects with verified numbers. Options: accept (the material is superseded and being re-cut) or rewrite history (destructive; breaks clones and forks; needs an explicit decision). **Not done.** | repo hygiene | new |
 | **Agentic grading assistance** — whether/how TAs use agents; needs a policy note before term | assessment | new |
-| Written midterm logistics | assessment | [#7](https://github.com/bu-bioinfo/bf550/issues/7) |
-| BU/program policy statements; program-outcome mapping | syllabus, learning-objectives | [#8](https://github.com/bu-bioinfo/bf550/issues/8) |
-| AI attestation wording | syllabus | [#9](https://github.com/bu-bioinfo/bf550/issues/9) |
+| Written midterm logistics | assessment | [#7](https://github.com/bu-cds-bf550/bu-cds-bf550.github.io/issues/7) |
+| BU/program policy statements; program-outcome mapping | syllabus, learning-objectives | [#8](https://github.com/bu-cds-bf550/bu-cds-bf550.github.io/issues/8) |
+| AI attestation wording | syllabus | [#9](https://github.com/bu-cds-bf550/bu-cds-bf550.github.io/issues/9) |
 | Credit-hour expectations | /about/ rationale | [course-design-rationale](course-design-rationale.md) |
 
 ## Settled
@@ -96,10 +96,10 @@
 | Where content gets delivered | Flipped: the textbook carries first exposure (~2 hr/cycle), the Design session activates and elaborates, the Share session's critique clinic delivers by demonstration |
 | Contact format & session naming | **Three 105-min sessions per cycle, named ① Design · ② Build · ③ Share** — never by weekday, because the stream drifts against the calendar ([course-structure §4.1](course-structure.md#41-the-session-stream-holidays-and-the-fall-2026-grid)). Fall 2026 grid published at `/calendar/` |
 | Topic sequencing | **Three acts organized by "what is unknown?"** — regression to cycle 7, trees to cycle 9 post-midterm, clustering one cycle, t-SNE/UMAP a demo ([course-structure §4](course-structure.md#4-the-pipeline-calendar)) |
-| Final assessment | **Act III exam, cycle 13 Design session (Mon Nov 30)** (cycles 9–11, no-AI code reading, 15%) + midterm cycle 8 (Wed Oct 21, 15%); **nothing in finals period** — the last four sessions are project studio. Weights 30/10/15/15/30/5, superseding [#2](https://github.com/bu-bioinfo/bf550/issues/2) |
+| Final assessment | **Act III exam, cycle 13 Design session (Mon Nov 30)** (cycles 9–11, no-AI code reading, 15%) + midterm cycle 8 (Wed Oct 21, 15%); **nothing in finals period** — the last four sessions are project studio. Weights 30/10/15/15/30/5, superseding [#2](https://github.com/bu-cds-bf550/bu-cds-bf550.github.io/issues/2) |
 | Design-stage AI level | **AIAS 2** (published on the front page as "AI for brainstorming only") |
 | Load shedding | `log.md` merged into `notes.md`; graded check-ins roughly every other cycle; the Design session's reading check-in is ungraded telemetry; the Share session runs as two blocks; published re-entry rule (missed design → hindsight critique) |
-| Depth branches | **Deferred to a future offering** — complexity cut for the first run; full design + reintroduction checklist in [future-depth-branches.md](future-depth-branches.md). **Issue still to file on `bu-bioinfo/bf550`** (issues are disabled on the fork; ready-to-paste text in that doc §7) |
+| Depth branches | **Deferred to a future offering** — complexity cut for the first run; full design + reintroduction checklist in [future-depth-branches.md](future-depth-branches.md). **Issue still to file** on `bu-cds-bf550/bu-cds-bf550.github.io` (ready-to-paste text in that doc §7) |
 | Tutor delivery & textbook content | The textbook contains **no graded assignments by design**, so nothing needs sealing. The tutor ships as a **portable skill** students install; no visibility tiers ([textbook-ai-design §1](textbook-ai-design.md#1-the-founding-constraint-no-assignments-in-the-textbook)) |
 
 Student-facing pages deliberately omit these notes; they live here and in the issues.

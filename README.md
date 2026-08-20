@@ -11,7 +11,7 @@ agents. The course makes a deliberate bet: the primary coding learning objective
 > Pages) plus internal planning docs. Student-facing pages live in `docs/` and render on the
 > site; instructor-only rationale and open decisions live in [`internal/`](internal/)
 > (excluded from the site) — see [`internal/open-decisions.md`](internal/open-decisions.md)
-> and the [discussion issues](https://github.com/bu-bioinfo/bf550/issues).
+> and the [discussion issues](https://github.com/bu-cds-bf550/bu-cds-bf550.github.io/issues).
 >
 > **AI use:** how these materials were built is documented in
 > [`AI_DISCLOSURE.md`](AI_DISCLOSURE.md).
@@ -52,8 +52,8 @@ Course design material is in [`internal/`](internal/): the
 separate private repository**, `bu-cds-bf550/bf550-instructor`. Nothing that gives away an answer
 belongs in this repo — it is public.
 
-## Planning board
+## Planning
 
-Topics and assignments are organized week-by-week on the
-[BF550 Content Planning project](https://github.com/orgs/bu-bioinfo/projects/1)
-(Week 1–13 columns). We turn each topic into an issue-card as we develop it.
+Open design questions are tracked as [discussion issues](https://github.com/bu-cds-bf550/bu-cds-bf550.github.io/issues), one per decision. The
+week-by-week structure itself is settled and lives in [`docs/schedule.md`](docs/schedule.md) and
+[`docs/calendar.md`](docs/calendar.md), which are authoritative for topics and dates respectively.

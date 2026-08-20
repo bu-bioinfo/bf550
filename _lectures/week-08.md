@@ -17,7 +17,8 @@ See the [schedule]({{ site.baseurl }}/schedule/) for how this week fits the thre
 
 ## Materials
 
-_To be added._
+- **Reading (before the first meeting):** [textbook chapter 8](https://bu-cds-bf550.github.io/bf550-textbook/chapters/ch08-linear-regression.html)
+- Later meetings are working sessions on the week's problem set.
 
 ## Reading / references
 

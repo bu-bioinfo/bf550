@@ -30,7 +30,7 @@ hand-author most of the prose.
    intent, the credit/contact structure, and the key design choices.
 2. **Drafting.** The agent drafted the site and documents and built the Jekyll scaffold from
    that brief and from the
-   [bf550-brainstorming](https://github.com/bu-bioinfo/bf550-brainstorming) framework.
+   `bf550-brainstorming` framework (that repository is no longer public).
 3. **Review and iteration.** Adam reviewed the output and directed revisions — for example,
    a dedicated pass to rewrite the copy so it addresses *students* rather than the instructor
    team, and to separate internal planning material from the public site.
@@ -49,7 +49,7 @@ drafting and building; human judgment directed and evaluated it.
   instructor team and will continue to change. Wording is ours to refine; errors are ours to
   fix.
 * **Open decisions are tracked openly.** Items still to be settled live in the
-  [discussion issues](https://github.com/bu-bioinfo/bf550/issues) and in
+  [discussion issues](https://github.com/bu-cds-bf550/bu-cds-bf550.github.io/issues) and in
   [`internal/open-decisions.md`](internal/open-decisions.md).
 
 ### What this means for students

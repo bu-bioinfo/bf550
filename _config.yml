@@ -19,12 +19,6 @@ collections:
   lectures:
     output: true
     permalink: /lectures/:path/
-  labs:
-    output: true
-    permalink: /labs/:path/
-  guides:
-    output: true
-    permalink: /guides/:path/
 
 # Defaults
 defaults:
@@ -47,30 +41,6 @@ defaults:
       sidebar:
         nav: "sidebar"
       classes: wide
-
-  # _labs
-  - scope:
-      path: ""
-      type: labs
-    values:
-      layout: single
-      sidebar:
-        nav: "sidebar"
-      classes: wide
-      toc: true
-      toc_sticky: true
-
-  # _guides
-  - scope:
-      path: ""
-      type: guides
-    values:
-      layout: single
-      sidebar:
-        nav: "sidebar"
-      classes: wide
-      toc: true
-      toc_sticky: true
 
 # Site timezone
 timezone: America/New_York

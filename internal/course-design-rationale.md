@@ -87,9 +87,9 @@ inverted the process and produced nothing verifiable. The structure forces "cons
   session, cycles 9–11) — added because the re-sequenced calendar concentrates the most judgment-heavy,
   least-verifiable material after the midterm, and it would otherwise carry no secured
   assessment. Weights: **problems 30 / check-ins 10 / midterm 15 / Act III exam 15 / project 30
-  / participation 5** (supersedes the weights in [#2](https://github.com/bu-bioinfo/bf550/issues/2);
+  / participation 5** (supersedes the weights in [#2](https://github.com/bu-cds-bf550/bu-cds-bf550.github.io/issues/2);
   the project stays at 30% so the incentive structure and the stated philosophy agree). The
   4-credit structure imposes no required assessment minimums.
 
 > Other open decisions live in the relevant internal docs and in the
-> [discussion issues](https://github.com/bu-bioinfo/bf550/issues).
+> [discussion issues](https://github.com/bu-cds-bf550/bu-cds-bf550.github.io/issues).

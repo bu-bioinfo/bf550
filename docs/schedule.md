@@ -66,6 +66,10 @@ answer is right?*
 | 10 | III | — | Trees, forests, and boosting: prediction with no probability story | *Which genes mark treatment response?* |
 | 11 | III | latent | Dimensionality reduction: PCA (t-SNE/UMAP as demo) | *What structure hides in this expression matrix?* |
 | 12 | III | mix, hidden | Clustering: mixture models → k-means; validating *k* | *Do these cells form distinct types — and how many?* |
+| 13–15 | — | *yours* | Project launch, then project studio | *What is a process worth simulating, for a question you chose?* |
+
+Twelve topics, then three weeks on the project — the [calendar]({{ site.baseurl }}/calendar/) has
+the meeting-by-meeting version, including the two short weeks and the Thanksgiving break.
 
 Three things in that table are worth pointing out.
 
@@ -97,6 +101,6 @@ synthesis project.
 ## The synthesis project
 
 The course in miniature, and the culminating assessment: design a generative process for a
-biological question you care about, then show what a method can and cannot recover from it. Same
-move you will have made twelve times by then, on a problem you chose. The last two and a half weeks
+biological question you care about, then show what a method can and cannot recover from it. The same
+thing you will have done twelve times by then, on a problem you chose. The last two and a half weeks
 of the term are project studio, with instructors and TAs in the room.

@@ -13,7 +13,7 @@ clear AI-use level so you always know what's expected.
 ## What you'll be graded on
 
 The synthesis project is the course's culminating assessment, and **there is no exam during
-finals period** — the last two weeks of the course belong to your project.
+finals period** — the last two and a half weeks of the course belong to your project.
 
 | Component | What it measures | AI level | Weight |
 |---|---|:--:|--:|
@@ -52,7 +52,7 @@ depend on earlier weeks ship with a reference implementation, so one bad week ne
 without help; one asks you to read code and say precisely what it does and where it fails. They are
 not a hurdle bolted onto the course — both exams are code-reading exams, so these questions are the
 rehearsal, happening weekly in the ordinary course of the work. By the midterm you'll have done
-roughly eighteen of them.
+more than a dozen of them.
 
 Watch your own trajectory on them. It's the most honest signal you'll get about whether your unaided
 skills are growing alongside your agent-assisted work.
@@ -61,7 +61,7 @@ skills are growing alongside your agent-assisted work.
 
 Each act of the course closes with a **closed-book, no-AI code-reading exam (level 1)**: read
 provided snippets, describe their behavior, recover their intent, spot edge cases and bugs —
-the same skill the check-ins rehearse, assessed all at once.
+the same skill the weekly no-AI questions rehearse, assessed all at once.
 
 - **Midterm — Mon Nov 2:** Acts I and II — simulating processes, estimation, Bayes, evaluation, and
   regression through generalized linear models.

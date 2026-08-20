@@ -179,8 +179,9 @@ As published on the front page before removal:
 
 ## 7. GitHub issue — ready to file
 
-> Issues are disabled on the fork and this session cannot reach `bu-bioinfo/bf550`; file the
-> following there (label: `enhancement`), then replace this section with a link to the issue.
+> File the following on `bu-cds-bf550/bu-cds-bf550.github.io` (label: `enhancement`), then replace
+> this section with a link to the issue. (The earlier blocker here — issues disabled on a fork —
+> no longer applies: that repo is not a fork and has issues enabled.)
 
 **Title:** `Future enhancement: depth branches (lateral math/compute/bio extensions)`
 
@@ -188,7 +189,7 @@ As published on the front page before removal:
 
 > **Depth branches** were designed for BF550's first offering and deliberately **deferred before
 > launch** to reduce moving parts in an already-novel course architecture. Full design, rationale,
-> and reintroduction checklist: [`internal/future-depth-branches.md`](https://github.com/bu-bioinfo/bf550/blob/main/internal/future-depth-branches.md).
+> and reintroduction checklist: [`internal/future-depth-branches.md`](https://github.com/bu-cds-bf550/bu-cds-bf550.github.io/blob/main/internal/future-depth-branches.md).
 >
 > **What:** optional extensions to a build week's write-up in three fixed, *lateral* directions —
 > **Math** (derive why the estimator is what it is), **Compute** (make it robust/fast/scalable),

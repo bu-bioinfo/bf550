@@ -87,13 +87,13 @@ expected — a single problem set routinely spans levels 1 through 4:
 
 | Level | Name | What it means |
 |------:|------|---------------|
-| 1 | No AI | Work on your own (e.g. the code-reading check-ins and midterm). |
+| 1 | No AI | Work on your own (e.g. the two no-AI questions in every problem set, and both exams). |
 | 2 | AI Planning | AI for brainstorming/outlining; you develop the ideas yourself. |
 | 3 | AI Collaboration | AI helps draft; you critically evaluate and revise its output. |
 | 4 | Full AI | Use the agent throughout; you direct it, verify it, and own the result. |
 | 5 | AI Exploration | Open-ended, creative use. |
 
 Building simulators, exploring, and the project are **Level 4** — use the agent freely, with your design,
-specifications, tests, and verification as the work that's graded. The code-reading
-check-ins and midterm are **Level 1**, so you and we can both see your unaided reading skills
-grow over the term.
+specifications, tests, and verification as the work that's graded. The two no-AI questions in every
+problem set, the midterm, and the Act III exam are **Level 1**, so you and we can both see your
+unaided reading skills grow over the term.
