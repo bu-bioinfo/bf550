@@ -45,6 +45,10 @@ jobs:
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
+      # Gate deployment on the built output, not the sources: a file publishes unless
+      # something excludes it, and the leak this guards against was a file nobody excluded.
+      - name: Check for instructor-facing content
+        run: python3 tools/lint_no_instructor_content.py _site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 

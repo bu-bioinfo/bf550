@@ -86,3 +86,8 @@ exclude:
   - .gitignore
   - Dockerfile
   - internal/
+  # Instructor-facing material must never be published. `lectures/` is listed because a
+  # run-sheet once landed there and shipped; `tools/` because the tripwire lint's own pattern
+  # literals would otherwise match themselves in the built output.
+  - lectures/
+  - tools/
