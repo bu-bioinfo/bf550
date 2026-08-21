@@ -73,7 +73,7 @@ substitute day this term — Labor Day is not made up.
 
 ## Reading
 
-Read the textbook chapter for a week **before that week's first meeting** — the course is flipped,
+Read the [textbook](https://bu-cds-bf550.github.io/bf550-textbook/) chapter for a week **before that week's first meeting** — the course is flipped,
 and the opening session works with material you have already met. Budget about two hours: one
 chapter plus a short worked notebook. Every chapter carries practice problems with worked solutions;
 they are ungraded, they are the same shape as the problem set, and they are the cheapest way to find

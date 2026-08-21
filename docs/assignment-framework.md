@@ -184,8 +184,8 @@ Every question states its [AI level](https://aiassessmentscale.com/) — not eve
 
 There are **two no-AI questions in every set.** That is deliberate. Both exams are code-reading
 exams, so those questions are not a hurdle bolted onto the course — they are the rehearsal,
-happening every week, in the ordinary course of the work. By the midterm you will have done roughly
-eighteen of them.
+happening every week, in the ordinary course of the work. By the midterm you will have done more
+than a dozen of them.
 
 ## Going deeper, your way
 

@@ -2,10 +2,11 @@
 link-citations: true
 ---
 
-> **UNDER CONSTRUCTION.** This site is being bootstrapped. Content, schedule, and
-> policies are drafts — see the planning docs in the
-> [GitHub repository](https://github.com/bu-bioinfo/bf550) and the open
-> [discussion issues](https://github.com/bu-bioinfo/bf550/issues).
+> **Provisional, in the places that are marked.** The design, the topic sequence, and the calendar
+> are settled — the dates on the [calendar]({{ site.baseurl }}/calendar/) will not move. Meeting
+> times, the room, and the standard BU policy statements are still to be confirmed, and the textbook
+> is being written a chapter at a time. Planning happens in the open, in the
+> [discussion issues](https://github.com/bu-cds-bf550/bu-cds-bf550.github.io/issues).
 
 **Semester:** Fall 2026 · **Meeting time:** three 105-minute sessions per week _(times TBD)_ · **Location:** _TBD_
 
@@ -59,16 +60,21 @@ your own data turns out messier than your own model predicted. The formulas show
 compressed summaries of things you have already watched happen.
 
 **Each week composes.** Once you can build one process, you repeat it, mix two of them, nest one
-inside another, or make its settings depend on something you measured. Those four moves generate
-essentially every model in the course — which is why there is no separate "how this course works"
-to learn on top of the statistics. The organizing principle *is* the statistics.
+inside another, or let its settings depend on something you measured. Those four operations —
+repeat, nest, mix, condition — generate nearly every model in the first two acts. The third act
+asks the harder question, *what if the thing you care about was never measured at all?*, and one
+week drops the probability story altogether to show you what that costs. Either way there is no
+separate "how this course works" to learn on top of the statistics. The organizing principle *is*
+the statistics.
 
 Topics and the three-act arc are on the [schedule]({{ site.baseurl }}/schedule/); every meeting
-date and deadline is on the [calendar]({{ site.baseurl }}/calendar/).
+date and deadline is on the [calendar]({{ site.baseurl }}/calendar/). The course has its own
+free, open textbook — [*Biological Data Analysis, Simulation First*](https://bu-cds-bf550.github.io/bf550-textbook/) — written around this
+approach; one chapter a week is the reading, and you can start reading it right now.
 
 ## Using AI
 
-You'll have a provided coding agent and a textbook tutor, and **every individual question** states
+You'll have a provided coding agent and a tutor for the [textbook](https://bu-cds-bf550.github.io/bf550-textbook/), and **every individual question** states
 its [AI level](https://aiassessmentscale.com/) — not every assignment, every question:
 
 - **Building simulators, exploring, breaking things — full AI, encouraged.** Describe the process
@@ -98,8 +104,8 @@ One notebook a week: your code, your figures, and your answers in complete sente
 
 The synthesis project is the course in miniature and the culminating assessment — **there is no
 exam during finals period**. You design a generative process for a biological question you care
-about, then show what a method can and cannot recover from it. By then you'll have made that move
-twelve times; the difference is that this time you choose the question.
+about, then show what a method can and cannot recover from it. By then you'll have done exactly
+that twelve times; the difference is that this time you choose the question.
 
 **If you miss a week** — it happens — the problem set stays open with no penalty until the
 following Monday, and the questions that depend on earlier weeks always come with a reference

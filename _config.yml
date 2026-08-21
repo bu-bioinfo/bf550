@@ -19,12 +19,6 @@ collections:
   lectures:
     output: true
     permalink: /lectures/:path/
-  labs:
-    output: true
-    permalink: /labs/:path/
-  guides:
-    output: true
-    permalink: /guides/:path/
 
 # Defaults
 defaults:
@@ -48,30 +42,6 @@ defaults:
         nav: "sidebar"
       classes: wide
 
-  # _labs
-  - scope:
-      path: ""
-      type: labs
-    values:
-      layout: single
-      sidebar:
-        nav: "sidebar"
-      classes: wide
-      toc: true
-      toc_sticky: true
-
-  # _guides
-  - scope:
-      path: ""
-      type: guides
-    values:
-      layout: single
-      sidebar:
-        nav: "sidebar"
-      classes: wide
-      toc: true
-      toc_sticky: true
-
 # Site timezone
 timezone: America/New_York
 
@@ -86,3 +56,8 @@ exclude:
   - .gitignore
   - Dockerfile
   - internal/
+  # Instructor-facing material must never be published. `lectures/` is listed because a
+  # run-sheet once landed there and shipped; `tools/` because the tripwire lint's own pattern
+  # literals would otherwise match themselves in the built output.
+  - lectures/
+  - tools/

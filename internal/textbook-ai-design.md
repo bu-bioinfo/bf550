@@ -290,7 +290,7 @@ actually retire** (§4.1) — at the price of uptime, installation friction, and
 question about logging.
 
 **5. Equity of access.** If the tutor becomes load-bearing it must be uniformly available. Ties to
-[issue #3](https://github.com/bu-bioinfo/bf550/issues/3) — probably the same provisioning decision
+[issue #3](https://github.com/bu-cds-bf550/bu-cds-bf550.github.io/issues/3) — probably the same provisioning decision
 as the coding agent, and now cheaper because there is no hosting.
 
 ## 9. Build order

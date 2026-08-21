@@ -6,6 +6,11 @@ on:
   push:
     branches: ["main"]
 
+  # Build and run the content checks on PRs too, so the instructor-content gate is
+  # exercised before merge rather than discovered at deploy time. The deploy job below
+  # is guarded so pull requests never publish.
+  pull_request:
+
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -45,11 +50,16 @@ jobs:
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
+      # Gate deployment on the built output, not the sources: a file publishes unless
+      # something excludes it, and the leak this guards against was a file nobody excluded.
+      - name: Check for instructor-facing content
+        run: python3 tools/lint_no_instructor_content.py _site
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
   # Deployment job
   deploy:
+    if: github.event_name != 'pull_request'
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
