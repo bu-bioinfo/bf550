@@ -8,8 +8,8 @@
 > sessions**, **cycles**, **seat names** (Implementer / Verifier / Reverse engineer), the **strip**,
 > the **model card**, or **check-in quizzes** describe machinery the course no longer uses.
 >
-> **Canonical now:** the published [schedule](../docs/schedule.md),
-> [calendar](../docs/calendar.md), and [problem sets page](../docs/assignment-framework.md), plus
+> **Canonical now:** the published [schedule](../docs/schedule.md) and
+> [problem sets page](../docs/assignment-framework.md), plus
 > `AUTHORING.md` and `GLOSSARY.md` in the private `bf550-instructor` repo.
 >
 > Retained for its reasoning, which mostly still applies. Not retained as instructions.

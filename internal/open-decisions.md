@@ -3,8 +3,8 @@
 > **Internal planning index — not published to the course site.** Tracks the design
 > decisions still to be made. Most are also GitHub discussion issues; comment there.
 >
-> Canonical structure: the published [schedule](../docs/schedule.md),
-> [calendar](../docs/calendar.md), and [problem sets page](../docs/assignment-framework.md).
+> Canonical structure: the published [schedule](../docs/schedule.md) and
+> [problem sets page](../docs/assignment-framework.md).
 > [`course-structure.md`](course-structure.md) is **superseded** and retained for its reasoning.
 > Superseded drafts and all answer-bearing material are in the private `bf550-instructor` repo.
 
@@ -94,7 +94,7 @@
 | Design-step names | **D1 Frame · D2 Decompose · D3 Select · D4 Anticipate** — ours, grounded in but not adopted from any published CT framework ([computational-thinking-basis](computational-thinking-basis.md)) |
 | Method selection in early cycles | D3 asks *"what properties would the right method need?"* early, maturing into genuine selection as the toolbox fills |
 | Where content gets delivered | Flipped: the textbook carries first exposure (~2 hr/cycle), the Design session activates and elaborates, the Share session's critique clinic delivers by demonstration |
-| Contact format & session naming | **Three 105-min sessions per cycle, named ① Design · ② Build · ③ Share** — never by weekday, because the stream drifts against the calendar ([course-structure §4.1](course-structure.md#41-the-session-stream-holidays-and-the-fall-2026-grid)). Fall 2026 grid published at `/calendar/` |
+| Contact format & session naming | **Three 105-min sessions per cycle, named ① Design · ② Build · ③ Share** — never by weekday, because the stream drifts against the calendar ([course-structure §4.1](course-structure.md#41-the-session-stream-holidays-and-the-fall-2026-grid)). Fall 2026 grid published at `/schedule/` |
 | Topic sequencing | **Three acts organized by "what is unknown?"** — regression to cycle 7, trees to cycle 9 post-midterm, clustering one cycle, t-SNE/UMAP a demo ([course-structure §4](course-structure.md#4-the-pipeline-calendar)) |
 | Final assessment | **Act III exam, cycle 13 Design session (Mon Nov 30)** (cycles 9–11, no-AI code reading, 15%) + midterm cycle 8 (Wed Oct 21, 15%); **nothing in finals period** — the last four sessions are project studio. Weights 30/10/15/15/30/5, superseding [#2](https://github.com/bu-cds-bf550/bu-cds-bf550.github.io/issues/2) |
 | Design-stage AI level | **AIAS 2** (published on the front page as "AI for brainstorming only") |

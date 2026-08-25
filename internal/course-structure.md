@@ -24,11 +24,11 @@
 > conventional numbered problem set.
 >
 > §3's session budgets below assume the old Design/Build/Share naming and the pre-14-Aug calendar.
-> **Both are stale** — re-derive against [`docs/calendar.md`](../docs/calendar.md) before using the
+> **Both are stale** — re-derive against [`docs/schedule.md`](../docs/schedule.md) before using the
 > arithmetic.
 >
-> **Canonical now:** the published [schedule](../docs/schedule.md),
-> [calendar](../docs/calendar.md), and [problem sets page](../docs/assignment-framework.md), plus
+> **Canonical now:** the published [schedule](../docs/schedule.md) and
+> [problem sets page](../docs/assignment-framework.md), plus
 > `AUTHORING.md` in the private `bf550-instructor` repo.
 >
 > **What survives and is still worth reading here:** §6 on scaffolding the design task, §7's
@@ -223,7 +223,7 @@ Net: **41 meetings = 13 full cycles (39) + 2 spare sessions.** Because the subst
 preserve the count exactly, **cycles 1–12 all run Wed → Fri → Mon**; Thanksgiving shifts the phase
 once, and **cycles 13–14 run Mon → Wed → Fri**. That single phase shift is the only irregularity.
 
-Student-facing grid: [`docs/calendar.md`](../docs/calendar.md) (`/calendar/`).
+Student-facing grid: [`docs/schedule.md`](../docs/schedule.md) (`/schedule/`).
 
 > **Unverified, flag before publishing:** `www.bu.edu` is unreachable from the authoring
 > environment, so these dates come from secondary sources. Two specifics need checking against the
@@ -406,8 +406,8 @@ cycles 2–4 + Share-session diagnostic; clustering is one cycle and t-SNE/UMAP 
 | What | Where |
 |---|---|
 | ~~Front page~~ · ~~schedule~~ · ~~assessment policy~~ | `index.md`, `docs/schedule.md`, `docs/assessment-and-ai-policy.md` | **Done** — rhythm, acts calendar, weights, exams, re-entry rule, per-stage AI levels all published |
-| Contact format + rhythm on the remaining pages | `README.md`, `docs/course-design.md`, `docs/syllabus.md` | Still say 2 × 75 + lab and "weekly labs" |
+| Contact format + rhythm on the remaining pages | `README.md`, `docs/course-design.md` | Still say 2 × 75 + lab and "weekly labs" |
 | The **strip**; letters A–D retired; the bundle | `docs/assignment-framework.md`, `_labs/` | Full rewrite needed |
 | `_lectures/week-*.md` topics | all 13 files | Still ordered by the old sequence |
-| **Reading carries first exposure** at ~2 hr/week, stated to students | `docs/syllabus.md`, `docs/course-design.md` | |
+| **Reading carries first exposure** at ~2 hr/week, stated to students | `docs/course-design.md` | |
 | **v2 example problems** — port verified statements + planted-uncertainty inventories forward (sources now in the private `bf550-instructor` repo) | the private `bf550-instructor` repo | |

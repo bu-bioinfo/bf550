@@ -33,7 +33,7 @@ divergence analysis against the design you committed, then work six questions in
 generative process, check it against cases whose answers follow from structure, explore it, break
 it, read someone else's code, and choose at least one depth direction. The
 [problem sets page]({{ site.baseurl }}/assignments/) explains the format; the
-[calendar]({{ site.baseurl }}/calendar/) lists every deadline.
+[schedule]({{ site.baseurl }}/schedule/) lists every deadline.
 
 **Being wrong in a design is expected and safe.** It is the comparison that teaches, and the
 comparison only works if you committed to something before you saw our approach.

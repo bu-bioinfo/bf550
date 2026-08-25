@@ -5,32 +5,6 @@ toc: true
 toc_sticky: true
 ---
 
-The course runs in **weeks**. Each week has one topic, one problem set, and three 105-minute
-meetings. The [detailed calendar]({{ site.baseurl }}/calendar/) gives every date; this page explains
-what the topics are and why they come in this order.
-
-## Everything is a process you can build
-
-The spine of this course is a single habit: **before you analyze data, write down — as runnable
-code — the process you think produced it.** That code is a *simulator*. Because you chose its
-settings, you know the true answer, so you can check whether your analysis recovers it. When you
-later move to real data, where nobody knows the true answer, the simulator is what tells you whether
-your method can be trusted at all.
-
-Every week you build a process, then see what you can get back out of it. The processes get more
-realistic as the term goes on, and they get there by **composition** — each week takes something you
-already built and does one new thing to it.
-
-| Operation | What it means | Where it shows up |
-|---|---|---|
-| **Repeat** | Do it many times | Sampling variability; multiple testing |
-| **Mix** | Flip a coin to decide which process runs | Classification, contamination, clustering |
-| **Nest** | A setting is itself random | Overdispersion; realistic count data |
-| **Condition** | A setting depends on something you measured | Regression, in all its forms |
-
-That is the whole structural vocabulary. There is no separate "how this course works" to learn on
-top of the statistics — the way the course is organized *is* the statistics.
-
 ## The arc: what is unknown?
 
 Three acts, organized by one escalating question — *what is unknown, and how would you know your
@@ -47,55 +21,50 @@ answer is right?*
   internal validation, and skepticism are all you have. Closes with the Act III exam, after which
   the term belongs to your synthesis project.
 
-## Week by week
+## Fall 2026
 
-Each week links to its own page, with the chapter to read before the first meeting.
+BU holidays and recesses are shown in the flow so you can see where the sequence carries across them.
 
-| Week | Act | Operation | Topic | The question you're answering |
-|---:|:--:|---|---|---|
-| [1]({{ site.baseurl }}/lectures/week-01/) | I | build | Simulating a process; binomial counts; sampling variability | *If 68 of 100 people taste PTC, how common is the allele?* |
-| [2]({{ site.baseurl }}/lectures/week-02/) | I | repeat | Null distributions; what a p-value is; multiple testing | *You scanned 1,000 loci and some came up significant. Should you believe any of them?* |
-| [3]({{ site.baseurl }}/lectures/week-03/) | I | nest | Overdispersion; why counts vary more than they should | *Your null says this is impossible and real data does it constantly. Which one is wrong?* |
-| [4]({{ site.baseurl }}/lectures/week-04/) | II | mix | Bayes' theorem; estimating probabilities from counts | *What species did this sequence come from?* |
-| [5]({{ site.baseurl }}/lectures/week-05/) | II | mix + repeat | Naive Bayes: classification as a generative story | *Which reads are rRNA, and how confident can you be about any single call?* |
-| [6]({{ site.baseurl }}/lectures/week-06/) | II | — | Evaluation: overfitting, cross-validation, leakage, calibration | *Does the classifier actually work, or does it just look like it does?* |
-| [7]({{ site.baseurl }}/lectures/week-07/) | II | condition | Logistic regression: modeling the boundary directly | *Is this variant pathogenic?* |
-| [8]({{ site.baseurl }}/lectures/week-08/) | II | condition | Linear regression and regularization | *Can expression predict dose response?* |
-| [9]({{ site.baseurl }}/lectures/week-09/) | II | nest + condition | Generalized linear models: Poisson and negative binomial regression | *Are these genes really differentially expressed?* |
-| [10]({{ site.baseurl }}/lectures/week-10/) | III | — | Trees, forests, and boosting: prediction with no probability story | *Which genes mark treatment response?* |
-| [11]({{ site.baseurl }}/lectures/week-11/) | III | latent | Dimensionality reduction: PCA (t-SNE/UMAP as demo) | *What structure hides in this expression matrix?* |
-| [12]({{ site.baseurl }}/lectures/week-12/) | III | mix, hidden | Clustering: mixture models → k-means; validating *k* | *Do these cells form distinct types — and how many?* |
-| [13]({{ site.baseurl }}/lectures/week-13/)–15 | — | *yours* | Project launch, then project studio | *What is a process worth simulating, for a question you chose?* |
+| Week | Meetings | Topic | Due |
+|---:|---|---|---|
+| 1 | Wed **Sep 2** · Fri **Sep 4** | Course intro and setup; simulating a process; binomial counts | |
+| — | *Mon Sep 7* | *Labor Day — no class* | |
+| 2 | Wed **Sep 9** · Fri **Sep 11** | Null distributions; what a p-value is; multiple testing | **PS1** (Mon Sep 14) |
+| 3 | Mon **Sep 14** · Wed **Sep 16** · Fri **Sep 18** | Nesting; overdispersion; why counts vary more than they should | **PS2** (Mon Sep 21) |
+| 4 | Mon **Sep 21** · Wed **Sep 23** · Fri **Sep 25** | Bayes' theorem; estimating probabilities from counts | **PS3** (Mon Sep 28) |
+| 5 | Mon **Sep 28** · Wed **Sep 30** · Fri **Oct 2** | Naive Bayes: classification as a generative story | **PS4** (Mon Oct 5) |
+| 6 | Mon **Oct 5** · Wed **Oct 7** · Fri **Oct 9** | Evaluation: overfitting, cross-validation, leakage, calibration | **PS5** (Mon Oct 12) |
+| — | *Mon Oct 12* | *Indigenous Peoples' Day — no class* | |
+| 7 | Tue **Oct 13** · Wed **Oct 14** · Fri **Oct 16** | Logistic regression: modeling the boundary directly | **PS6** (Mon Oct 19) |
+| 8 | Mon **Oct 19** · Wed **Oct 21** · Fri **Oct 23** | Linear regression and regularization | **PS7** (Mon Oct 26) |
+| 9 | Mon **Oct 26** · Wed **Oct 28** · Fri **Oct 30** | Generalized linear models: Poisson and negative binomial regression | **PS8** (Mon Nov 2) |
+| 10 | Mon **Nov 2** · Wed **Nov 4** · Fri **Nov 6** | **MIDTERM Mon Nov 2** (no AI, closed book — Acts I & II), then trees, forests, and boosting | **PS9** (Mon Nov 9) |
+| 11 | Mon **Nov 9** · Wed **Nov 11** · Fri **Nov 13** | Dimensionality reduction: PCA (t-SNE/UMAP demo) | **PS10** (Mon Nov 16) |
+| 12 | Mon **Nov 16** · Wed **Nov 18** · Fri **Nov 20** | Clustering: mixture models → k-means; validating *k* | **PS11** (Mon Nov 23) |
+| 13 | Mon **Nov 23** | Project launch; choosing a process worth simulating | **PS12** (Mon Nov 30) |
+| — | *Wed Nov 25 – Sun Nov 29* | *Thanksgiving recess — no class* | |
+| 14 | Mon **Nov 30** · Wed **Dec 2** · Fri **Dec 4** | **ACT III EXAM Mon Nov 30** (no AI, closed book — weeks 10–12), then project studio | **Project proposal** (Wed Dec 2) |
+| 15 | Mon **Dec 7** · Wed **Dec 9** | Project studio — **Dec 9 is the last class meeting** | |
+| — | *Thu Dec 10* | *Last day of classes (we do not meet Thursdays)* | |
+| — | *Dec 11–13* | *Study period* | |
+| — | *Dec 14–18* | *Final exams period —* **no exam for this course** | **Project bundle** |
 
-Twelve topics, then three weeks on the project — the [calendar]({{ site.baseurl }}/calendar/) has
-the meeting-by-meeting version, including the two short weeks and the Thanksgiving break.
+**Tue Oct 13 is a class day.** Boston University substitutes a Monday schedule that day to make up
+for Indigenous Peoples' Day, so our Monday section meets on a Tuesday that once. It is the only
+substitute day this term — Labor Day is not made up.
 
-Three things in that table are worth pointing out.
+**Wed Nov 11 is a class day.** Veterans Day is not a BU holiday in Fall 2026.
 
-**Week 3 pays for itself in week 9.** Nesting one random process inside another is what produces
-the negative binomial distribution, and the negative binomial is what nearly every RNA-seq tool in
-the field is built on. By week 9 you will have built that model yourself rather than invoking it.
+**The term has 40 class meetings.** Weeks 1, 2 and 15 have two; the week of Thanksgiving has one.
 
-**Weeks 4 and 12 are the same model.** A mixture generates data from one of several sources. In
-week 4 you know which source each observation came from; in week 12 you never find out. That is the
-entire difference between classification and clustering, and it is why Act III is shorter than it
-looks.
+## Exams
 
-**Week 10 deliberately breaks the pattern.** Trees and forests have no generative story — you
-cannot write down a process that produced the data and then invert it. Simulation does not
-disappear there; its job changes, from being the model you are building to being the test bed you
-evaluate on. Noticing what a method assumes when it assumes nothing is the point of Act III.
+| | When | Covers | Format |
+|---|---|---|---|
+| **Midterm** | Mon Nov 2 | Acts I & II — simulating processes through generalized linear models | Closed book, no AI, code reading |
+| **Act III exam** | Mon Nov 30 | Weeks 10–12 — trees, PCA, clustering | Closed book, no AI, code reading |
 
-## The two exams
-
-Each of the later acts closes with a short, closed-book, **no-AI code-reading exam** — the same
-skill you practice in the no-AI questions on every problem set, assessed all at once.
-
-- **Midterm — Mon Nov 2:** Acts I and II, estimation through generalized linear models.
-- **Act III exam — Mon Nov 30:** weeks 10–12 — trees, dimensionality reduction, clustering.
-
-**There is no exam during finals period.** After Nov 30, the rest of the term belongs to the
-synthesis project.
+**There is no exam during finals period.** After Nov 30, every remaining session is project studio.
 
 ## The synthesis project
 

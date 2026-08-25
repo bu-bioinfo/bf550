@@ -24,6 +24,6 @@ Week 1 has two meetings — the term begins on a Wednesday. The first problem se
 
 ## Where this fits
 
-The [schedule]({{ site.baseurl }}/schedule/) places this week in the three-act arc and shows what it
-composes from; the [calendar]({{ site.baseurl }}/calendar/) has the dates and deadlines. The weekly
-format is on the [problem sets page]({{ site.baseurl }}/assignments/).
+The [schedule]({{ site.baseurl }}/schedule/) places this week in the three-act arc, shows what it
+composes from, and has the dates and deadlines. The weekly format is on the
+[problem sets page]({{ site.baseurl }}/assignments/).
