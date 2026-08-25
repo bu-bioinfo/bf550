@@ -16,7 +16,12 @@ cd "$(dirname "$0")/.."
 
 case "${1:-}" in
   jekyll)
-    args=(--host 0.0.0.0 --port 4000 --livereload --livereload-port 35729 --watch --incremental)
+    # No `--incremental`. It regenerates only pages whose own source file changed, so an edit to
+    # _data/, _includes/, or _layouts/ -- which every page reads but none of them *is* -- updates
+    # nothing: the rebuild reports success in milliseconds and _site keeps the stale sidebar. A
+    # full build of this site is ~0.5s, so incremental bought no time it did not cost in
+    # confusion. `keep_files: slides` still protects the decks the slides watcher writes.
+    args=(--host 0.0.0.0 --port 4000 --livereload --livereload-port 35729 --watch)
     [[ "${JEKYLL_FORCE_POLLING:-0}" == "1" ]] && args+=(--force_polling)
     exec bundle exec jekyll serve "${args[@]}" ;;
   slides)
