@@ -4,110 +4,177 @@ toc: true
 toc_sticky: true
 ---
 
-**Fall 2026** · 4 credits · three 105-minute meetings a week, Monday / Wednesday / Friday
+## Course information
 
-**Prerequisites:** some prior programming experience (any language) and introductory molecular
-biology. A wide range of programming and math backgrounds is expected — the course is designed
-for it, as you're about to read.
+| | |
+|---|---|
+| **Title** | Applied Statistics & Machine Learning for the Life Sciences |
+| **Number / credits** | BF550 · 4 credits |
+| **Term** | Fall 2026 · Wed Sep 2 – Wed Dec 9 |
+| **Meetings** | Three 105-minute sessions per week, Monday / Wednesday / Friday |
+| **Instructor** | Adam Labadorf · [labadorf@bu.edu](mailto:labadorf@bu.edu) |
+| **Prerequisites** | Some programming experience; introductory biology / molecular biology |
+| **Textbook** | [*Biological Data Analysis, Simulation First*](https://bu-cds-bf550.github.io/bf550-textbook/) — free, online, written for this course |
 
-**Start here:** the [syllabus]({{ site.baseurl }}/syllabus/) is the short official version of
-everything below. The [schedule]({{ site.baseurl }}/schedule/) has the topics and why they come in
-that order, the [calendar]({{ site.baseurl }}/calendar/) has every meeting date and deadline, and
-the [problem sets page]({{ site.baseurl }}/assignments/) explains the weekly work.
 
-## Why this course is built the way it is
+## Course description
 
-Two things are true at once. Machine learning has become the working language of modern
-biology — and AI can now write competent code from a plain-English description. Some courses
-respond to that second fact by banning AI. We do the opposite: **we assume it, provide it, and
-build the course around the skills it cannot do for you.**
+An applied introduction to statistics and machine learning for life scientists. You'll build
+**intuition for the major classes of ML algorithms** — supervised vs. unsupervised,
+classification, clustering, feature-importance and tree-based methods, dimensionality
+reduction — and learn **how to choose the right method** for a biological problem. The course
+is taught in the age of coding agents: the primary coding objective is **reading and
+understanding code**, with code authoring delegated to AI agents that you'll learn to direct
+and verify. Work is grounded in real molecular-biology and genomics problems.
 
-Here is what an AI cannot do for you. It cannot decide what question your data can actually
-answer. It cannot decide what "correct" means for a problem you care about. It cannot tell you
-whether the confident-looking answer it just produced is wrong. Those three skills — framing a
-problem, defining correctness, and catching failure — are what this course teaches, using
-machine learning on real biological data as the material.
+## Course design
 
-You will read far more code than you write. That is deliberate. You come into this program with
-wildly different programming backgrounds, and we are not going to pretend otherwise. Reading
-code — saying precisely what it does, recovering what it was *meant* to do, judging whether it
-should be trusted — is a skill almost none of you have practiced, regardless of background. It
-levels the field, and in the age of AI-generated code, it is *the* skill.
+- **Code literacy over code authorship.** You'll be assessed on your ability to *read,
+  specify, test, and critique* code — not to type it from a blank page.
+- **Coding agents are provided and expected.** You are provided with an agentic coding
+  service subscription, and this course will train you how to use it. Clear expectations are
+  provided for all assignments on the permitted level of AI use.
+- **Transparent assignments.** Every assignment states its **Purpose, Task, and Criteria** up
+  front, following the [TILT](https://www.tilthighered.com/resources) framework.
 
-The same goes for math. Some of you have a lot; some very little. Every idea in this course
-arrives in the same order: first as a **story** about how data comes to exist, then as **code**
-you can run and poke, and only then as **notation** — the formula, presented as a compressed
-summary of something you have already played with. If you can read Python, you can learn to
-read math. Formulas are never the entrance fee here; they are the souvenir.
+See [How This Course Works]({{ site.baseurl }}/about/) for the full picture.
 
-## The rhythm
+## Learning objectives
 
-One topic a week, one problem set a week, three 105-minute meetings. The week's topic opens in the
-first meeting; the rest are working sessions with instructors and TAs in the room.
+See the [learning objectives]({{ site.baseurl }}/learning-objectives/). In
+short: frame a biological question as a stats/ML problem; distinguish and choose among ML
+algorithm classes; reason about generalization and evaluation; **read code and say precisely
+what it does**; recover specs, find gaps, and critique designs; and direct and verify a
+coding agent.
 
-**You build the data before you analyze it.** Nearly every week starts by asking you to write a
-*simulator*: code that produces a dataset from settings you choose. Then you analyze what came out
-and see whether you can recover the settings you put in.
+## Schedule
 
-That one habit does a surprising amount of work. It is how scientists actually find out whether a
-method can be trusted — you cannot validate anything against real data, because with real data
-nobody knows the right answer. It is also why this course does not need an answer key: **you know
-the truth, because you set it.**
+See the [schedule]({{ site.baseurl }}/schedule/) for the twelve-week topic
+progression and the three-act arc.
 
-And it means the mathematics arrives in a bearable order. You will meet sampling variability as
-three histograms getting narrower, not as a formula. You will meet a p-value as *how often the
-simulation is at least as extreme*, not as an integral. You will discover overdispersion because
-your own data turns out messier than your own model predicted. The formulas show up later, as
-compressed summaries of things you have already watched happen.
+## Assessment
 
-**Each week composes.** Once you can build one process, you repeat it, mix two of them, nest one
-inside another, or let its settings depend on something you measured. Those four operations —
-repeat, nest, mix, condition — generate nearly every model in the first two acts. The third act
-asks the harder question, *what if the thing you care about was never measured at all?*, and one
-week drops the probability story altogether to show you what that costs. Either way there is no
-separate "how this course works" to learn on top of the statistics. The organizing principle *is*
-the statistics.
+See [Assessment & AI Policy]({{ site.baseurl }}/assessment/). Your grade comes
+from twelve weekly problem sets (each carrying two no-AI questions), two written code-reading
+exams (no AI: a midterm on Mon Nov 2 and an Act III exam on Mon Nov 30), a synthesis project, and
+participation. **There is no exam during finals period** — the synthesis project is the culminating
+assessment, and the last two and a half weeks of the course belong to it.
 
-Topics and the three-act arc are on the [schedule]({{ site.baseurl }}/schedule/); every meeting
-date and deadline is on the [calendar]({{ site.baseurl }}/calendar/). The course has its own
-free, open textbook — [*Biological Data Analysis, Simulation First*](https://bu-cds-bf550.github.io/bf550-textbook/) — written around this
-approach; one chapter a week is the reading, and you can start reading it right now.
+| Component | Weight |
+|---|---:|
+| Weekly problem sets (12) | 40% |
+| Written midterm — Mon Nov 2 | 10% |
+| Act III exam — Mon Nov 30 | 10% |
+| Synthesis project | 35% |
+| Participation | 5% |
 
-## Using AI
+Every meeting date and deadline is on the [schedule]({{ site.baseurl }}/schedule/).
+Full details, including the AI level attached to each question:
+[Assessment & AI policy]({{ site.baseurl }}/assessment/).
 
-You'll have a provided coding agent and a tutor for the [textbook](https://bu-cds-bf550.github.io/bf550-textbook/), and **every individual question** states
-its [AI level](https://aiassessmentscale.com/) — not every assignment, every question:
+## Materials & tools
 
-- **Building simulators, exploring, breaking things — full AI, encouraged.** Describe the process
-  in words and let the agent write it. Specifying what generates your data is the thinking; typing
-  it is not.
-- **Checking your own work, and reading code — no AI.** Two questions every week. These are the
-  skills that quietly disappear if you delegate them, and they are exactly what the exams assess.
-- **The two exams — no AI.** A midterm (Nov 2) and an Act III exam (Nov 30), closed-book, both
-  code-reading.
+- **Textbook:** [*Biological Data Analysis, Simulation First*](https://bu-cds-bf550.github.io/bf550-textbook/),
+  written for this course and free to read online. One chapter a week, before that week's first
+  meeting. Every chapter carries ungraded practice problems with worked solutions.
+- **Coding agent and textbook tutor:** provided to every student. No personal subscription is
+  needed.
+- **Language / runtime:** Python, in a notebook.
+- **Other readings:** selected papers where a primary source is the better teacher (e.g. the RDP
+  Naive Bayes classifier paper), linked from the week that uses them.
 
-The no-AI questions exist for your benefit as much as ours. Research on novices using AI finds that
-the students who struggle most are often the ones most convinced they're doing fine. Two unaided
-questions a week are how you and we both watch your own skill actually growing — so nobody
-discovers a gap for the first time during an exam.
+## Assignments
 
-## What you hand in, and what it's worth
+This class uses [GitHub](https://github.com) and
+[Classroom50](https://github.com/orgs/community/discussions/200700) to
+distribute and submit assignments. Instructions will be given in class and
+along with assignment materials.
 
-One notebook a week: your code, your figures, and your answers in complete sentences.
+One notebook per problem set — your code, your figures, and your answers in complete sentences —
+**due before class one week from the assignment date**, covering the previous
+week's topic. A number with no sentence around it earns no credit: in a course
+where an agent can produce any number you ask for, the sentence is the part
+that shows you understood it.
 
-| | Weight | AI level |
-|---|---:|---|
-| Weekly problem sets (12) | 40% | Stated per question — two are no-AI every week |
-| Written midterm (Mon Nov 2) | 10% | None |
-| Act III exam (Mon Nov 30) | 10% | None |
-| Synthesis project | 35% | Full |
-| Participation | 5% | — |
+See [Assignments]({{ site.baseurl }}/assignments/) for the full picture.
 
-The synthesis project is the course in miniature and the culminating assessment — **there is no
-exam during finals period**. You design a generative process for a biological question you care
-about, then show what a method can and cannot recover from it. By then you'll have done exactly
-that twelve times; the difference is that this time you choose the question.
+## Policies
 
-**If you miss a week** — it happens — the problem set stays open with no penalty until the
-following Monday, and the questions that depend on earlier weeks always come with a reference
-implementation so a bad week never blocks a good one. Ask early.
+### Academic conduct
+
+You are bound by the Boston University academic conduct code. Plagiarism, misrepresenting someone
+else's work as your own, and falsifying results or data are violations, and in this course so is
+**presenting an agent's work as understanding you do not have** — an annotation that does not match
+the code, "hand-checked" values you did not actually work out, a critique that misreads the
+implementation. The deliverables are built to surface that distinction rather than to trap you: they
+ask you to demonstrate the understanding, not to assert it. Suspected violations are referred as the
+code requires. See BU's [academic policies](https://www.bu.edu/academics/policies/).
+
+### AI use
+
+Using the provided coding agent is **expected, not a shortcut** — on most questions it is the
+assignment. What governs is the level printed on each individual question, from the
+[AI Assessment Scale](https://aiassessmentscale.com/): level 4 means use the agent freely and own
+the result; level 1 means work unaided. Two questions on every problem set and both exams are
+level 1, and those two questions are the ones that tell you — before an exam does — whether your
+own code literacy is growing. Using the agent there is not a shortcut past a hurdle; it is
+throwing away the only unaided measurement you get. Full detail is on the
+[assessment page]({{ site.baseurl }}/assessment/).
+
+### Attendance and participation
+
+Participation is 5% of the grade and it means engagement in the working sessions, not seat time.
+Come to class; the working sessions are where help is cheapest and where designs get compared across
+the room, which is the part of the course that cannot be made up alone. Tell us in advance when you
+cannot make it.
+
+### Late work, and missing a week
+
+Assignments may be submitted after the due date at a penalty of 25% per week late.
+In the event of illness, emergency, or other extenuating circumstance, contact your
+instructor.
+
+### Accessibility and accommodations
+
+If you have a documented disability, or think you may have one, work with
+[Disability & Access Services](https://www.bu.edu/disability/) to arrange accommodations, and send us
+your letter as early in the term as you can so we can implement it properly rather than
+retroactively. Accommodations for the two closed-book exams need to be arranged before the exam
+date, not after.
+
+If any part of this course or its materials is a barrier — the site, the textbook, the notebooks,
+the provided tools — tell us. We would rather fix it than work around it.
+
+### Religious observance
+
+Massachusetts law and BU policy entitle you to be excused from class and from any assessment missed
+because of religious observance, without penalty and with a fair opportunity to make up the work.
+Let us know in advance and we will schedule around it.
+
+### Grading
+
+The component weights are in the [assessment table](#assessment) above; what each section of a
+problem set is graded on — completion, timeliness, or correctness — is on the
+[problem sets page]({{ site.baseurl }}/assignments/). Practice is graded on completion, design on
+being on time rather than on being right, and only the build section is graded on the work itself.
+
+## A note on how this course was built
+
+In the spirit of the AI-use expectations we set for you, here's how these course materials
+were made.
+
+This course was designed by the instructor team. The pedagogical choices — the focus on code
+literacy, the three-section problem-set structure, the choice of biological
+problems, and the assessment structure — are the team's own. Generative AI (Claude, by
+Anthropic) was used substantially to draft and organize the written materials on this site
+from the team's specifications and intent, working at roughly **AI Assessment Scale level 3–4
+(AI Collaboration to Full AI)**. Everything is reviewed and edited by the instructors, who
+are responsible for the final content.
+
+We share this for the same reason we ask you to be transparent about your own AI use: being
+open about where these tools help, and keeping human judgment accountable for the result, is
+exactly the practice this course is trying to teach.
+
+The full account — who did what, the workflow, and what it means for the materials — is in
+[`AI_DISCLOSURE.md`](https://github.com/bu-cds-bf550/bu-cds-bf550.github.io/blob/main/AI_DISCLOSURE.md) in the
+course repository.

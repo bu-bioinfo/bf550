@@ -22,6 +22,6 @@ The last graded problem set, **PS12, is due Mon Nov 30.**
 
 ## Where this fits
 
-The [schedule]({{ site.baseurl }}/schedule/) describes the project and how the three acts lead into
-it; the [calendar]({{ site.baseurl }}/calendar/) has every remaining date. Weighting and criteria are
-on the [assessment page]({{ site.baseurl }}/assessment/).
+The [schedule]({{ site.baseurl }}/schedule/) describes the project, how the three acts lead into
+it, and every remaining date. Weighting and criteria are on the
+[assessment page]({{ site.baseurl }}/assessment/).

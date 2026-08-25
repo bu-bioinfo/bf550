@@ -3,8 +3,8 @@
 This document describes how the BF550 course site and supporting materials were developed.
 It's here because the development process leaned heavily on AI tools, and because this is a
 course that explicitly asks students to be transparent about their own AI use — so we hold
-the same standard for ourselves. The student-facing short version lives in the
-[syllabus](https://bu-cds-bf550.github.io/syllabus/); this is the full disclosure.
+the same standard for ourselves. The student-facing short version lives on the
+[course home page](https://bu-cds-bf550.github.io/); this is the full disclosure.
 
 ### Roles
 

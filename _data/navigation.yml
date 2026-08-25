@@ -2,12 +2,8 @@
 main:
   - title: "Home"
     url: "/"
-  - title: "Syllabus"
-    url: "/syllabus/"
   - title: "Schedule"
     url: "/schedule/"
-  - title: "Calendar"
-    url: "/calendar/"
   - title: "Textbook"
     url: "https://bu-cds-bf550.github.io/bf550-textbook/"
   - title: "GitHub"
@@ -17,27 +13,18 @@ main:
 sidebar:
   - title: "About the Course"
     children:
-      - title: "Syllabus"
-        url: "/syllabus/"
-      - title: "How This Course Works"
-        url: "/about/"
-      - title: "Learning Objectives"
-        url: "/learning-objectives/"
-      - title: "Problem Sets"
-        url: "/assignments/"
-      - title: "Assessment & AI Policy"
-        url: "/assessment/"
-
-  - title: "Dates & Topics"
-    children:
       - title: "Schedule"
         url: "/schedule/"
-      - title: "Detailed Calendar"
-        url: "/calendar/"
-      - title: "Slides"
-        url: "/slides/"
+      - title: "Assignments"
+        url: "/assignments/"
       - title: "Textbook"
         url: "https://bu-cds-bf550.github.io/bf550-textbook/"
+      - title: "Learning Objectives"
+        url: "/learning-objectives/"
+      - title: "How This Course Works"
+        url: "/about/"
+      - title: "Assessment & AI Policy"
+        url: "/assessment/"
 
   - title: "Week by Week"
     children:

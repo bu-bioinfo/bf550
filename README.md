@@ -44,9 +44,11 @@ agents. The course makes a deliberate bet: the primary coding learning objective
   overview: what you'll learn, the reading-over-authoring focus, and how the pieces fit.
   *(Instructor rationale lives in [`internal/course-design-rationale.md`](internal/course-design-rationale.md).)*
 - **[Learning objectives](https://bu-cds-bf550.github.io/learning-objectives/)** — what students will be able to do.
-- **[Syllabus](https://bu-cds-bf550.github.io/syllabus/)** — the TILT-framed course syllabus.
+- **[Course home](https://bu-cds-bf550.github.io/)** — the syllabus: course information,
+  description, design, assessment weights, materials, and policies.
 - **[Schedule](https://bu-cds-bf550.github.io/schedule/)** — the twelve-week topic progression,
-  organized by how each week's generative process composes from the last.
+  organized by how each week's generative process composes from the last, and the Fall 2026 grid:
+  every meeting date, deadline, and both exam dates.
 - **[Problem sets](https://bu-cds-bf550.github.io/assignments/)** — the weekly format: build the
   data before you analyze it, check your own work without an answer key, and choose a depth
   direction.
@@ -69,5 +71,5 @@ belongs in this repo — it is public.
 ## Planning
 
 Open design questions are tracked as [discussion issues](https://github.com/bu-cds-bf550/bu-cds-bf550.github.io/issues), one per decision. The
-week-by-week structure itself is settled and lives in [`docs/schedule.md`](docs/schedule.md) and
-[`docs/calendar.md`](docs/calendar.md), which are authoritative for topics and dates respectively.
+week-by-week structure itself is settled and lives in [`docs/schedule.md`](docs/schedule.md),
+which is authoritative for both topics and dates.

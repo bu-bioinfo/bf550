@@ -25,6 +25,6 @@ Week 2 has two meetings; Labor Day falls on the Monday.
 
 ## Where this fits
 
-The [schedule]({{ site.baseurl }}/schedule/) places this week in the three-act arc and shows what it
-composes from; the [calendar]({{ site.baseurl }}/calendar/) has the dates and deadlines. The weekly
-format is on the [problem sets page]({{ site.baseurl }}/assignments/).
+The [schedule]({{ site.baseurl }}/schedule/) places this week in the three-act arc, shows what it
+composes from, and has the dates and deadlines. The weekly format is on the
+[problem sets page]({{ site.baseurl }}/assignments/).

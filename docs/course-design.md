@@ -38,8 +38,8 @@ Code literacy is more than syntax. It means being able to:
 - read a snippet and explain exactly what it does, including the tricky edge cases;
 - look at code plus its tests and reconstruct the specification it was built to meet;
 - see how a program is organized to solve a problem, and where its complexity and risk live;
-- tell whether a piece of code — yours, a classmate's, or an AI's — actually works as
-  intended.
+- tell whether a piece of code — yours, a classmate's, a random snippet you
+  found on the internet, or an AI's — actually works as intended.
 
 These are the skills that make you effective with any codebase, and they're exactly the
 skills you need to use AI coding tools well.
@@ -56,34 +56,14 @@ means **committing to an approach before you generate anything, then checking th
 against a case whose answer you already know for reasons that have nothing to do with the
 code.**
 
-Each assignment tells you exactly what level of AI use is expected (see
-[AI levels](#two-things-youll-see-on-every-assignment) below), so there's never any
+This course uses an adapted version of the [AI Assessment Scale
+(AIAS)](https://aiassessmentscale.com/). This scale is a number from 1 to 5
+with clearly defined criteria about how AI tools may be used, and how much AI
+generated content may be included in your assignment responses. Each assignment
+tells you exactly what level of AI use is expected (see [AI
+levels](#two-things-youll-see-on-every-assignment) below), so there's never any
 ambiguity about what's allowed.
 
-## How the course fits together
-
-| Component | What you do |
-|---|---|
-| **Three meetings a week** (105 min each) | The week's topic opens in the first; the rest are working sessions with instructors and TAs in the room. |
-| **Weekly problem set** | Build a generative process, check it, explore it, break it, read code, and choose a depth direction. |
-| **Two no-AI questions every week** | Verify your own work unaided, and read code closely. Direct rehearsal for both exams. |
-| **Two written exams** | Code reading under exam conditions (no AI): a midterm and an Act III exam. |
-| **Synthesis project** | Design a generative process for a question you chose, and show what a method can and cannot recover from it. |
-
-Problem sets ask you to build the data before you analyze it, so you always know the true answer and
-can check your own work without an answer key. See the
-[problem sets page]({{ site.baseurl }}/assignments/) for the format.
-
-## Two things you'll see on every assignment
-
-**Clear expectations (Purpose / Task / Criteria).** Every assignment states up front *why*
-you're doing it, *what* exactly to do, and *how* it will be evaluated — so you always know
-what success looks like before you start. (This follows the
-[TILT](https://www.tilthighered.com/resources) transparent-assignment framework.)
-
-**An AI use level.** Every *question* is labeled with a level on the
-[AI Assessment Scale (AIAS)](https://aiassessmentscale.com/), telling you how much AI use is
-expected — a single problem set routinely spans levels 1 through 4:
 
 | Level | Name | What it means |
 |------:|------|---------------|
@@ -97,3 +77,100 @@ Building simulators, exploring, and the project are **Level 4** — use the agen
 specifications, tests, and verification as the work that's graded. The two no-AI questions in every
 problem set, the midterm, and the Act III exam are **Level 1**, so you and we can both see your
 unaided reading skills grow over the term.
+
+## Why this course is built the way it is
+
+Two things are true at once. Machine learning has become the working language of modern
+biology — and AI can now write competent code from a plain-English description. Some courses
+respond to that second fact by banning AI. We do the opposite: **we assume it, provide it, and
+build the course around the skills it cannot do for you.**
+
+Here is what an AI cannot do for you. It cannot decide what question your data can actually
+answer. It cannot decide what "correct" means for a problem you care about. It cannot tell you
+whether the confident-looking answer it just produced is wrong. Those three skills — framing a
+problem, defining correctness, and catching failure — are what this course teaches, using
+machine learning on real biological data as the material.
+
+You will read far more code than you write. That is deliberate. You come into this program with
+wildly different programming backgrounds, and we are not going to pretend otherwise. Reading
+code — saying precisely what it does, recovering what it was *meant* to do, judging whether it
+should be trusted — is a skill almost none of you have practiced, regardless of background. It
+levels the field, and in the age of AI-generated code, it is *the* skill.
+
+The same goes for math. Some of you have a lot; some very little. Every idea in this course
+arrives in the same order: first as a **story** about how data comes to exist, then as **code**
+you can run and poke, and only then as **notation** — the formula, presented as a compressed
+summary of something you have already played with. If you can read Python, you can learn to
+read math. Formulas are never the entrance fee here; they are the souvenir.
+
+## The rhythm
+
+One topic a week, one problem set a week, three 105-minute meetings. The week's topic opens in the
+first meeting; the rest are working sessions with instructors and TAs in the room.
+
+**You build the data before you analyze it.** Nearly every week starts by asking you to write a
+*simulator*: code that produces a dataset from settings you choose. Then you analyze what came out
+and see whether you can recover the settings you put in.
+
+That one habit does a surprising amount of work. It is how scientists actually find out whether a
+method can be trusted — you cannot validate anything against real data, because with real data
+nobody knows the right answer. It is also why this course does not need an answer key: **you know
+the truth, because you set it.**
+
+And it means the mathematics arrives in a bearable order. You will meet sampling variability as
+three histograms getting narrower, not as a formula. You will meet a p-value as *how often the
+simulation is at least as extreme*, not as an integral. You will discover overdispersion because
+your own data turns out messier than your own model predicted. The formulas show up later, as
+compressed summaries of things you have already watched happen.
+
+**Each week composes.** Once you can build one process, you repeat it, mix two of them, nest one
+inside another, or let its settings depend on something you measured. Those four operations —
+repeat, nest, mix, condition — generate nearly every model in the first two acts. The third act
+asks the harder question, *what if the thing you care about was never measured at all?*, and one
+week drops the probability story altogether to show you what that costs. Either way there is no
+separate "how this course works" to learn on top of the statistics. The organizing principle *is*
+the statistics.
+
+Topics and the three-act arc are on the [schedule]({{ site.baseurl }}/schedule/), along with every
+meeting date and deadline. The course has its own
+free, open textbook — [*Biological Data Analysis, Simulation First*](https://bu-cds-bf550.github.io/bf550-textbook/) — written around this
+approach; one chapter a week is the reading, and you can start reading it right now.
+
+## Using AI
+
+You'll have a provided coding agent and a tutor for the [textbook](https://bu-cds-bf550.github.io/bf550-textbook/), and **every individual question** states
+its [AI level](https://aiassessmentscale.com/) — not every assignment, every question:
+
+- **Building simulators, exploring, breaking things — full AI, encouraged.** Describe the process
+  in words and let the agent write it. Specifying what generates your data is the thinking; typing
+  it is not.
+- **Checking your own work, and reading code — no AI.** Two questions every week. These are the
+  skills that quietly disappear if you delegate them, and they are exactly what the exams assess.
+- **The two exams — no AI.** A midterm (Nov 2) and an Act III exam (Nov 30), closed-book, both
+  code-reading.
+
+The no-AI questions exist for your benefit as much as ours. Research on novices using AI finds that
+the students who struggle most are often the ones most convinced they're doing fine. Two unaided
+questions a week are how you and we both watch your own skill actually growing — so nobody
+discovers a gap for the first time during an exam.
+
+## What you hand in, and what it's worth
+
+One notebook a week: your code, your figures, and your answers in complete sentences.
+
+| | Weight | AI level |
+|---|---:|---|
+| Weekly problem sets (12) | 40% | Stated per question — two are no-AI every week |
+| Written midterm (Mon Nov 2) | 10% | None |
+| Act III exam (Mon Nov 30) | 10% | None |
+| Synthesis project | 35% | Full |
+| Participation | 5% | — |
+
+The synthesis project is the course in miniature and the culminating assessment — **there is no
+exam during finals period**. You design a generative process for a biological question you care
+about, then show what a method can and cannot recover from it. By then you'll have done exactly
+that twelve times; the difference is that this time you choose the question.
+
+**If you miss a week** — it happens — the problem set stays open with no penalty until the
+following Monday, and the questions that depend on earlier weeks always come with a reference
+implementation so a bad week never blocks a good one. Ask early.
