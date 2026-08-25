@@ -18,9 +18,11 @@ agents. The course makes a deliberate bet: the primary coding learning objective
 > reaching production, and CI runs it on every push and pull request.
 >
 > **Working locally.** `make dev` runs the site (live reload, <http://localhost:4000>) and the
-> slide decks (live reload, <http://localhost:4200>) in a Docker replica of the CI job;
-> `make site` runs the exact production build. See the [`Makefile`](Makefile) and
-> [`Dockerfile`](Dockerfile).
+> slide decks (live reload, <http://localhost:4200/week-01.html>) in a Docker replica of the CI
+> job; `make site` runs the exact production build. Browse the site at :4000, which serves
+> everything including the decks at `/slides/`; :4200 re-renders a deck as you edit it and is
+> rooted at the deck directory, so open a deck there by name rather than its index. See the
+> [`Makefile`](Makefile) and [`Dockerfile`](Dockerfile).
 >
 > **AI use:** how these materials were built is documented in
 > [`AI_DISCLOSURE.md`](AI_DISCLOSURE.md).

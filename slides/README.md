@@ -44,9 +44,11 @@ git-ignored `_instructor-slides/`; open a deck there and press `s`.
 ## Rendering locally
 
 The easy way is the repository's Docker environment, a replica of the CI job (see the
-`Makefile`): `make dev` serves the decks at `http://localhost:4200` and re-renders a deck
-whenever you save its source, reloading the browser tab; the rest of the site is at
-`http://localhost:4000`. `make pdf` renders decks and PDFs, `make instructor` the build with
+`Makefile`): `make dev` serves each deck at `http://localhost:4200/week-01.html` and re-renders
+it whenever you save its source, reloading the browser tab; the whole site, decks included, is at
+`http://localhost:4000` (the deck pages under `/slides/`). Open a deck on :4200 by name — that
+server is rooted at `_site/slides/`, so the `/slides/` index Jekyll writes there loads unstyled,
+its `/assets/...` links pointing above the root. `make pdf` renders decks and PDFs, `make instructor` the build with
 speaker notes, `make site` the whole production build.
 
 Without Docker you need [Quarto](https://quarto.org/docs/get-started/) 1.10+, Python with
@@ -55,7 +57,7 @@ Without Docker you need [Quarto](https://quarto.org/docs/get-started/) 1.10+, Py
 ```bash
 # from the repository root
 export QUARTO_PYTHON=/path/to/python            # the interpreter with requirements.txt installed
-quarto preview slides                          # all decks at :4200, re-rendered on save
+quarto preview slides                          # a deck at :4200/week-01.html, re-rendered on save
 tools/build_slides.sh                          # all decks -> _site/slides/
 tools/build_slides.sh --pdf                    # ...plus a PDF beside each deck
 tools/build_slides.sh --instructor             # with speaker notes -> _instructor-slides/
@@ -63,7 +65,10 @@ tools/build_slides.sh --instructor             # with speaker notes -> _instruct
 
 The rendered decks live in `_site/slides/` next to Jekyll's output; `_config.yml` lists
 `slides` under `keep_files` so `jekyll build` does not delete them, and excludes `slides/`
-so Jekyll never touches the sources.
+so Jekyll never touches the sources. Because that output directory sits outside the Quarto
+project, rendering prints `WARN: Refusing to remove directory ... week-01_files` and a warning
+about the path configuration: harmless, but it does mean stale deck assets accumulate there
+until `make clean`.
 
 PDF export uses [decktape](https://github.com/astefanutti/decktape) (installed, or via
 `npx`); it finds Chrome via `CHROME_PATH`, then `google-chrome`/`chromium` on `PATH`, then a
