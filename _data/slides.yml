@@ -1,0 +1,5 @@
+# Published lecture decks. One entry per rendered deck in slides/; the week pages and
+# /slides/ read this list, so adding a deck means adding a line here.
+- week: week-01
+  title: "Worlds you can build"
+  file: week-01

@@ -46,14 +46,27 @@ jobs:
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
-      - name: Build with Jekyll
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+      # Lecture decks: Quarto executes slides/*.qmd, decktape prints each deck to PDF with the
+      # runner's Chrome. Versions here are what the Dockerfile replicates.
+      - name: Setup Python for the slide decks
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+      - name: Install slide dependencies
+        run: pip install -r slides/requirements.txt
+      - name: Setup Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: 1.10.18
+      # One script builds the whole site -- Jekyll, then the slide decks and their PDFs, then
+      # the gate on the built output -- and `make site` runs the same script in the Dockerfile's
+      # replica of this job, so local and deployed builds cannot drift.
+      - name: Build the site (Jekyll, slide decks, PDFs, content gate)
+        run: tools/build_site.sh
         env:
-          JEKYLL_ENV: production
-      # Gate deployment on the built output, not the sources: a file publishes unless
-      # something excludes it, and the leak this guards against was a file nobody excluded.
-      - name: Check for instructor-facing content
-        run: python3 tools/lint_no_instructor_content.py _site
+          BASEURL: ${{ steps.pages.outputs.base_path }}
+          CHROME_PATH: /usr/bin/google-chrome
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 

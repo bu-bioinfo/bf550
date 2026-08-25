@@ -1,0 +1,6 @@
+# The image copies only Gemfile, slides/requirements.txt, and the entrypoint; the repo itself
+# is bind-mounted at run time. Keep the build context small.
+*
+!Gemfile
+!slides/requirements.txt
+!tools/docker-entrypoint.sh

@@ -72,7 +72,7 @@ ambiguity about what's allowed.
 
 Problem sets ask you to build the data before you analyze it, so you always know the true answer and
 can check your own work without an answer key. See the
-[problem sets page](https://bu-cds-bf550.github.io/assignments/) for the format.
+[problem sets page]({{ site.baseurl }}/assignments/) for the format.
 
 ## Two things you'll see on every assignment
 

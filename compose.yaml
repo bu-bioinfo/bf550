@@ -1,0 +1,33 @@
+# Development environment: the CI image (Dockerfile) with the repository bind-mounted, so edits
+# on the host are rebuilt live inside the container. Drive it through the Makefile:
+#
+#   make dev     Jekyll with live reload at http://localhost:4000 and the slide decks with live
+#                reload at http://localhost:4200 -- one command, both watchers.
+#   make site    the exact CI build: Jekyll -> decks -> PDFs -> content gate, into _site/
+#
+# Two services share one image and one mount. Files they write (_site/, .jekyll-cache/,
+# slides/_freeze/) are owned by your host user because the Makefile passes UID/GID through.
+x-common: &common
+  image: bf550-site
+  user: "${UID:-1000}:${GID:-1000}"
+  working_dir: /site
+  volumes:
+    - .:/site
+  environment:
+    HOME: /tmp                       # Chromium and bundler want a writable home for the non-root uid
+    JEKYLL_FORCE_POLLING: "${JEKYLL_FORCE_POLLING:-0}"   # set to 1 if file events don't reach the container
+
+services:
+  jekyll:
+    <<: *common
+    build: .                       # the one service that builds the shared image
+    command: tools/dev.sh jekyll
+    ports:
+      - "4000:4000"                  # the site
+      - "35729:35729"                # Jekyll's LiveReload socket
+
+  slides:
+    <<: *common
+    command: tools/dev.sh slides
+    ports:
+      - "4200:4200"                  # the decks, with Quarto's own live reload

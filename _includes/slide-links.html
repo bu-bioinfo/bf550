@@ -1,0 +1,10 @@
+{%- comment -%}
+Slide links for a week page: {% include slide-links.html week="week-01" %}
+Looks the week up in _data/slides.yml; a week without a deck gets a placeholder line.
+{%- endcomment -%}
+{%- assign deck = site.data.slides | where: "week", include.week | first -%}
+{%- if deck -%}
+- **Slides:** *{{ deck.title }}* — [view]({{ site.baseurl }}/slides/{{ deck.file }}.html) · [PDF]({{ site.baseurl }}/slides/{{ deck.file }}.pdf)
+{%- else -%}
+- **Slides:** posted here before the first meeting.
+{%- endif -%}

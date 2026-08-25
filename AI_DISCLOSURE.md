@@ -10,7 +10,8 @@ the same standard for ourselves. The student-facing short version lives in the
 
 **The instructor team (Adam Labadorf and co-instructors):** We are the designers, reviewers,
 and owners of this course. The pedagogical decisions are ours — the focus on **code literacy
-over code authorship**, the **design → spec → test → implementation** assignment framework,
+over code authorship**, the **Practice → Design → Build** problem-set structure and its sealed
+design section,
 the choice of biological problems, the assessment structure, and the adoption of the
 [TILT](https://www.tilthighered.com/resources) and [AIAS](https://aiassessmentscale.com/)
 frameworks. We direct the work, review and edit the output, decide what ships, and are
@@ -45,9 +46,9 @@ drafting and building; human judgment directed and evaluated it.
 * **The pedagogy is intentional.** The teaching philosophy, framework, and assessment design
   were decided by the instructors before and during drafting — they are not artifacts of what
   an AI happened to produce.
-* **The copy is a living draft.** These materials are being reviewed and edited by the
-  instructor team and will continue to change. Wording is ours to refine; errors are ours to
-  fix.
+* **The instructor team owns the words.** Every page is reviewed and edited by the instructor
+  team before it ships, and course materials keep changing across terms the way any course's
+  do. Wording is ours to refine; errors are ours to fix.
 * **Open decisions are tracked openly.** Items still to be settled live in the
   [discussion issues](https://github.com/bu-cds-bf550/bu-cds-bf550.github.io/issues) and in
   [`internal/open-decisions.md`](internal/open-decisions.md).

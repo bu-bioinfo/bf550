@@ -15,3 +15,31 @@
     src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.7/MathJax.js?config=TeX-MML-AM_CHTML">
   </script>
 {% endif %}
+
+<!-- Site styling. Lives here rather than in an `assets/css/main.scss` override so that a theme
+     upgrade cannot break the Sass build: this loads after the theme's compiled stylesheet and
+     only adjusts what it needs to. -->
+<style>
+  /* BU scarlet, on the two elements that carry the identity. */
+  .masthead { border-bottom: 3px solid #cc0000; }
+  .site-title, .masthead__menu-item a:hover, .page__content a:hover { color: #cc0000; }
+  .page__content a:not(.btn) { color: #a30000; }
+
+  /* This site is table-heavy — the calendar and the schedule are the primary documents.
+     Tighter type and zebra striping make a fifteen-row table scannable. */
+  .page__content table { font-size: 0.85em; }
+  .page__content th,
+  .page__content td { padding: 0.4em 0.7em; vertical-align: top; }
+  .page__content tbody tr:nth-child(odd) { background-color: #f8f8f8; }
+
+  /* Wide tables scroll rather than forcing the page to. */
+  @media screen and (max-width: 37.5em) {
+    .page__content table { display: block; overflow-x: auto; white-space: nowrap; }
+  }
+
+  /* The week pages open with the question the week answers; give it pull-quote weight. */
+  .page__content blockquote {
+    border-left: 4px solid #cc0000;
+    font-size: 1.1em;
+  }
+</style>

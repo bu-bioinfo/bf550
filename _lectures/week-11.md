@@ -2,24 +2,27 @@
 title: "Week 11 — Dimensionality reduction: PCA (t-SNE/UMAP as demo)"
 ---
 
-> **Under construction.** Lecture materials for Week 11 will be posted here.
+**Act III** · composition operation: **latent**
 
-## Topic
+**Meetings:** Mon **Nov 9** · Wed **Nov 11** · Fri **Nov 13**
 
-Dimensionality reduction: PCA (t-SNE/UMAP as demo).
+> *What structure hides in this expression matrix?*
 
-**Act III.**  
-**Composition operation:** latent  
-**The question you're answering:** *What structure hides in this expression matrix?*
+## Before the first meeting
 
-See the [schedule]({{ site.baseurl }}/schedule/) for how this week fits the three-act arc, and the
-[detailed calendar]({{ site.baseurl }}/calendar/) for dates.
+Read [chapter 11 — Fewer dimensions, same story: PCA](https://bu-cds-bf550.github.io/bf550-textbook/chapters/ch11-pca.html). Budget about two hours: the chapter
+plus its worked notebook. The chapter's practice problems are ungraded and have worked solutions —
+they are the cheapest way to find out whether the reading landed.
 
-## Materials
+## In class
 
-- **Reading (before the first meeting):** [textbook chapter 11](https://bu-cds-bf550.github.io/bf550-textbook/chapters/ch11-pca.html)
-- Later meetings are working sessions on the week's problem set.
+{% include slide-links.html week="week-11" %}
 
-## Reading / references
+The topic opens in the first meeting. The rest of the week is working sessions on the problem set,
+with instructors and TAs in the room.
 
-_To be added._
+## Where this fits
+
+The [schedule]({{ site.baseurl }}/schedule/) places this week in the three-act arc and shows what it
+composes from; the [calendar]({{ site.baseurl }}/calendar/) has the dates and deadlines. The weekly
+format is on the [problem sets page]({{ site.baseurl }}/assignments/).

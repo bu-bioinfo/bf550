@@ -1,0 +1,38 @@
+/*-- scss:defaults --*/
+// Layered on Quarto's `simple` theme. BU scarlet where the course site uses it (links,
+// the masthead rule); otherwise quiet -- figures and code carry the slides.
+$bu-scarlet: #cc0000;
+$bu-scarlet-dark: #a30000;
+$ink: #1d1d1b;
+
+$body-color: $ink;
+$link-color: $bu-scarlet-dark;
+$link-color-hover: $bu-scarlet;
+$presentation-heading-color: $ink;
+$presentation-heading-font-weight: 600;
+$presentation-font-size-root: 34px;
+$code-block-font-size: 0.72em;
+$code-block-bg: #f6f6f4;
+
+/*-- scss:rules --*/
+.reveal .slide-logo, .reveal .footer { color: #777; font-size: 0.45em; }
+
+// Title slide: the rule under the title matches the site masthead.
+.reveal .quarto-title-block .title { border-bottom: 3px solid $bu-scarlet; padding-bottom: 0.2em; }
+
+// Blockquotes are the pull-quote register (the week's question, the honest report).
+.reveal blockquote {
+  border-left: 4px solid $bu-scarlet;
+  background: none;
+  box-shadow: none;
+  font-style: normal;
+  padding: 0.1em 0 0.1em 0.8em;
+}
+
+// Tables: the design-launch table and the like, scannable at projection size.
+.reveal table { font-size: 0.8em; }
+.reveal table th { border-bottom: 2px solid $ink; }
+
+// Executed code echoes: keep them compact so code and its output share a slide.
+.reveal div.sourceCode { margin: 0.4em 0; }
+.reveal pre code { max-height: 460px; }

@@ -28,6 +28,7 @@ TRIPWIRES = [
     (re.compile(r"Do not give away"), "answer-withholding instruction to staff"),
     (re.compile(r"planted defect", re.I), "seeded-defect inventory"),
     (re.compile(r"run-sheet", re.I), "instructor run-sheet"),
+    (re.compile(r'<aside class="notes"'), "speaker notes in a published slide deck"),
 ]
 
 SCAN_SUFFIXES = {".html", ".md", ".txt", ".json", ".xml"}

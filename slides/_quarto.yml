@@ -1,0 +1,32 @@
+# Lecture decks: one revealjs deck per topic-opening meeting, authored in Quarto markdown.
+#
+# This is its own small Quarto project inside the Jekyll site. Jekyll ignores the sources
+# (`slides/` is in `_config.yml: exclude`) and preserves the rendered output across its own
+# builds (`_config.yml: keep_files`), so the two toolchains share `_site/` without fighting.
+# `tools/build_slides.sh` runs the render (and the PDF export) both locally and in CI.
+project:
+  type: default
+  output-dir: ../_site/slides
+  # Files starting with `_` (the template, this config) are never rendered.
+
+format:
+  revealjs:
+    theme: [simple, theme/bf550.scss]
+    slide-number: true
+    hash: true                    # each slide gets its own URL, so decks can be linked mid-way
+    footer: "BF550 · bu-cds-bf550.github.io"
+    width: 1050
+    height: 700
+    code-line-numbers: false
+    fig-align: center
+    # Speaker notes (`::: {.notes}` blocks) are removed from the public build by the
+    # filter below. Render with `--profile instructor` to keep them (press `s` in the deck).
+    filters:
+      - strip-notes.lua
+
+keep-notes: false
+
+execute:
+  freeze: auto                    # re-execute a deck only when its source changes
+  echo: false                     # code is hidden unless a chunk says `#| echo: true`
+  warning: false

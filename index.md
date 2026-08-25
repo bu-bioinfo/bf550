@@ -1,18 +1,19 @@
 ---
-link-citations: true
+title: "BF550 — Applied Statistics & Machine Learning for the Life Sciences"
+toc: true
+toc_sticky: true
 ---
 
-> **Provisional, in the places that are marked.** The design, the topic sequence, and the calendar
-> are settled — the dates on the [calendar]({{ site.baseurl }}/calendar/) will not move. Meeting
-> times, the room, and the standard BU policy statements are still to be confirmed, and the textbook
-> is being written a chapter at a time. Planning happens in the open, in the
-> [discussion issues](https://github.com/bu-cds-bf550/bu-cds-bf550.github.io/issues).
-
-**Semester:** Fall 2026 · **Meeting time:** three 105-minute sessions per week _(times TBD)_ · **Location:** _TBD_
+**Fall 2026** · 4 credits · three 105-minute meetings a week, Monday / Wednesday / Friday
 
 **Prerequisites:** some prior programming experience (any language) and introductory molecular
 biology. A wide range of programming and math backgrounds is expected — the course is designed
 for it, as you're about to read.
+
+**Start here:** the [syllabus]({{ site.baseurl }}/syllabus/) is the short official version of
+everything below. The [schedule]({{ site.baseurl }}/schedule/) has the topics and why they come in
+that order, the [calendar]({{ site.baseurl }}/calendar/) has every meeting date and deadline, and
+the [problem sets page]({{ site.baseurl }}/assignments/) explains the weekly work.
 
 ## Why this course is built the way it is
 

@@ -2,24 +2,27 @@
 title: "Week 5 — Naive Bayes: classification as a generative story"
 ---
 
-> **Under construction.** Lecture materials for Week 5 will be posted here.
+**Act II** · composition operation: **mix + repeat**
 
-## Topic
+**Meetings:** Mon **Sep 28** · Wed **Sep 30** · Fri **Oct 2**
 
-Naive Bayes: classification as a generative story.
+> *Which reads are rRNA, and how confident can you be about any single call?*
 
-**Act II.**  
-**Composition operation:** mix + repeat  
-**The question you're answering:** *Which reads are rRNA, and how confident can you be about any single call?*
+## Before the first meeting
 
-See the [schedule]({{ site.baseurl }}/schedule/) for how this week fits the three-act arc, and the
-[detailed calendar]({{ site.baseurl }}/calendar/) for dates.
+Read [chapter 5 — Naive Bayes: classification as a generative story](https://bu-cds-bf550.github.io/bf550-textbook/chapters/ch05-naive-bayes.html). Budget about two hours: the chapter
+plus its worked notebook. The chapter's practice problems are ungraded and have worked solutions —
+they are the cheapest way to find out whether the reading landed.
 
-## Materials
+## In class
 
-- **Reading (before the first meeting):** [textbook chapter 5](https://bu-cds-bf550.github.io/bf550-textbook/chapters/ch05-naive-bayes.html)
-- Later meetings are working sessions on the week's problem set.
+{% include slide-links.html week="week-05" %}
 
-## Reading / references
+The topic opens in the first meeting. The rest of the week is working sessions on the problem set,
+with instructors and TAs in the room.
 
-_To be added._
+## Where this fits
+
+The [schedule]({{ site.baseurl }}/schedule/) places this week in the three-act arc and shows what it
+composes from; the [calendar]({{ site.baseurl }}/calendar/) has the dates and deadlines. The weekly
+format is on the [problem sets page]({{ site.baseurl }}/assignments/).

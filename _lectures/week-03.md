@@ -2,24 +2,27 @@
 title: "Week 3 — Overdispersion; why counts vary more than they should"
 ---
 
-> **Under construction.** Lecture materials for Week 3 will be posted here.
+**Act I** · composition operation: **nest**
 
-## Topic
+**Meetings:** Mon **Sep 14** · Wed **Sep 16** · Fri **Sep 18**
 
-Overdispersion; why counts vary more than they should.
+> *Your null says this is impossible and real data does it constantly. Which one is wrong?*
 
-**Act I.**  
-**Composition operation:** nest  
-**The question you're answering:** *Your null says this is impossible and real data does it constantly. Which one is wrong?*
+## Before the first meeting
 
-See the [schedule]({{ site.baseurl }}/schedule/) for how this week fits the three-act arc, and the
-[detailed calendar]({{ site.baseurl }}/calendar/) for dates.
+Read [chapter 3 — Nest: why real data is messier than your model](https://bu-cds-bf550.github.io/bf550-textbook/chapters/ch03-nest.html). Budget about two hours: the chapter
+plus its worked notebook. The chapter's practice problems are ungraded and have worked solutions —
+they are the cheapest way to find out whether the reading landed.
 
-## Materials
+## In class
 
-- **Reading (before the first meeting):** [textbook chapter 3](https://bu-cds-bf550.github.io/bf550-textbook/chapters/ch03-nest.html)
-- Later meetings are working sessions on the week's problem set.
+{% include slide-links.html week="week-03" %}
 
-## Reading / references
+The topic opens in the first meeting. The rest of the week is working sessions on the problem set,
+with instructors and TAs in the room.
 
-_To be added._
+## Where this fits
+
+The [schedule]({{ site.baseurl }}/schedule/) places this week in the three-act arc and shows what it
+composes from; the [calendar]({{ site.baseurl }}/calendar/) has the dates and deadlines. The weekly
+format is on the [problem sets page]({{ site.baseurl }}/assignments/).

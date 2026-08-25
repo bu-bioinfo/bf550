@@ -47,26 +47,25 @@ answer is right?*
   internal validation, and skepticism are all you have. Closes with the Act III exam, after which
   the term belongs to your synthesis project.
 
-> *Topics are subject to change; the [detailed calendar]({{ site.baseurl }}/calendar/) is
-> authoritative for dates.*
-
 ## Week by week
+
+Each week links to its own page, with the chapter to read before the first meeting.
 
 | Week | Act | Operation | Topic | The question you're answering |
 |---:|:--:|---|---|---|
-| 1 | I | build | Simulating a process; binomial counts; sampling variability | *If 68 of 100 people taste PTC, how common is the allele?* |
-| 2 | I | repeat | Null distributions; what a p-value is; multiple testing | *You scanned 1,000 loci and some came up significant. Should you believe any of them?* |
-| 3 | I | nest | Overdispersion; why counts vary more than they should | *Your null says this is impossible and real data does it constantly. Which one is wrong?* |
-| 4 | II | mix | Bayes' theorem; estimating probabilities from counts | *What species did this sequence come from?* |
-| 5 | II | mix + repeat | Naive Bayes: classification as a generative story | *Which reads are rRNA, and how confident can you be about any single call?* |
-| 6 | II | — | Evaluation: overfitting, cross-validation, leakage, calibration | *Does the classifier actually work, or does it just look like it does?* |
-| 7 | II | condition | Logistic regression: modeling the boundary directly | *Is this variant pathogenic?* |
-| 8 | II | condition | Linear regression and regularization | *Can expression predict dose response?* |
-| 9 | II | nest + condition | Generalized linear models: Poisson and negative binomial regression | *Are these genes really differentially expressed?* |
-| 10 | III | — | Trees, forests, and boosting: prediction with no probability story | *Which genes mark treatment response?* |
-| 11 | III | latent | Dimensionality reduction: PCA (t-SNE/UMAP as demo) | *What structure hides in this expression matrix?* |
-| 12 | III | mix, hidden | Clustering: mixture models → k-means; validating *k* | *Do these cells form distinct types — and how many?* |
-| 13–15 | — | *yours* | Project launch, then project studio | *What is a process worth simulating, for a question you chose?* |
+| [1]({{ site.baseurl }}/lectures/week-01/) | I | build | Simulating a process; binomial counts; sampling variability | *If 68 of 100 people taste PTC, how common is the allele?* |
+| [2]({{ site.baseurl }}/lectures/week-02/) | I | repeat | Null distributions; what a p-value is; multiple testing | *You scanned 1,000 loci and some came up significant. Should you believe any of them?* |
+| [3]({{ site.baseurl }}/lectures/week-03/) | I | nest | Overdispersion; why counts vary more than they should | *Your null says this is impossible and real data does it constantly. Which one is wrong?* |
+| [4]({{ site.baseurl }}/lectures/week-04/) | II | mix | Bayes' theorem; estimating probabilities from counts | *What species did this sequence come from?* |
+| [5]({{ site.baseurl }}/lectures/week-05/) | II | mix + repeat | Naive Bayes: classification as a generative story | *Which reads are rRNA, and how confident can you be about any single call?* |
+| [6]({{ site.baseurl }}/lectures/week-06/) | II | — | Evaluation: overfitting, cross-validation, leakage, calibration | *Does the classifier actually work, or does it just look like it does?* |
+| [7]({{ site.baseurl }}/lectures/week-07/) | II | condition | Logistic regression: modeling the boundary directly | *Is this variant pathogenic?* |
+| [8]({{ site.baseurl }}/lectures/week-08/) | II | condition | Linear regression and regularization | *Can expression predict dose response?* |
+| [9]({{ site.baseurl }}/lectures/week-09/) | II | nest + condition | Generalized linear models: Poisson and negative binomial regression | *Are these genes really differentially expressed?* |
+| [10]({{ site.baseurl }}/lectures/week-10/) | III | — | Trees, forests, and boosting: prediction with no probability story | *Which genes mark treatment response?* |
+| [11]({{ site.baseurl }}/lectures/week-11/) | III | latent | Dimensionality reduction: PCA (t-SNE/UMAP as demo) | *What structure hides in this expression matrix?* |
+| [12]({{ site.baseurl }}/lectures/week-12/) | III | mix, hidden | Clustering: mixture models → k-means; validating *k* | *Do these cells form distinct types — and how many?* |
+| [13]({{ site.baseurl }}/lectures/week-13/)–15 | — | *yours* | Project launch, then project studio | *What is a process worth simulating, for a question you chose?* |
 
 Twelve topics, then three weeks on the project — the [calendar]({{ site.baseurl }}/calendar/) has
 the meeting-by-meeting version, including the two short weeks and the Thanksgiving break.
