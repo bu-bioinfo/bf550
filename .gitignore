@@ -7,3 +7,7 @@ Gemfile.lock
 .bundle/
 node_modules/
 .serena/
+# Quarto (slides/): execution cache, project metadata, and the never-published instructor build
+_freeze/
+.quarto/
+_instructor-slides/

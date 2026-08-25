@@ -1,11 +1,30 @@
 # Site settings
-title: BF550 - Applied Statistics & Machine Learning for the Life Sciences
-description: Course materials for BF550 at Boston University — applied statistics and machine learning, taught for code literacy in the age of coding agents.
+# `title` is the masthead label, so keep it short — the full course name is the home page's
+# own title. `description` is what search engines and link previews show.
+title: BF550
+subtitle: Applied Statistics & Machine Learning for the Life Sciences
+description: Applied statistics and machine learning for the life sciences at Boston University — taught for code literacy in the age of coding agents.
 baseurl: "" # the subpath of your site
 url: "https://bu-cds-bf550.github.io" # the base hostname & protocol for your site
-email: ""
 
 theme: minimal-mistakes-jekyll
+
+# Site-wide search over every published page. The theme bundles lunr; this is the switch.
+search: true
+
+# Footer links. This is the key the theme's footer reads; `_data/navigation.yml` is only
+# consulted for the masthead (`main`) and the sidebar (`sidebar`).
+footer:
+  links:
+    - label: "Textbook"
+      icon: "fas fa-fw fa-book"
+      url: "https://bu-cds-bf550.github.io/bf550-textbook/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/bu-cds-bf550/bu-cds-bf550.github.io"
+    - label: "Boston University"
+      icon: "fas fa-fw fa-graduation-cap"
+      url: "https://www.bu.edu/"
 
 # Build settings
 markdown: kramdown
@@ -13,6 +32,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - jekyll-include-cache
 
 # Collections
 collections:
@@ -45,6 +65,11 @@ defaults:
 # Site timezone
 timezone: America/New_York
 
+# Lecture decks are rendered by Quarto (see `slides/` and `tools/build_slides.sh`) into
+# `_site/slides/`. Jekyll must not delete them when it rebuilds.
+keep_files:
+  - slides
+
 # Exclude from processing
 exclude:
   - Gemfile
@@ -55,9 +80,13 @@ exclude:
   - AI_DISCLOSURE.md
   - .gitignore
   - Dockerfile
+  - compose.yaml
+  - Makefile
   - internal/
   # Instructor-facing material must never be published. `lectures/` is listed because a
   # run-sheet once landed there and shipped; `tools/` because the tripwire lint's own pattern
   # literals would otherwise match themselves in the built output.
   - lectures/
   - tools/
+  # Quarto sources for the lecture decks; the rendered output lands in _site/slides/ directly.
+  - slides/

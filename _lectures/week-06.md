@@ -2,23 +2,27 @@
 title: "Week 6 — Evaluation: overfitting, cross-validation, leakage, calibration"
 ---
 
-> **Under construction.** Lecture materials for Week 6 will be posted here.
+**Act II**
 
-## Topic
+**Meetings:** Mon **Oct 5** · Wed **Oct 7** · Fri **Oct 9**
 
-Evaluation: overfitting, cross-validation, leakage, calibration.
+> *Does the classifier actually work, or does it just look like it does?*
 
-**Act II.**  
-**The question you're answering:** *Does the classifier actually work, or does it just look like it does?*
+## Before the first meeting
 
-See the [schedule]({{ site.baseurl }}/schedule/) for how this week fits the three-act arc, and the
-[detailed calendar]({{ site.baseurl }}/calendar/) for dates.
+Read [chapter 6 — Did it actually work? Evaluation and generalization](https://bu-cds-bf550.github.io/bf550-textbook/chapters/ch06-evaluation.html). Budget about two hours: the chapter
+plus its worked notebook. The chapter's practice problems are ungraded and have worked solutions —
+they are the cheapest way to find out whether the reading landed.
 
-## Materials
+## In class
 
-- **Reading (before the first meeting):** [textbook chapter 6](https://bu-cds-bf550.github.io/bf550-textbook/chapters/ch06-evaluation.html)
-- Later meetings are working sessions on the week's problem set.
+{% include slide-links.html week="week-06" %}
 
-## Reading / references
+The topic opens in the first meeting. The rest of the week is working sessions on the problem set,
+with instructors and TAs in the room.
 
-_To be added._
+## Where this fits
+
+The [schedule]({{ site.baseurl }}/schedule/) places this week in the three-act arc and shows what it
+composes from; the [calendar]({{ site.baseurl }}/calendar/) has the dates and deadlines. The weekly
+format is on the [problem sets page]({{ site.baseurl }}/assignments/).

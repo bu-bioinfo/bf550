@@ -7,11 +7,20 @@ anchored by molecular-biology and genomics projects and taught in the age of cod
 agents. The course makes a deliberate bet: the primary coding learning objective is
 **reading and understanding code (code literacy)**, not authoring it from scratch.
 
-> **Status: design / bootstrap.** This repo holds the course site (published via GitHub
-> Pages) plus internal planning docs. Student-facing pages live in `docs/` and render on the
-> site; instructor-only rationale and open decisions live in [`internal/`](internal/)
-> (excluded from the site) — see [`internal/open-decisions.md`](internal/open-decisions.md)
-> and the [discussion issues](https://github.com/bu-cds-bf550/bu-cds-bf550.github.io/issues).
+> **Layout.** This repo holds the course site (published via GitHub Pages) plus internal
+> planning docs. Student-facing pages live in `docs/` and `_lectures/` and render on the site;
+> lecture decks are Quarto sources in [`slides/`](slides/), rendered and PDF-exported by CI into
+> the same site (see [`slides/README.md`](slides/README.md));
+> instructor-only rationale and open decisions live in [`internal/`](internal/), excluded from
+> the site — see [`internal/open-decisions.md`](internal/open-decisions.md) and the
+> [discussion issues](https://github.com/bu-cds-bf550/bu-cds-bf550.github.io/issues).
+> `tools/lint_no_instructor_content.py` gates the built site against instructor material
+> reaching production, and CI runs it on every push and pull request.
+>
+> **Working locally.** `make dev` runs the site (live reload, <http://localhost:4000>) and the
+> slide decks (live reload, <http://localhost:4200>) in a Docker replica of the CI job;
+> `make site` runs the exact production build. See the [`Makefile`](Makefile) and
+> [`Dockerfile`](Dockerfile).
 >
 > **AI use:** how these materials were built is documented in
 > [`AI_DISCLOSURE.md`](AI_DISCLOSURE.md).
@@ -41,6 +50,9 @@ agents. The course makes a deliberate bet: the primary coding learning objective
   direction.
 - **[Assessment & AI policy](https://bu-cds-bf550.github.io/assessment/)** — problem sets, the two
   written exams, grading, and the per-question AIAS mapping.
+- **[Textbook](https://bu-cds-bf550.github.io/bf550-textbook/)** — the course's own free, open
+  textbook, one chapter per week, in the [`bf550-textbook`](https://github.com/bu-cds-bf550/bf550-textbook)
+  repository.
 
 Course design material is in [`internal/`](internal/): the
 [design rationale](internal/course-design-rationale.md), the

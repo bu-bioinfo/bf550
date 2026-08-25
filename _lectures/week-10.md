@@ -2,23 +2,29 @@
 title: "Week 10 — Trees, forests, and boosting: prediction with no probability story"
 ---
 
-> **Under construction.** Lecture materials for Week 10 will be posted here.
+**Act III**
 
-## Topic
+**Meetings:** Mon **Nov 2** · Wed **Nov 4** · Fri **Nov 6**
 
-Trees, forests, and boosting: prediction with no probability story.
+> *Which genes mark treatment response?*
 
-**Act III.**  
-**The question you're answering:** *Which genes mark treatment response?*
+## Before the first meeting
 
-See the [schedule]({{ site.baseurl }}/schedule/) for how this week fits the three-act arc, and the
-[detailed calendar]({{ site.baseurl }}/calendar/) for dates.
+Read [chapter 10 — Trees and forests: the honest outlier](https://bu-cds-bf550.github.io/bf550-textbook/chapters/ch10-trees.html). Budget about two hours: the chapter
+plus its worked notebook. The chapter's practice problems are ungraded and have worked solutions —
+they are the cheapest way to find out whether the reading landed.
 
-## Materials
+## In class
 
-- **Reading (before the first meeting):** [textbook chapter 10](https://bu-cds-bf550.github.io/bf550-textbook/chapters/ch10-trees.html)
-- Later meetings are working sessions on the week's problem set.
+{% include slide-links.html week="week-10" %}
 
-## Reading / references
+The topic opens in the first meeting. The rest of the week is working sessions on the problem set,
+with instructors and TAs in the room.
 
-_To be added._
+**The midterm is Mon Nov 2**, in the first meeting — closed book, no AI, code reading, covering Acts I and II. The week's topic opens in the meeting after it.
+
+## Where this fits
+
+The [schedule]({{ site.baseurl }}/schedule/) places this week in the three-act arc and shows what it
+composes from; the [calendar]({{ site.baseurl }}/calendar/) has the dates and deadlines. The weekly
+format is on the [problem sets page]({{ site.baseurl }}/assignments/).

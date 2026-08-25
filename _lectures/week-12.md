@@ -2,24 +2,27 @@
 title: "Week 12 — Clustering: mixture models → k-means; validating *k*"
 ---
 
-> **Under construction.** Lecture materials for Week 12 will be posted here.
+**Act III** · composition operation: **mix, hidden**
 
-## Topic
+**Meetings:** Mon **Nov 16** · Wed **Nov 18** · Fri **Nov 20**
 
-Clustering: mixture models → k-means; validating *k*.
+> *Do these cells form distinct types — and how many?*
 
-**Act III.**  
-**Composition operation:** mix, hidden  
-**The question you're answering:** *Do these cells form distinct types — and how many?*
+## Before the first meeting
 
-See the [schedule]({{ site.baseurl }}/schedule/) for how this week fits the three-act arc, and the
-[detailed calendar]({{ site.baseurl }}/calendar/) for dates.
+Read [chapter 12 — Are there groups here? Clustering and validating k](https://bu-cds-bf550.github.io/bf550-textbook/chapters/ch12-clustering.html). Budget about two hours: the chapter
+plus its worked notebook. The chapter's practice problems are ungraded and have worked solutions —
+they are the cheapest way to find out whether the reading landed.
 
-## Materials
+## In class
 
-- **Reading (before the first meeting):** [textbook chapter 12](https://bu-cds-bf550.github.io/bf550-textbook/chapters/ch12-clustering.html)
-- Later meetings are working sessions on the week's problem set.
+{% include slide-links.html week="week-12" %}
 
-## Reading / references
+The topic opens in the first meeting. The rest of the week is working sessions on the problem set,
+with instructors and TAs in the room.
 
-_To be added._
+## Where this fits
+
+The [schedule]({{ site.baseurl }}/schedule/) places this week in the three-act arc and shows what it
+composes from; the [calendar]({{ site.baseurl }}/calendar/) has the dates and deadlines. The weekly
+format is on the [problem sets page]({{ site.baseurl }}/assignments/).

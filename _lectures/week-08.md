@@ -2,24 +2,27 @@
 title: "Week 8 — Linear regression and regularization"
 ---
 
-> **Under construction.** Lecture materials for Week 8 will be posted here.
+**Act II** · composition operation: **condition**
 
-## Topic
+**Meetings:** Mon **Oct 19** · Wed **Oct 21** · Fri **Oct 23**
 
-Linear regression and regularization.
+> *Can expression predict dose response?*
 
-**Act II.**  
-**Composition operation:** condition  
-**The question you're answering:** *Can expression predict dose response?*
+## Before the first meeting
 
-See the [schedule]({{ site.baseurl }}/schedule/) for how this week fits the three-act arc, and the
-[detailed calendar]({{ site.baseurl }}/calendar/) for dates.
+Read [chapter 8 — Regression, and regularization as a prior](https://bu-cds-bf550.github.io/bf550-textbook/chapters/ch08-linear-regression.html). Budget about two hours: the chapter
+plus its worked notebook. The chapter's practice problems are ungraded and have worked solutions —
+they are the cheapest way to find out whether the reading landed.
 
-## Materials
+## In class
 
-- **Reading (before the first meeting):** [textbook chapter 8](https://bu-cds-bf550.github.io/bf550-textbook/chapters/ch08-linear-regression.html)
-- Later meetings are working sessions on the week's problem set.
+{% include slide-links.html week="week-08" %}
 
-## Reading / references
+The topic opens in the first meeting. The rest of the week is working sessions on the problem set,
+with instructors and TAs in the room.
 
-_To be added._
+## Where this fits
+
+The [schedule]({{ site.baseurl }}/schedule/) places this week in the three-act arc and shows what it
+composes from; the [calendar]({{ site.baseurl }}/calendar/) has the dates and deadlines. The weekly
+format is on the [problem sets page]({{ site.baseurl }}/assignments/).

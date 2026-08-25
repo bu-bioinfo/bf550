@@ -10,9 +10,6 @@ gem 'kramdown-parser-gfm'
 gem 'jekyll-seo-tag'
 gem 'jekyll-feed'
 gem 'jekyll-include-cache'
-gem 'jemoji'
-gem 'jekyll-theme-minimal'
 
 # Development dependencies
 gem 'webrick'
-gem 'bourbon'

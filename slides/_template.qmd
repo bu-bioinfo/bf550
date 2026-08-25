@@ -1,0 +1,109 @@
+---
+# Copy this file to week-NN.qmd and delete what you do not use. Files whose names start
+# with `_` are never rendered, so this template is safe to leave here.
+title: "Deck title"
+subtitle: "BF550 · Week N · First meeting"
+---
+
+## A plain slide
+
+Text, with **emphasis**, `code`, and math: $\hat{p} = k/n$.
+
+. . .
+
+Three dots on their own line reveal the rest of the slide on the next keypress.
+
+## Incremental list {.smaller}
+
+`{.smaller}` on the heading shrinks the type for a dense slide.
+
+::: {.incremental}
+- First point
+- Second point, revealed on keypress
+- Third
+:::
+
+## Two columns
+
+:::: {.columns}
+::: {.column width="50%"}
+Left: a claim, a question, a prompt for the room.
+:::
+::: {.column width="50%"}
+Right: the evidence, a figure, a table.
+:::
+::::
+
+## Code that runs
+
+Chunks execute at render time. `echo: true` shows the code; without it only the output
+appears (the project default). Seed every random draw so the projected numbers are the
+numbers students find in the chapter.
+
+```{python}
+#| echo: true
+import numpy as np
+rng = np.random.default_rng(1)
+print(rng.binomial(n=80, p=0.65, size=5))
+```
+
+## A figure from code
+
+```{python}
+#| fig-align: center
+import numpy as np
+import matplotlib.pyplot as plt
+rng = np.random.default_rng(7)
+draws = rng.binomial(80, 0.65, size=2000) / 80
+fig, ax = plt.subplots(figsize=(8, 3.6))
+ax.hist(draws, bins=np.arange(0.4, 0.9, 0.02), histtype="step", lw=2.5, color="#eb6834")
+ax.axvline(0.65, color="#52514e", ls=":", lw=2)
+ax.set_xlabel("observed fraction"); ax.set_ylabel("runs")
+ax.spines[["top", "right"]].set_visible(False)
+plt.show()
+```
+
+## Code here, output on the next slide
+
+```{python}
+#| echo: true
+#| output-location: slide
+for n in (20, 80, 320):
+    print(f"{n:>4} reads: sd of the fraction ≈ {np.sqrt(0.65 * 0.35 / n):.3f}")
+```
+
+## An illustration drawn from text
+
+Graphviz (`{dot}`) and Mermaid (`{mermaid}`) blocks render as diagrams; no image file to keep in sync.
+
+```{dot}
+//| fig-width: 7
+digraph G {
+  rankdir=LR; node [shape=box, fontname="Helvetica", style=rounded];
+  truth [label="a truth you chose\n(m = 0.65)"];
+  world [label="the process, as code"];
+  data  [label="data (49 of 80)"];
+  answer [label="an estimate — and how far it wanders"];
+  truth -> world -> data -> answer;
+}
+```
+
+## A static image
+
+Put files in `slides/img/` and reference them relatively:
+
+`![](img/figure.png){width=70%}`
+
+## Speaker notes
+
+Write notes in a `.notes` block under any slide. They are **removed from the public build**
+and kept in the instructor build (`tools/build_slides.sh --instructor`), where `s` opens them.
+
+::: {.notes}
+Only you see this, and only in the instructor build.
+:::
+
+## Headings are a public interface
+
+Run-sheets in the instructor repo cite slides **by heading text**, not by number. Adding or
+reordering slides is free; renaming a heading means updating that week's run-sheet.

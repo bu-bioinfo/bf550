@@ -5,20 +5,17 @@ toc: true
 toc_sticky: true
 ---
 
-> *Meeting times, room, office hours, and the standard BU policy statements are still to be
-> confirmed. Everything else here — structure, assessment, and the calendar — is settled.*
-
 ## Course information
 
 | | |
 |---|---|
 | **Title** | Applied Statistics & Machine Learning for the Life Sciences |
 | **Number / credits** | BF550 · 4 credits |
-| **Meetings** | Three 105-minute sessions per week |
-| **Term** | Fall 2026 |
-| **Instructor** | Adam Labadorf (co-instructors and TAs to be announced) |
-| **Office hours** | To be announced in the first week |
+| **Term** | Fall 2026 · Wed Sep 2 – Wed Dec 9 |
+| **Meetings** | Three 105-minute sessions per week, Monday / Wednesday / Friday |
+| **Instructor** | Adam Labadorf · [labadorf@bu.edu](mailto:labadorf@bu.edu) |
 | **Prerequisites** | Some programming experience; introductory biology / molecular biology |
+| **Textbook** | [*Biological Data Analysis, Simulation First*](https://bu-cds-bf550.github.io/bf550-textbook/) — free, online, written for this course |
 
 ## Course description
 
@@ -40,11 +37,11 @@ and verify. Work is grounded in real molecular-biology and genomics problems.
 - **Transparent assignments.** Every assignment states its **Purpose, Task, and Criteria** up
   front, following the [TILT](https://www.tilthighered.com/resources) framework.
 
-See [How This Course Works](https://bu-cds-bf550.github.io/about/) for the full picture.
+See [How This Course Works]({{ site.baseurl }}/about/) for the full picture.
 
 ## Learning objectives
 
-See the [learning objectives](https://bu-cds-bf550.github.io/learning-objectives/). In
+See the [learning objectives]({{ site.baseurl }}/learning-objectives/). In
 short: frame a biological question as a stats/ML problem; distinguish and choose among ML
 algorithm classes; reason about generalization and evaluation; **read code and say precisely
 what it does**; recover specs, find gaps, and critique designs; and direct and verify a
@@ -52,12 +49,12 @@ coding agent.
 
 ## Schedule
 
-See the [schedule](https://bu-cds-bf550.github.io/schedule/) for the twelve-week topic
+See the [schedule]({{ site.baseurl }}/schedule/) for the twelve-week topic
 progression and the three-act arc.
 
 ## Assessment
 
-See [Assessment & AI Policy](https://bu-cds-bf550.github.io/assessment/). Your grade comes
+See [Assessment & AI Policy]({{ site.baseurl }}/assessment/). Your grade comes
 from twelve weekly problem sets (each carrying two no-AI questions), two written code-reading
 exams (no AI: a midterm on Mon Nov 2 and an Act III exam on Mon Nov 30), a synthesis project, and
 participation. **There is no exam during finals period** — the synthesis project is the culminating
@@ -77,19 +74,92 @@ Full details, including the AI level attached to each question:
 
 ## Materials & tools
 
-- **Coding agent:** provided — details at the start of the term.
-- **Language / runtime:** Python.
-- **Textbook:** [*BF550 — Biological Data Analysis, Simulation First*](https://bu-cds-bf550.github.io/bf550-textbook/),
+- **Textbook:** [*Biological Data Analysis, Simulation First*](https://bu-cds-bf550.github.io/bf550-textbook/),
   written for this course and free to read online. One chapter a week, before that week's first
   meeting. Every chapter carries ungraded practice problems with worked solutions.
+- **Coding agent and textbook tutor:** provided to every student. No personal subscription is
+  needed.
+- **Language / runtime:** Python, in a notebook.
 - **Other readings:** selected papers where a primary source is the better teacher (e.g. the RDP
-  Naive Bayes classifier paper). **Nothing in this course has to be bought.**
+  Naive Bayes classifier paper), linked from the week that uses them.
+
+**Nothing in this course has to be bought.**
+
+## Workload
+
+Three meetings a week is about five and a quarter hours in class, and roughly half of that time is
+working session — you do a real share of the week's work with instructors and TAs in the room.
+Outside class, budget about two hours for the chapter and the rest of the week for the problem set.
+
+## Submitting work
+
+One notebook per problem set — your code, your figures, and your answers in complete sentences —
+**due Monday at 11:59 pm**, covering the previous week's topic. A number with no sentence around it
+earns no credit: in a course where an agent can produce any number you ask for, the sentence is the
+part that shows you understood it.
 
 ## Policies
 
-*Standard BU and Bioinformatics MS program policies — academic conduct, AI use (per the
-levels on each assignment), accessibility and accommodations, attendance, and religious
-observance — will be included here in the final syllabus.*
+### Academic conduct
+
+You are bound by the Boston University academic conduct code. Plagiarism, misrepresenting someone
+else's work as your own, and falsifying results or data are violations, and in this course so is
+**presenting an agent's work as understanding you do not have** — an annotation that does not match
+the code, "hand-checked" values you did not actually work out, a critique that misreads the
+implementation. The deliverables are built to surface that distinction rather than to trap you: they
+ask you to demonstrate the understanding, not to assert it. Suspected violations are referred as the
+code requires. See BU's [academic policies](https://www.bu.edu/academics/policies/).
+
+### AI use
+
+Using the provided coding agent is **expected, not a shortcut** — on most questions it is the
+assignment. What governs is the level printed on each individual question, from the
+[AI Assessment Scale](https://aiassessmentscale.com/): level 4 means use the agent freely and own
+the result; level 1 means work unaided. Two questions on every problem set and both exams are
+level 1, and those two questions are the ones that tell you — before an exam does — whether your
+own code literacy is growing. Using the agent there is not a shortcut past a hurdle; it is
+throwing away the only unaided measurement you get. Full detail is on the
+[assessment page]({{ site.baseurl }}/assessment/).
+
+### Attendance and participation
+
+Participation is 5% of the grade and it means engagement in the working sessions, not seat time.
+Come to class; the working sessions are where help is cheapest and where designs get compared across
+the room, which is the part of the course that cannot be made up alone. Tell us in advance when you
+cannot make it.
+
+### Late work, and missing a week
+
+If you miss a week, the problem set stays open with **no penalty until the following Monday**. A
+missed design section converts to a hindsight critique — a different prompt on the same problem,
+worth the same credit. Questions that depend on earlier weeks ship with a reference implementation,
+so one bad week never blocks the next. One missed week costs one week, never more. Anything larger —
+illness, emergency, an accommodation — is a conversation, and the earlier you start it the more
+options exist.
+
+### Accessibility and accommodations
+
+If you have a documented disability, or think you may have one, work with
+[Disability & Access Services](https://www.bu.edu/disability/) to arrange accommodations, and send us
+your letter as early in the term as you can so we can implement it properly rather than
+retroactively. Accommodations for the two closed-book exams need to be arranged before the exam
+date, not after.
+
+If any part of this course or its materials is a barrier — the site, the textbook, the notebooks,
+the provided tools — tell us. We would rather fix it than work around it.
+
+### Religious observance
+
+Massachusetts law and BU policy entitle you to be excused from class and from any assessment missed
+because of religious observance, without penalty and with a fair opportunity to make up the work.
+Let us know in advance and we will schedule around it.
+
+### Grading
+
+The component weights are in the [assessment table](#assessment) above; what each section of a
+problem set is graded on — completion, timeliness, or correctness — is on the
+[problem sets page]({{ site.baseurl }}/assignments/). Practice is graded on completion, design on
+being on time rather than on being right, and only the build section is graded on the work itself.
 
 ## A note on how this course was built
 

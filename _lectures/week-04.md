@@ -2,24 +2,27 @@
 title: "Week 4 — Bayes' theorem; estimating probabilities from counts"
 ---
 
-> **Under construction.** Lecture materials for Week 4 will be posted here.
+**Act II** · composition operation: **mix**
 
-## Topic
+**Meetings:** Mon **Sep 21** · Wed **Sep 23** · Fri **Sep 25**
 
-Bayes' theorem; estimating probabilities from counts.
+> *What species did this sequence come from?*
 
-**Act II.**  
-**Composition operation:** mix  
-**The question you're answering:** *What species did this sequence come from?*
+## Before the first meeting
 
-See the [schedule]({{ site.baseurl }}/schedule/) for how this week fits the three-act arc, and the
-[detailed calendar]({{ site.baseurl }}/calendar/) for dates.
+Read [chapter 4 — Mix: Bayes' theorem and what a sample is made of](https://bu-cds-bf550.github.io/bf550-textbook/chapters/ch04-mix.html). Budget about two hours: the chapter
+plus its worked notebook. The chapter's practice problems are ungraded and have worked solutions —
+they are the cheapest way to find out whether the reading landed.
 
-## Materials
+## In class
 
-- **Reading (before the first meeting):** [textbook chapter 4](https://bu-cds-bf550.github.io/bf550-textbook/chapters/ch04-mix.html)
-- Later meetings are working sessions on the week's problem set.
+{% include slide-links.html week="week-04" %}
 
-## Reading / references
+The topic opens in the first meeting. The rest of the week is working sessions on the problem set,
+with instructors and TAs in the room.
 
-_To be added._
+## Where this fits
+
+The [schedule]({{ site.baseurl }}/schedule/) places this week in the three-act arc and shows what it
+composes from; the [calendar]({{ site.baseurl }}/calendar/) has the dates and deadlines. The weekly
+format is on the [problem sets page]({{ site.baseurl }}/assignments/).

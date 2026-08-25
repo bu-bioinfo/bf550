@@ -9,9 +9,10 @@ Every class meeting, by week, with the topic and what is due. The
 [schedule]({{ site.baseurl }}/schedule/) explains the topics and the three-act arc; this page tells
 you which days we meet and when things are due.
 
-> **Draft.** Dates are derived from the published BU Fall 2026 academic calendar and were checked
-> against the [Office of the University Registrar](https://www.bu.edu/reg/calendars/) on 13 Aug 2026.
-> Meeting times and room are still TBD. Topics may shift; dates will not.
+Dates follow the BU Fall 2026 academic calendar published by the
+[Office of the University Registrar](https://www.bu.edu/reg/calendars/). **This page is the
+authoritative source for dates and deadlines in this course** — where it disagrees with anything
+else, it wins.
 
 ## How the week works
 

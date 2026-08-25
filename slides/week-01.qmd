@@ -1,0 +1,177 @@
+---
+title: "Worlds you can build"
+subtitle: "BF550 · Week 1 · First meeting"
+---
+
+## Before anything else, a question
+
+A colleague measures DNA methylation at one site: **80 reads, 49 say methylated.**
+
+So the site is 61% methylated.
+
+. . .
+
+**If she ran the same sample again — would she get 61%?**
+
+55%? 70%? How would anyone know, without paying for the rerun?
+
+## The habit this course builds
+
+> Before you analyze data, write down — **as runnable code** — the process you
+> think produced it.
+
+That code is a world you control. You set the truth, run the experiment for
+free, as many times as you like — and *watch* how far an answer can wander
+from a truth you chose.
+
+. . .
+
+Research data has no answer key. A world you built is the only place you can
+ever check your method against a known answer.
+
+## How the course runs
+
+- **Read first.** The [textbook](https://bu-cds-bf550.github.io/bf550-textbook/) carries each week's ideas; meetings put them
+  to work. This week: [chapter 1](https://bu-cds-bf550.github.io/bf550-textbook/chapters/ch01-simulating-a-process.html).
+- **One problem set a week**, three sections: warm-ups, your own design, then
+  building on last week's problem.
+- **Every question states its AI level.** Some say *use the agent freely*; two
+  per week say *no AI at all* — those rehearse exactly what the exams test.
+- Meetings are mostly **working time**, with us in the room.
+- Dates, rooms, policies: the [course site](https://bu-cds-bf550.github.io/).
+
+## A world, in eight lines
+
+```{python}
+#| echo: true
+import numpy as np
+
+def sequence_site(m, n_reads, rng):
+    """Number of methylated reads at a site with true methylation m."""
+    methylated = 0
+    for _ in range(n_reads):
+        if rng.random() < m:      # this read's molecule carries the mark
+            methylated += 1
+    return methylated
+
+rng = np.random.default_rng(3)
+print(sequence_site(m=0.65, n_reads=80, rng=rng))
+```
+
+The story, visible in the code: each read is one molecule; each molecule
+carries the mark with probability $m$.
+
+## Predict before you run {.smaller}
+
+The true methylation is **0.65**. We rerun the 80-read experiment 2,000 times
+and plot the observed fractions.
+
+**Commit to answers before the next slide:**
+
+::: {.incremental}
+- Will the histogram sit on 0.65?
+- How wide — could a rerun say 0.55? Could it say 0.75?
+- What changes with 20 reads? With 320?
+:::
+
+::: {.notes}
+Collect predictions out loud before advancing. Ask for a show of hands on the depth question
+(wider / narrower / same) so the room has committed before the histogram appears.
+:::
+
+## What the world says
+
+```{python}
+#| fig-align: center
+import matplotlib.pyplot as plt
+rng = np.random.default_rng(7)
+depths = {20: "#2a78d6", 80: "#eb6834", 320: "#1baf7a"}
+fig, ax = plt.subplots(figsize=(8, 3.6))
+for depth, color in depths.items():
+    fractions = []
+    for _ in range(2000):
+        count = sequence_site(0.65, depth, rng)
+        fractions.append(count / depth)
+    ax.hist(fractions, bins=np.arange(0.3, 1.0, 0.02), histtype="step",
+            lw=2.5, color=color, label=f"{depth} reads")
+ax.axvline(0.65, color="#52514e", ls=":", lw=2)
+ax.set_xlabel("observed methylation fraction")
+ax.set_ylabel("runs")
+ax.legend(frameon=False)
+ax.spines[["top", "right"]].set_visible(False)
+plt.show()
+```
+
+Same truth every time. The *answers* wander — and now you know by how much.
+
+## Turn it around
+
+She observed **49 of 80**. Which truths routinely produce that?
+
+```{python}
+#| echo: true
+#| output-location: slide
+rng = np.random.default_rng(11)
+for m in np.arange(0.40, 0.85, 0.05):
+    matches = 0
+    for _ in range(400):
+        count = sequence_site(m, 80, rng)
+        if abs(count - 49) <= 3:        # close enough to her 49?
+            matches += 1
+    print(f"true m = {m:.2f}: produces data like hers {matches/400:.0%} of the time")
+```
+
+## The honest report
+
+Not *"61% methylated."*
+
+. . .
+
+> *"Most consistent with about 0.60, plausibly anywhere in 0.50–0.70 —
+> and 80 reads cannot say more."*
+
+In this course, **the sentence around the number is the answer.** A number
+with no sentence earns no credit — here, and on everything you turn in.
+
+## One warning to carry all term
+
+> All models are wrong — but some are useful.
+>
+> — George Box
+
+Every model is a *simplified version* of the process that made the data.
+That is what makes it runnable — and it means every model is wrong
+somewhere.
+
+The skill is knowing **where yours stops holding, and what that would look
+like.** Every chapter ends on that question. So will you.
+
+## Your first design opens today
+
+*If 68 of 100 people taste the bitter compound PTC, how common is the
+taste allele — and how sure can you be?*
+
+Problem Set 1, section 2. You write down an **approach**, in four parts:
+
+| | |
+|---|---|
+| **Frame** | What process produced this data? |
+| **Decompose** | What has to be computed or estimated? |
+| **Select** | What would the right method need to do? |
+| **Anticipate** | How could your answer be wrong — and how would you know? |
+
+. . .
+
+**Graded for being on time, not for being right.** A design that turns out
+wrong earns full credit. Committing before you know is the point.
+
+## Working time — the rest of today
+
+1. **Toolchain setup** — Python running, the notebook opening, a seeded
+   simulation producing the same numbers twice.
+2. **Warm-ups** — Problem Set 1, section 1. Ask for anything, freely.
+3. **Start your Frame** — one paragraph: the chain from "an allele exists"
+   to "a student writes *bitter*."
+
+Before Friday: **read chapter 1** — Friday is working time, and it pays off
+in proportion to what you bring.

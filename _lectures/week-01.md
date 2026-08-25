@@ -2,25 +2,28 @@
 title: "Week 1 — Simulating a process; binomial counts; sampling variability"
 ---
 
-> **Under construction.** Lecture materials for Week 1 will be posted here.
+**Act I** · composition operation: **build**
 
-## Topic
+**Meetings:** Wed **Sep 2** · Fri **Sep 4**
 
-Simulating a process; binomial counts; sampling variability.
+> *If 68 of 100 people taste PTC, how common is the allele?*
 
-**Act I.**  
-**Composition operation:** build  
-**The question you're answering:** *If 68 of 100 people taste PTC, how common is the allele?*
+## Before the first meeting
 
-See the [schedule]({{ site.baseurl }}/schedule/) for how this week fits the three-act arc, and the
-[detailed calendar]({{ site.baseurl }}/calendar/) for dates.
+Read [chapter 1 — Worlds you can build: simulating a process](https://bu-cds-bf550.github.io/bf550-textbook/chapters/ch01-simulating-a-process.html). Budget about two hours: the chapter
+plus its worked notebook. The chapter's practice problems are ungraded and have worked solutions —
+they are the cheapest way to find out whether the reading landed.
 
-## Materials
+## In class
 
-- **Reading (before the first meeting):** [textbook chapter 1](https://bu-cds-bf550.github.io/bf550-textbook/chapters/ch01-simulating-a-process.html)
-- **Slides:** [week 1 deck](https://bu-cds-bf550.github.io/bf550-textbook/slides/week-01.html)
-- Later meetings are working sessions on the week's problem set.
+{% include slide-links.html week="week-01" %}
+- The topic opens in the first meeting. The rest of the week is working sessions on the problem set,
+  with instructors and TAs in the room.
 
-## Reading / references
+Week 1 has two meetings — the term begins on a Wednesday. The first problem set is due Mon Sep 14, at the end of week 2.
 
-_To be added._
+## Where this fits
+
+The [schedule]({{ site.baseurl }}/schedule/) places this week in the three-act arc and shows what it
+composes from; the [calendar]({{ site.baseurl }}/calendar/) has the dates and deadlines. The weekly
+format is on the [problem sets page]({{ site.baseurl }}/assignments/).

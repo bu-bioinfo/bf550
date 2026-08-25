@@ -2,23 +2,26 @@
 title: "Week 13 — Project launch"
 ---
 
-> **Under construction.** Materials for Week 13 will be posted here.
+**Meetings:** Mon **Nov 23** — one meeting; Thanksgiving recess follows.
 
-## Topic
+> *What is a process worth simulating, for a question you chose?*
 
-Project launch: choosing a process worth simulating.
+## In class
 
-The synthesis project is the course in miniature — design a generative process for a biological
-question you care about, then show what a method can and cannot recover from it. From here to the
-end of term, class meetings are project studio.
+{% include slide-links.html week="week-13" %}
 
-See the [schedule]({{ site.baseurl }}/schedule/) and the
-[detailed calendar]({{ site.baseurl }}/calendar/).
+The synthesis project launches: choose a biological question you care about, design a generative
+process for it, and show what a method can and cannot recover from it. It is the same move you will
+have made twelve times by then — the difference is that this time you pick the question.
 
-## Materials
+From here to the end of term, every class meeting is project studio, with instructors and TAs in the
+room. The project proposal is due **Wed Dec 2** and the project bundle during finals week; **there is
+no exam during finals period.**
 
-_To be added._
+The last graded problem set, **PS12, is due Mon Nov 30.**
 
-## Reading / references
+## Where this fits
 
-_To be added._
+The [schedule]({{ site.baseurl }}/schedule/) describes the project and how the three acts lead into
+it; the [calendar]({{ site.baseurl }}/calendar/) has every remaining date. Weighting and criteria are
+on the [assessment page]({{ site.baseurl }}/assessment/).
