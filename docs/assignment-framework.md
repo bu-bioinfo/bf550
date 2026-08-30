@@ -5,12 +5,7 @@ toc: true
 toc_sticky: true
 ---
 
-One problem set a week, in a conventional format: numbered questions, due Monday night. Two things
-make them unusual. **You generate the data yourself** — so you always know the right answer. And
-**one section is sealed** — you commit your own approach to a problem before you are allowed to see
-ours.
-
-Every set has the same three sections, in the same order, every week:
+Every assignment has the same three sections, in the same order, every week:
 
 | | Section | What it is | Typical AI level |
 |---|---|---|:--:|
