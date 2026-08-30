@@ -35,7 +35,7 @@ shell: image
 	$(RUN) bash
 
 image:
-	$(COMPOSE) build --quiet
+	$(COMPOSE) build
 
 clean:
 	rm -rf _site _instructor-slides .jekyll-cache .jekyll-metadata slides/_freeze slides/.quarto
