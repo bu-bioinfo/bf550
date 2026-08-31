@@ -110,6 +110,8 @@ The Bioinformatics Program has developed its own [AI Usage Policy](https://githu
 ::: {.incremental}
 - We will use [SCC](https://www.bu.edu/tech/support/research/computing-resources/scc/) and [VSCode](https://www.bu.edu/tech/support/research/software-and-programming/common-languages/python/python-editing/code-server/)
 - Assignments are delivered and submitted on GitHub
+- Python environments are managed with [conda](https://docs.conda.io) — every assignment ships
+  an `environment.yml` defining the one `bf550` environment you create today and use all term
 - Daily check-ins use [socrative](https://www.socrative.com/)
 - Install [Claude Desktop](https://claude.com/download) on your own computer
 - We will install [claude code](https://claude.com/product/claude-code) on SCC
@@ -315,8 +317,11 @@ wrong earns full credit. Committing before you know is the point.
 
 ## Working time — the rest of today
 
-1. **Toolchain setup** — Python running, the notebook opening, a seeded
-   simulation producing the same numbers twice.
+Follow [Lab 1 · Your working environment](https://bu-cds-bf550.github.io/labs/week-01-1/):
+
+1. **Toolchain setup** — VS Code on the SCC, your assignment repo accepted,
+   the `bf550` conda environment built, a seeded simulation producing the
+   same numbers twice.
 2. **Warm-ups** — Problem Set 1, section 1. Ask for anything, freely.
 3. **Start your Frame** — one paragraph: the chain from "an allele exists"
    to "a student writes *bitter*."
