@@ -11,6 +11,7 @@ toc_sticky: true
 | **Title** | Applied Statistics & Machine Learning for the Life Sciences |
 | **Number / credits** | BF550 · 4 credits |
 | **Term** | Fall 2026 · Wed Sep 2 – Wed Dec 9 |
+| **Location** | CDS B62 |
 | **Meetings** | Three 105-minute sessions per unit, Monday / Wednesday / Friday |
 | **Instructor** | Adam Labadorf · [labadorf@bu.edu](mailto:labadorf@bu.edu) |
 | **Prerequisites** | Some programming experience; introductory biology / molecular biology |
