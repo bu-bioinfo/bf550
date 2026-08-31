@@ -1,5 +1,5 @@
 ---
-title: "Week 13 — Project launch"
+title: "Unit 13 — Project launch"
 ---
 
 **Meetings:** Mon **Nov 23** — one meeting; Thanksgiving recess follows.
@@ -8,8 +8,8 @@ title: "Week 13 — Project launch"
 
 ## In class
 
-{% include slide-links.html week="week-13" %}
-{% include lab-links.html week="week-13" %}
+{% include slide-links.html unit="unit-13" %}
+{% include lab-links.html unit="unit-13" %}
 
 The synthesis project launches: choose a biological question you care about, design a generative
 process for it, and show what a method can and cannot recover from it. It is the same move you will

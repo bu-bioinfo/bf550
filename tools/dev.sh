@@ -5,7 +5,7 @@
 #   tools/dev.sh slides   render slides/ on every edit and serve the decks at :4200 with reload
 #
 # Browse the site at :4000 -- it serves the whole site, decks included, at /slides/. Use :4200
-# only for a deck you are editing (:4200/week-01.html): its root is _site/slides/, so the site
+# only for a deck you are editing (:4200/unit-01.html): its root is _site/slides/, so the site
 # page Jekyll writes there loads without styling, its /assets/... links pointing above the root.
 #
 # Both write into _site/. Jekyll keeps _site/slides across its rebuilds (`keep_files`) and never

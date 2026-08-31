@@ -1,5 +1,5 @@
 ---
-title: "Week 2 — Null distributions; what a p-value is; multiple testing"
+title: "Unit 2 — Null distributions; what a p-value is; multiple testing"
 ---
 
 **Act I** · composition operation: **repeat**
@@ -16,16 +16,16 @@ they are the cheapest way to find out whether the reading landed.
 
 ## In class
 
-{% include slide-links.html week="week-02" %}
-{% include lab-links.html week="week-02" %}
+{% include slide-links.html unit="unit-02" %}
+{% include lab-links.html unit="unit-02" %}
 
-The topic opens in the first meeting. The rest of the week is working sessions on the problem set,
+The topic opens in the first meeting. The rest of the unit is working sessions on the problem set,
 with instructors and TAs in the room.
 
-Week 2 has two meetings; Labor Day falls on the Monday.
+Unit 2 has two meetings; Labor Day falls on the Monday.
 
 ## Where this fits
 
-The [schedule]({{ site.baseurl }}/schedule/) places this week in the three-act arc, shows what it
-composes from, and has the dates and deadlines. The weekly format is on the
+The [schedule]({{ site.baseurl }}/schedule/) places this unit in the three-act arc, shows what it
+composes from, and has the dates and deadlines. The unit format is on the
 [problem sets page]({{ site.baseurl }}/assignments/).

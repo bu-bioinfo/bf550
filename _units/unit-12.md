@@ -1,5 +1,5 @@
 ---
-title: "Week 12 — Clustering: mixture models → k-means; validating *k*"
+title: "Unit 12 — Clustering: mixture models → k-means; validating *k*"
 ---
 
 **Act III** · composition operation: **mix, hidden**
@@ -16,14 +16,14 @@ they are the cheapest way to find out whether the reading landed.
 
 ## In class
 
-{% include slide-links.html week="week-12" %}
-{% include lab-links.html week="week-12" %}
+{% include slide-links.html unit="unit-12" %}
+{% include lab-links.html unit="unit-12" %}
 
-The topic opens in the first meeting. The rest of the week is working sessions on the problem set,
+The topic opens in the first meeting. The rest of the unit is working sessions on the problem set,
 with instructors and TAs in the room.
 
 ## Where this fits
 
-The [schedule]({{ site.baseurl }}/schedule/) places this week in the three-act arc, shows what it
-composes from, and has the dates and deadlines. The weekly format is on the
+The [schedule]({{ site.baseurl }}/schedule/) places this unit in the three-act arc, shows what it
+composes from, and has the dates and deadlines. The unit format is on the
 [problem sets page]({{ site.baseurl }}/assignments/).

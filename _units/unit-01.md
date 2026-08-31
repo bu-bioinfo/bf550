@@ -1,5 +1,5 @@
 ---
-title: "Week 1 — Simulating a process; binomial counts; sampling variability"
+title: "Unit 1 — Simulating a process; binomial counts; sampling variability"
 ---
 
 **Act I** · composition operation: **build**
@@ -16,15 +16,15 @@ they are the cheapest way to find out whether the reading landed.
 
 ## In class
 
-{% include slide-links.html week="week-01" %}
-{% include lab-links.html week="week-01" %}
-- The topic opens in the first meeting. The rest of the week is working sessions on the problem set,
+{% include slide-links.html unit="unit-01" %}
+{% include lab-links.html unit="unit-01" %}
+- The topic opens in the first meeting. The rest of the unit is working sessions on the problem set,
   with instructors and TAs in the room.
 
-Week 1 has two meetings — the term begins on a Wednesday. The first problem set is due Mon Sep 14, at the end of week 2.
+Unit 1 has two meetings — the term begins on a Wednesday. The first problem set is due Mon Sep 14, at the end of unit 2.
 
 ## Where this fits
 
-The [schedule]({{ site.baseurl }}/schedule/) places this week in the three-act arc, shows what it
-composes from, and has the dates and deadlines. The weekly format is on the
+The [schedule]({{ site.baseurl }}/schedule/) places this unit in the three-act arc, shows what it
+composes from, and has the dates and deadlines. The unit format is on the
 [problem sets page]({{ site.baseurl }}/assignments/).

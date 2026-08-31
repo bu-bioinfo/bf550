@@ -36,9 +36,9 @@ plugins:
 
 # Collections
 collections:
-  lectures:
+  units:
     output: true
-    permalink: /lectures/:path/
+    permalink: /units/:path/
 
 # Defaults
 defaults:
@@ -52,10 +52,10 @@ defaults:
         nav: "sidebar"
       classes: wide
 
-  # _lectures
+  # _units
   - scope:
       path: ""
-      type: lectures
+      type: units
     values:
       layout: single
       sidebar:

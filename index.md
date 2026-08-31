@@ -11,7 +11,7 @@ toc_sticky: true
 | **Title** | Applied Statistics & Machine Learning for the Life Sciences |
 | **Number / credits** | BF550 · 4 credits |
 | **Term** | Fall 2026 · Wed Sep 2 – Wed Dec 9 |
-| **Meetings** | Three 105-minute sessions per week, Monday / Wednesday / Friday |
+| **Meetings** | Three 105-minute sessions per unit, Monday / Wednesday / Friday |
 | **Instructor** | Adam Labadorf · [labadorf@bu.edu](mailto:labadorf@bu.edu) |
 | **Prerequisites** | Some programming experience; introductory biology / molecular biology |
 | **Textbook** | [*Biological Data Analysis, Simulation First*](https://bu-cds-bf550.github.io/bf550-textbook/) — free, online, written for this course |
@@ -49,20 +49,20 @@ coding agent.
 
 ## Schedule
 
-See the [schedule]({{ site.baseurl }}/schedule/) for the twelve-week topic
+See the [schedule]({{ site.baseurl }}/schedule/) for the twelve-unit topic
 progression and the three-act arc.
 
 ## Assessment
 
 See [Assessment & AI Policy]({{ site.baseurl }}/assessment/). Your grade comes
-from twelve weekly problem sets (each carrying two no-AI questions), two written code-reading
+from twelve problem sets, one per unit, (each carrying two no-AI questions), two written code-reading
 exams (no AI: a midterm on Mon Nov 2 and an Act III exam on Mon Nov 30), a synthesis project, and
 participation. **There is no exam during finals period** — the synthesis project is the culminating
 assessment, and the last two and a half weeks of the course belong to it.
 
 | Component | Weight |
 |---|---:|
-| Weekly problem sets (12) | 40% |
+| Problem sets (12) | 40% |
 | Written midterm — Mon Nov 2 | 10% |
 | Act III exam — Mon Nov 30 | 10% |
 | Synthesis project | 35% |
@@ -75,13 +75,13 @@ Full details, including the AI level attached to each question:
 ## Materials & tools
 
 - **Textbook:** [*Biological Data Analysis, Simulation First*](https://bu-cds-bf550.github.io/bf550-textbook/),
-  written for this course and free to read online. One chapter a week, before that week's first
+  written for this course and free to read online. One chapter per unit, before that unit's first
   meeting. Every chapter carries ungraded practice problems with worked solutions.
 - **Coding agent and textbook tutor:** provided to every student. No personal subscription is
   needed.
 - **Language / runtime:** Python, in a notebook.
 - **Other readings:** selected papers where a primary source is the better teacher (e.g. the RDP
-  Naive Bayes classifier paper), linked from the week that uses them.
+  Naive Bayes classifier paper), linked from the unit that uses them.
 
 ## Assignments
 
@@ -92,7 +92,7 @@ along with assignment materials.
 
 One notebook per problem set — your code, your figures, and your answers in complete sentences —
 **due before class one week from the assignment date**, covering the previous
-week's topic. A number with no sentence around it earns no credit: in a course
+unit's topic. A number with no sentence around it earns no credit: in a course
 where an agent can produce any number you ask for, the sentence is the part
 that shows you understood it.
 
@@ -128,7 +128,7 @@ Come to class; the working sessions are where help is cheapest and where designs
 the room, which is the part of the course that cannot be made up alone. Tell us in advance when you
 cannot make it.
 
-### Late work, and missing a week
+### Late work, and missing a unit
 
 Assignments may be submitted after the due date at a penalty of 25% per week late.
 In the event of illness, emergency, or other extenuating circumstance, contact your

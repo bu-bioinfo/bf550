@@ -3,7 +3,7 @@
 #
 #   make dev     Jekyll with live reload at http://localhost:4000 and the slide decks with live
 #                reload at http://localhost:4200 -- one command, both watchers. Browse :4000;
-#                open a deck you are editing directly, http://localhost:4200/week-01.html.
+#                open a deck you are editing directly, http://localhost:4200/unit-01.html.
 #   make site    the exact CI build: Jekyll -> decks -> PDFs -> content gate, into _site/
 #
 # Two services share one image and one mount. Files they write (_site/, .jekyll-cache/,
@@ -31,4 +31,4 @@ services:
     <<: *common
     command: tools/dev.sh slides
     ports:
-      - "4200:4200"                  # a deck, with Quarto's own live reload: /week-01.html
+      - "4200:4200"                  # a deck, with Quarto's own live reload: /unit-01.html

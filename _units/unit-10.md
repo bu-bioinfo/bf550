@@ -1,5 +1,5 @@
 ---
-title: "Week 10 — Trees, forests, and boosting: prediction with no probability story"
+title: "Unit 10 — Trees, forests, and boosting: prediction with no probability story"
 ---
 
 **Act III**
@@ -16,16 +16,16 @@ they are the cheapest way to find out whether the reading landed.
 
 ## In class
 
-{% include slide-links.html week="week-10" %}
-{% include lab-links.html week="week-10" %}
+{% include slide-links.html unit="unit-10" %}
+{% include lab-links.html unit="unit-10" %}
 
-The topic opens in the first meeting. The rest of the week is working sessions on the problem set,
+The topic opens in the first meeting. The rest of the unit is working sessions on the problem set,
 with instructors and TAs in the room.
 
-**The midterm is Mon Nov 2**, in the first meeting — closed book, no AI, code reading, covering Acts I and II. The week's topic opens in the meeting after it.
+**The midterm is Mon Nov 2**, in the first meeting — closed book, no AI, code reading, covering Acts I and II. The unit's topic opens in the meeting after it.
 
 ## Where this fits
 
-The [schedule]({{ site.baseurl }}/schedule/) places this week in the three-act arc, shows what it
-composes from, and has the dates and deadlines. The weekly format is on the
+The [schedule]({{ site.baseurl }}/schedule/) places this unit in the three-act arc, shows what it
+composes from, and has the dates and deadlines. The unit format is on the
 [problem sets page]({{ site.baseurl }}/assignments/).

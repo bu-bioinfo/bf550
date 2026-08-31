@@ -2,7 +2,7 @@
 #
 #   make dev        live site at http://localhost:4000 + live decks at http://localhost:4200
 #                   Browse the site at :4000 (decks included, under /slides/). :4200 is for a
-#                   deck you are editing -- open it directly, http://localhost:4200/week-01.html.
+#                   deck you are editing -- open it directly, http://localhost:4200/unit-01.html.
 #   make site       the production build into _site/ (Jekyll, decks, PDFs, content gate)
 #   make pdf        re-render decks and PDFs only
 #   make instructor decks with speaker notes -> _instructor-slides/ (never published)

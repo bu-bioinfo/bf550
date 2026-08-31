@@ -5,13 +5,13 @@ toc: true
 toc_sticky: true
 ---
 
-Every assignment has the same three sections, in the same order, every week:
+Every assignment has the same three sections, in the same order, every unit:
 
 | | Section | What it is | Typical AI level |
 |---|---|---|:--:|
-| **1** | **Practice** | Short exercises on this week's ideas | 3 |
-| **2** | **Design** | Your approach to this week's problem, before you see ours | 2 |
-| **3** | **Build** | Last week's problem — now that our materials have unsealed | 1 – 4 |
+| **1** | **Practice** | Short exercises on this unit's ideas | 3 |
+| **2** | **Design** | Your approach to this unit's problem, before you see ours | 2 |
+| **3** | **Build** | Last unit's problem — now that our materials have unsealed | 1 – 4 |
 
 The shape never changes, so you always know what you are walking into. What changes is the biology.
 
@@ -30,7 +30,7 @@ answer key in this course, and there does not need to be one.
 
 ## Section 1 · Practice
 
-A handful of short exercises on the material from this week. Warm-ups: run a small simulation, read
+A handful of short exercises on the material from this unit. Warm-ups: run a small simulation, read
 a short function, sanity-check a number, plot something and say what you see.
 
 **Practice is graded on completion, not correctness.** Get it done, get it wrong, fix it — all fine.
@@ -72,12 +72,12 @@ misses.
 
 **Why level 2 and not level 4.** Use the agent to think out loud, look things up, and check your
 vocabulary. Do not ask it for the approach and write down what it says. The framing, the
-decomposition, and the failure analysis need to be yours — because next week's section 3 compares
+decomposition, and the failure analysis need to be yours — because next unit's section 3 compares
 *your* reasoning to ours, and if the design was the agent's there is nothing to compare.
 
 ## Section 3 · Build
 
-Our materials for the problem you designed last week now unseal. This section runs in two parts.
+Our materials for the problem you designed in the previous unit now unseal. This section runs in two parts.
 
 ### First, the divergence analysis
 
@@ -99,7 +99,7 @@ happens.
 ### Then, the six questions
 
 They are not labeled by type and you do not need to memorize a structure, but the shape repeats, and
-by week three you will recognize it:
+by unit three you will recognize it:
 
 - **Build the process.** Turn a description of some biology into code that generates data.
 - **Convince yourself it's right.** Check your simulator against settings whose answers you already
@@ -116,7 +116,7 @@ examined on.
 
 ## Checking your own work
 
-The second build question every week is the one students underestimate. You have no answer key, and
+The second build question every unit is the one students underestimate. You have no answer key, and
 the code you are handed may be wrong — so how do you know?
 
 You run your simulator on settings where the answer follows from the *structure* of the situation
@@ -131,11 +131,11 @@ this course. It is also how you will be expected to check anything, ever, once n
 
 Because a design you can revise after seeing the answer is not a design, it is a summary.
 
-The seal is structural, not an honor system. You cannot look at our approach to this week's problem
-because it does not exist yet — it unseals in next week's set, alongside the build section that uses
+The seal is structural, not an honor system. You cannot look at our approach to this unit's problem
+because it does not exist yet — it unseals in next unit's set, alongside the build section that uses
 it. Nobody has to promise not to peek.
 
-It has a second effect we think matters more. You implement each idea **a week after you first meet
+It has a second effect we think matters more. You implement each idea **a unit after you first meet
 it**, so you build things after they have had time to settle rather than on the day you were
 introduced to them.
 
@@ -153,7 +153,7 @@ all three.
 ## Working sessions
 
 **Every class meeting includes working time** — roughly 45 minutes to an hour with instructors and
-TAs in the room, on the set in front of you. Each meeting in the week has a natural target: the
+TAs in the room, on the set in front of you. Each meeting in the unit has a natural target: the
 first opens the new topic and the new problem, so the design section is the natural thing to start;
 later meetings are for the build.
 
@@ -161,13 +161,13 @@ You are not expected to finish a set in class. You are expected to get far enoug
 available, that the rest is tractable alone.
 
 Class is also where **designs get compared across the room.** Several genuinely different approaches
-to the same problem show up every week, and seeing four of them side by side — including the ones
+to the same problem show up every unit, and seeing four of them side by side — including the ones
 better than yours — teaches something individual feedback cannot.
 
 ## AI use, question by question
 
 Every question states its [AI level](https://aiassessmentscale.com/) — not every section, every
-*question*. Most weeks look like this:
+*question*. Most units look like this:
 
 | | Typical level | Why |
 |---|:--:|---|
@@ -179,12 +179,12 @@ Every question states its [AI level](https://aiassessmentscale.com/) — not eve
 
 There are **two no-AI questions in every set.** That is deliberate. Both exams are code-reading
 exams, so those questions are not a hurdle bolted onto the course — they are the rehearsal,
-happening every week, in the ordinary course of the work. By the midterm you will have done more
+happening every unit, in the ordinary course of the work. By the midterm you will have done more
 than a dozen of them.
 
 ## Going deeper, your way
 
-The last question every week offers three directions, and **you must do at least one:**
+The last question every unit offers three directions, and **you must do at least one:**
 
 - **Math** — derive the result your simulation approximated.
 - **Compute** — make it fast, robust, or scalable, then use the speed to answer a question the slow
@@ -206,13 +206,13 @@ content, **with worked solutions.** Ungraded and optional. If you want more repe
 attempting the graded set — or want to check whether you actually followed the reading — that is
 what they are for.
 
-## If you miss a week
+## If you miss a unit
 
 The set stays open with no penalty until the following Monday. Questions that depend on earlier
-weeks ship with a reference implementation, so one bad week never blocks the next.
+units ship with a reference implementation, so one bad unit never blocks the next.
 
 If you miss a **design**, it converts to a **hindsight critique** — a different prompt on the same
-problem, worth the same credit, with no pretence that the seal held. One missed week costs one week,
+problem, worth the same credit, with no pretence that the seal held. One missed unit costs one unit,
 never more.
 
 ## What we're looking for

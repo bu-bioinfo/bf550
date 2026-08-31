@@ -1,6 +1,6 @@
 ---
 title: "Lab 1 · Your working environment"
-permalink: /labs/week-01-1/
+permalink: /labs/unit-01-1/
 toc: true
 toc_sticky: true
 ---
@@ -85,7 +85,7 @@ conda env update -n bf550 -f environment.yml
 ```
 
 This adds everything the course uses — numpy, matplotlib, pytest, and the rest — to the
-environment from step 3. Every assignment ships this same file; on the rare week it changes,
+environment from step 3. Every assignment ships this same file; on the rare occasion it changes,
 this same command brings you up to date.
 
 ### 7 · Open the notebook, pick the kernel
@@ -114,7 +114,7 @@ Claude, and ask it to explain what each line does. Then switch back to VS Code a
 again with that explanation in hand. Code out, explanation back, **your own reading last** — that
 is the loop this course is built on, and you will run it hundreds of times.
 
-**Claude Desktop is your tool for AI levels 2 and 3**, which is everything this week asks of you:
+**Claude Desktop is your tool for AI levels 2 and 3**, which is everything this unit asks of you:
 brainstorming and organizing your own thinking (level 2), and drafting that you then evaluate,
 revise, and attribute (level 3). Level 4 is different — an agent that edits the files in your
 repository directly, which is Claude Code, and we install it on the SCC in the next lab. Every
@@ -147,4 +147,4 @@ known snags:
   reload the VS Code window (F1 → "Reload Window") and look again.
 - **Claude will not take the course subscription** — sign in with your BU address, and tell us
   today if it still will not; in the meantime [claude.ai](https://claude.ai) in a browser tab
-  does everything this week needs.
+  does everything this unit needs.

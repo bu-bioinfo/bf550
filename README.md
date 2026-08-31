@@ -18,7 +18,7 @@ agents. The course makes a deliberate bet: the primary coding learning objective
 > reaching production, and CI runs it on every push and pull request.
 >
 > **Working locally.** `make dev` runs the site (live reload, <http://localhost:4000>) and the
-> slide decks (live reload, <http://localhost:4200/week-01.html>) in a Docker replica of the CI
+> slide decks (live reload, <http://localhost:4200/unit-01.html>) in a Docker replica of the CI
 > job; `make site` runs the exact production build. Browse the site at :4000, which serves
 > everything including the decks at `/slides/`; :4200 re-renders a deck as you edit it and is
 > rooted at the deck directory, so open a deck there by name rather than its index. See the
@@ -32,7 +32,7 @@ agents. The course makes a deliberate bet: the primary coding learning objective
 | | |
 |---|---|
 | **Credits** | 4 |
-| **Contact** | Three 105-minute sessions per week |
+| **Contact** | Three 105-minute sessions per unit |
 | **Length** | 15 weeks (see the calendar) |
 | **Prereq** | Some programming experience (range expected: rudimentary → advanced) |
 | **Coding agents** | Provided to students; assumed, allowed, and encouraged |
@@ -46,16 +46,16 @@ agents. The course makes a deliberate bet: the primary coding learning objective
 - **[Learning objectives](https://bu-cds-bf550.github.io/learning-objectives/)** — what students will be able to do.
 - **[Course home](https://bu-cds-bf550.github.io/)** — the syllabus: course information,
   description, design, assessment weights, materials, and policies.
-- **[Schedule](https://bu-cds-bf550.github.io/schedule/)** — the twelve-week topic progression,
-  organized by how each week's generative process composes from the last, and the Fall 2026 grid:
+- **[Schedule](https://bu-cds-bf550.github.io/schedule/)** — the twelve-unit topic progression,
+  organized by how each unit's generative process composes from the last, and the Fall 2026 grid:
   every meeting date, deadline, and both exam dates.
-- **[Problem sets](https://bu-cds-bf550.github.io/assignments/)** — the weekly format: build the
+- **[Problem sets](https://bu-cds-bf550.github.io/assignments/)** — the unit format: build the
   data before you analyze it, check your own work without an answer key, and choose a depth
   direction.
 - **[Assessment & AI policy](https://bu-cds-bf550.github.io/assessment/)** — problem sets, the two
   written exams, grading, and the per-question AIAS mapping.
 - **[Textbook](https://bu-cds-bf550.github.io/bf550-textbook/)** — the course's own free, open
-  textbook, one chapter per week, in the [`bf550-textbook`](https://github.com/bu-cds-bf550/bf550-textbook)
+  textbook, one chapter per unit, in the [`bf550-textbook`](https://github.com/bu-cds-bf550/bf550-textbook)
   repository.
 
 Course design material is in [`internal/`](internal/): the
@@ -71,5 +71,5 @@ belongs in this repo — it is public.
 ## Planning
 
 Open design questions are tracked as [discussion issues](https://github.com/bu-cds-bf550/bu-cds-bf550.github.io/issues), one per decision. The
-week-by-week structure itself is settled and lives in [`docs/schedule.md`](docs/schedule.md),
+unit-by-unit structure itself is settled and lives in [`docs/schedule.md`](docs/schedule.md),
 which is authoritative for both topics and dates.

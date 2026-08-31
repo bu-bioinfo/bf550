@@ -1,30 +1,32 @@
 # Lecture decks
 
-One [Quarto revealjs](https://quarto.org/docs/presentations/revealjs/) deck per topic-opening
-meeting, authored in markdown with code that executes at render time. Rendered decks are
+[Quarto revealjs](https://quarto.org/docs/presentations/revealjs/) decks, authored in markdown
+with code that executes at render time. In general every session has a lecture and so a deck; no
+rule fixes which sessions do, and a unit carries as many entries in `_data/slides.yml` as it has
+decks. Rendered decks are
 published at `https://bu-cds-bf550.github.io/slides/<name>.html` with a PDF beside each one;
-the week pages and [`/slides/`](https://bu-cds-bf550.github.io/slides/) link to them from
+the unit pages and [`/slides/`](https://bu-cds-bf550.github.io/slides/) link to them from
 [`_data/slides.yml`](../_data/slides.yml).
 
 ## Authoring
 
-1. Copy [`_template.qmd`](_template.qmd) to `week-NN.qmd`. The template demonstrates every
+1. Copy [`_template.qmd`](_template.qmd) to `unit-NN.qmd`. The template demonstrates every
    construct the decks use: reveals (`. . .`), incremental lists, columns, executed Python
    with hidden or shown code, figures, output-on-the-next-slide, Graphviz/Mermaid diagrams,
    static images (`img/`), and speaker notes.
-2. Add a line to `_data/slides.yml`. That single entry makes the week page show *view · PDF*
+2. Add a line to `_data/slides.yml`. That single entry makes the unit page show *view · PDF*
    links and adds the row on `/slides/`.
 3. Push. CI renders the deck, exports the PDF, gates the site, and deploys.
 
 Conventions the decks inherit from the textbook (see its `CONVENTIONS.md`):
 
-- **Activation, not delivery.** The reading carries first exposure; a deck puts the week's
+- **Activation, not delivery.** The reading carries first exposure; a deck puts the unit's
   ideas to work. A deck that re-teaches its chapter is too long.
 - **Seed every random draw**, reusing the chapter's seeds where a chunk comes from the
   chapter, so what is projected in class is exactly what students find in the reading.
 - **Slide headings are a public interface.** The instructor run-sheets cite slides by
   heading text, not by number. Adding or reordering slides is free; renaming a heading means
-  updating that week's run-sheet.
+  updating that unit's run-sheet.
 
 ### Speaker notes
 
@@ -44,7 +46,7 @@ git-ignored `_instructor-slides/`; open a deck there and press `s`.
 ## Rendering locally
 
 The easy way is the repository's Docker environment, a replica of the CI job (see the
-`Makefile`): `make dev` serves each deck at `http://localhost:4200/week-01.html` and re-renders
+`Makefile`): `make dev` serves each deck at `http://localhost:4200/unit-01.html` and re-renders
 it whenever you save its source, reloading the browser tab; the whole site, decks included, is at
 `http://localhost:4000` (the deck pages under `/slides/`). Open a deck on :4200 by name — that
 server is rooted at `_site/slides/`, so the `/slides/` index Jekyll writes there loads unstyled,
@@ -57,7 +59,7 @@ Without Docker you need [Quarto](https://quarto.org/docs/get-started/) 1.10+, Py
 ```bash
 # from the repository root
 export QUARTO_PYTHON=/path/to/python            # the interpreter with requirements.txt installed
-quarto preview slides                          # a deck at :4200/week-01.html, re-rendered on save
+quarto preview slides                          # a deck at :4200/unit-01.html, re-rendered on save
 tools/build_slides.sh                          # all decks -> _site/slides/
 tools/build_slides.sh --pdf                    # ...plus a PDF beside each deck
 tools/build_slides.sh --instructor             # with speaker notes -> _instructor-slides/
@@ -66,7 +68,7 @@ tools/build_slides.sh --instructor             # with speaker notes -> _instruct
 The rendered decks live in `_site/slides/` next to Jekyll's output; `_config.yml` lists
 `slides` under `keep_files` so `jekyll build` does not delete them, and excludes `slides/`
 so Jekyll never touches the sources. Because that output directory sits outside the Quarto
-project, rendering prints `WARN: Refusing to remove directory ... week-01_files` and a warning
+project, rendering prints `WARN: Refusing to remove directory ... unit-01_files` and a warning
 about the path configuration: harmless, but it does mean stale deck assets accumulate there
 until `make clean`.
 

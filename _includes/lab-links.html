@@ -1,11 +1,11 @@
 {%- comment -%}
-Lab links for a week page: {% include lab-links.html week="week-01" %}
-Lists every lab in _data/labs.yml for that week, in file order, as bullets that join the
-slide-links list above them; a week with none gets a placeholder line. Mirrors
+Lab links for a unit page: {% include lab-links.html unit="unit-01" %}
+Lists every lab in _data/labs.yml for that unit, in file order, as bullets that join the
+slide-links list above them; a unit with none gets a placeholder line. Mirrors
 slide-links.html, and like it emits no trailing newline -- a blank line here would make the
 whole list loose and wrap every bullet in its own paragraph.
 {%- endcomment -%}
-{%- assign labs = site.data.labs | where: "week", include.week -%}
+{%- assign labs = site.data.labs | where: "unit", include.unit -%}
 {%- if labs.size > 0 -%}
 {%- for lab in labs -%}
 {%- unless forloop.first %}

@@ -17,18 +17,18 @@ finals period** — the last two and a half weeks of the course belong to your p
 
 | Component | What it measures | AI level | Weight |
 |---|---|:--:|--:|
-| Weekly problem sets (12) | problem framing + applied ML + code literacy + agent use | per question | 40% |
+| Problem sets (12) | problem framing + applied ML + code literacy + agent use | per question | 40% |
 | Written midterm — Mon Nov 2 (code reading) | Acts I–II, under exam conditions | 1 | 10% |
-| Act III exam — Mon Nov 30 (code reading) | weeks 10–12, under exam conditions | 1 | 10% |
+| Act III exam — Mon Nov 30 (code reading) | units 10–12, under exam conditions | 1 | 10% |
 | Synthesis project | end-to-end judgment on a problem you chose | 4 | 35% |
 | Participation | engagement in working sessions | — | 5% |
 
 ### Problem sets
 
-One a week, due Monday at 11:59 pm, in three sections. **Practice** — short warm-ups on this week's
+One per unit, due Monday at 11:59 pm, in three sections. **Practice** — short warm-ups on this unit's
 ideas, graded on completion, and the place to ask for help freely. **Design** — your own approach to
-this week's problem, committed before you see ours, graded for being on time rather than for being
-right. **Build** — last week's problem, whose materials have now unsealed: you open with a
+this unit's problem, committed before you see ours, graded for being on time rather than for being
+right. **Build** — last unit's problem, whose materials have now unsealed: you open with a
 divergence analysis against the design you committed, then work six questions in which you build a
 generative process, check it against cases whose answers follow from structure, explore it, break
 it, read someone else's code, and choose at least one depth direction. The
@@ -43,15 +43,15 @@ your data, so you already know the truth. Checking your own work is a graded ski
 afterthought: on those questions, state your prediction *before* you run anything. A prediction that
 turned out wrong, which you caught and corrected, earns full credit.
 
-If you miss a week, the set stays open with no penalty until the following Monday. Questions that
-depend on earlier weeks ship with a reference implementation, so one bad week never blocks the next.
+If you miss a unit, the set stays open with no penalty until the following Monday. Questions that
+depend on earlier units ship with a reference implementation, so one bad unit never blocks the next.
 
 ### The no-AI questions
 
 **Two questions in every problem set are AI level 1.** One asks you to verify your own simulator
 without help; one asks you to read code and say precisely what it does and where it fails. They are
 not a hurdle bolted onto the course — both exams are code-reading exams, so these questions are the
-rehearsal, happening weekly in the ordinary course of the work. By the midterm you'll have done
+rehearsal, happening every unit in the ordinary course of the work. By the midterm you'll have done
 more than a dozen of them.
 
 Watch your own trajectory on them. It's the most honest signal you'll get about whether your unaided
@@ -61,11 +61,11 @@ skills are growing alongside your agent-assisted work.
 
 Each act of the course closes with a **closed-book, no-AI code-reading exam (level 1)**: read
 provided snippets, describe their behavior, recover their intent, spot edge cases and bugs —
-the same skill the weekly no-AI questions rehearse, assessed all at once.
+the same skill every unit's no-AI questions rehearse, assessed all at once.
 
 - **Midterm — Mon Nov 2:** Acts I and II — simulating processes, estimation, Bayes, evaluation, and
   regression through generalized linear models.
-- **Act III exam — Mon Nov 30:** weeks 10–12 — trees and forests, dimensionality reduction, and
+- **Act III exam — Mon Nov 30:** units 10–12 — trees and forests, dimensionality reduction, and
   clustering.
 
 ### Synthesis project

@@ -3,7 +3,7 @@
 
 Scans the *built* site (default `_site`) rather than the sources, because that is what
 actually ships: a file is published unless something excludes it, and the failure mode this
-guards against is exactly a new file nobody remembered to exclude. Week 1's instructor
+guards against is exactly a new file nobody remembered to exclude. Unit 1's instructor
 run-sheet reached production this way -- `_config.yml` excluded `internal/` but not the
 `lectures/` directory it landed in, and a markdown file with no frontmatter is copied
 verbatim into the output.
