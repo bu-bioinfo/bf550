@@ -4,7 +4,9 @@ title: "Unit 2 — Null distributions; what a p-value is; multiple testing"
 
 **Act I** · composition operation: **repeat**
 
-**Meetings:** Wed **Sep 9** · Fri **Sep 11**
+**Sessions:** Fri **Sep 11** · Mon **Sep 14** · Wed **Sep 16**
+
+**PS2** opens in the first session · **PS1** is due Wed Sep 16, 11:59 pm
 
 > *You scanned 1,000 loci and some came up significant. Should you believe any of them?*
 
@@ -22,7 +24,8 @@ they are the cheapest way to find out whether the reading landed.
 The topic opens in the first meeting. The rest of the unit is working sessions on the problem set,
 with instructors and TAs in the room.
 
-Unit 2 has two meetings; Labor Day falls on the Monday.
+This is the first unit on the term's steady rhythm: the topic and the new problem open Friday, and
+Monday and Wednesday are working sessions.
 
 ## Where this fits
 

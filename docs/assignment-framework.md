@@ -208,7 +208,7 @@ what they are for.
 
 ## If you miss a unit
 
-The set stays open with no penalty until the following Monday. Questions that depend on earlier
+The set stays open with no penalty for a further unit. Questions that depend on earlier
 units ship with a reference implementation, so one bad unit never blocks the next.
 
 If you miss a **design**, it converts to a **hindsight critique** — a different prompt on the same

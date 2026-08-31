@@ -2,7 +2,9 @@
 title: "Unit 13 — Project launch"
 ---
 
-**Meetings:** Mon **Nov 23** — one meeting; Thanksgiving recess follows.
+**Sessions:** Wed **Dec 2** · Fri **Dec 4** · Mon **Dec 7** · Wed **Dec 9**
+
+**PS12** is due Fri Dec 4, 11:59 pm
 
 > *What is a process worth simulating, for a question you chose?*
 
@@ -15,11 +17,15 @@ The synthesis project launches: choose a biological question you care about, des
 process for it, and show what a method can and cannot recover from it. It is the same move you will
 have made twelve times by then — the difference is that this time you pick the question.
 
-From here to the end of term, every class meeting is project studio, with instructors and TAs in the
-room. The project proposal is due **Wed Dec 2** and the project bundle during finals week; **there is
-no exam during finals period.**
+**The Act III exam is Wed Dec 2**, in the first session — closed book, no AI, code reading,
+covering units 10–12. The project launches in the rest of that session, and from there every
+meeting is project studio, with instructors and TAs in the room.
 
-The last graded problem set, **PS12, is due Mon Nov 30.**
+The project proposal is due **Mon Dec 7** and the project bundle during the finals period;
+**there is no exam during finals period.**
+
+Unit 13 has four sessions rather than three — it carries the term's last meeting, Wed Dec 9. The
+last graded problem set, **PS12, is due Fri Dec 4.**
 
 ## Where this fits
 

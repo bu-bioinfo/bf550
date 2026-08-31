@@ -4,7 +4,9 @@ title: "Unit 3 — Overdispersion; why counts vary more than they should"
 
 **Act I** · composition operation: **nest**
 
-**Meetings:** Mon **Sep 14** · Wed **Sep 16** · Fri **Sep 18**
+**Sessions:** Fri **Sep 18** · Mon **Sep 21** · Wed **Sep 23**
+
+**PS3** opens in the first session · **PS2** is due Wed Sep 23, 11:59 pm
 
 > *Your null says this is impossible and real data does it constantly. Which one is wrong?*
 

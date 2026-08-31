@@ -146,7 +146,7 @@ its [AI level](https://aiassessmentscale.com/) — not every assignment, every q
   it is not.
 - **Checking your own work, and reading code — no AI.** Two questions every unit. These are the
   skills that quietly disappear if you delegate them, and they are exactly what the exams assess.
-- **The two exams — no AI.** A midterm (Nov 2) and an Act III exam (Nov 30), closed-book, both
+- **The two exams — no AI.** A midterm (Fri Nov 6) and an Act III exam (Wed Dec 2), closed-book, both
   code-reading.
 
 The no-AI questions exist for your benefit as much as ours. Research on novices using AI finds that
@@ -161,8 +161,8 @@ One notebook per unit: your code, your figures, and your answers in complete sen
 | | Weight | AI level |
 |---|---:|---|
 | Problem sets (12) | 40% | Stated per question — two are no-AI every unit |
-| Written midterm (Mon Nov 2) | 10% | None |
-| Act III exam (Mon Nov 30) | 10% | None |
+| Written midterm (Fri Nov 6) | 10% | None |
+| Act III exam (Wed Dec 2) | 10% | None |
 | Synthesis project | 35% | Full |
 | Participation | 5% | — |
 
@@ -172,5 +172,5 @@ about, then show what a method can and cannot recover from it. By then you'll ha
 that twelve times; the difference is that this time you choose the question.
 
 **If you miss a unit** — it happens — the problem set stays open with no penalty until the
-following Monday, and the questions that depend on earlier units always come with a reference
+end of the next unit, and the questions that depend on earlier units always come with a reference
 implementation so a bad unit never blocks a good one. Ask early.

@@ -13,19 +13,20 @@ clear AI-use level so you always know what's expected.
 ## What you'll be graded on
 
 The synthesis project is the course's culminating assessment, and **there is no exam during
-finals period** — the last two and a half weeks of the course belong to your project.
+finals period** — the term closes with the project.
 
 | Component | What it measures | AI level | Weight |
 |---|---|:--:|--:|
 | Problem sets (12) | problem framing + applied ML + code literacy + agent use | per question | 40% |
-| Written midterm — Mon Nov 2 (code reading) | Acts I–II, under exam conditions | 1 | 10% |
-| Act III exam — Mon Nov 30 (code reading) | units 10–12, under exam conditions | 1 | 10% |
+| Written midterm — Fri Nov 6 (code reading) | Acts I–II, under exam conditions | 1 | 10% |
+| Act III exam — Wed Dec 2 (code reading) | units 10–12, under exam conditions | 1 | 10% |
 | Synthesis project | end-to-end judgment on a problem you chose | 4 | 35% |
 | Participation | engagement in working sessions | — | 5% |
 
 ### Problem sets
 
-One per unit, due Monday at 11:59 pm, in three sections. **Practice** — short warm-ups on this unit's
+One per unit. It opens in the unit's first session and is due at 11:59 pm on the last session of
+the following unit — about twelve days. Three sections. **Practice** — short warm-ups on this unit's
 ideas, graded on completion, and the place to ask for help freely. **Design** — your own approach to
 this unit's problem, committed before you see ours, graded for being on time rather than for being
 right. **Build** — last unit's problem, whose materials have now unsealed: you open with a
@@ -43,7 +44,7 @@ your data, so you already know the truth. Checking your own work is a graded ski
 afterthought: on those questions, state your prediction *before* you run anything. A prediction that
 turned out wrong, which you caught and corrected, earns full credit.
 
-If you miss a unit, the set stays open with no penalty until the following Monday. Questions that
+If you miss a unit, the set stays open with no penalty for a further unit. Questions that
 depend on earlier units ship with a reference implementation, so one bad unit never blocks the next.
 
 ### The no-AI questions
@@ -63,9 +64,9 @@ Each act of the course closes with a **closed-book, no-AI code-reading exam (lev
 provided snippets, describe their behavior, recover their intent, spot edge cases and bugs —
 the same skill every unit's no-AI questions rehearse, assessed all at once.
 
-- **Midterm — Mon Nov 2:** Acts I and II — simulating processes, estimation, Bayes, evaluation, and
+- **Midterm — Fri Nov 6:** Acts I and II — simulating processes, estimation, Bayes, evaluation, and
   regression through generalized linear models.
-- **Act III exam — Mon Nov 30:** units 10–12 — trees and forests, dimensionality reduction, and
+- **Act III exam — Wed Dec 2:** units 10–12 — trees and forests, dimensionality reduction, and
   clustering.
 
 ### Synthesis project
@@ -73,7 +74,7 @@ the same skill every unit's no-AI questions rehearse, assessed all at once.
 The capstone and the course's **culminating assessment**: design a generative process for a
 biological question you care about, then show what a method can and cannot recover from it — with
 every decision justified mathematically or biologically. It is the same thing you will have done
-twelve times by then, on a question you chose. The last two and a half weeks of the term are project studio. It's
+twelve times by then, on a question you chose. Unit 13 is project studio end to end. It's
 **AI level 4** — use the agent freely; your design, your checks, and your critique are what's graded.
 
 ## AI use levels

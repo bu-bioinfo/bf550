@@ -99,7 +99,7 @@ The Bioinformatics Program has developed its own [AI Usage Policy](https://githu
 - One assignment per unit, first assigned today
 - Delivered and submitted through GitHub
 - Materials are Jupyter notebooks you complete
-- Due by commit+push to GitHub before class the following week
+- Due by commit+push to GitHub at the end of the following unit
 - Each assignment has three sections in each:
   - Warm-up exercises
   - Design - apply computational thinking to a problem
@@ -122,8 +122,8 @@ The Bioinformatics Program has developed its own [AI Usage Policy](https://githu
 | Component | Weight |
 |---|---:|
 | Problem sets (12) | 40% |
-| Written midterm — Mon Nov 2 | 10% |
-| Act III exam — Mon Nov 30 | 10% |
+| Written midterm — Fri Nov 6 | 10% |
+| Act III exam — Wed Dec 2 | 10% |
 | Synthesis project | 35% |
 | Participation | 5% |
 

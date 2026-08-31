@@ -4,7 +4,9 @@ title: "Unit 11 — Dimensionality reduction: PCA (t-SNE/UMAP as demo)"
 
 **Act III** · composition operation: **latent**
 
-**Meetings:** Mon **Nov 9** · Wed **Nov 11** · Fri **Nov 13**
+**Sessions:** Fri **Nov 13** · Mon **Nov 16** · Wed **Nov 18**
+
+**PS11** opens in the first session · **PS10** is due Wed Nov 18, 11:59 pm
 
 > *What structure hides in this expression matrix?*
 

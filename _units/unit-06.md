@@ -4,7 +4,9 @@ title: "Unit 6 — Evaluation: overfitting, cross-validation, leakage, calibrati
 
 **Act II**
 
-**Meetings:** Mon **Oct 5** · Wed **Oct 7** · Fri **Oct 9**
+**Sessions:** Fri **Oct 9** · Tue **Oct 13** · Wed **Oct 14**
+
+**PS6** opens in the first session · **PS5** is due Wed Oct 14, 11:59 pm
 
 > *Does the classifier actually work, or does it just look like it does?*
 
@@ -21,6 +23,9 @@ they are the cheapest way to find out whether the reading landed.
 
 The topic opens in the first meeting. The rest of the unit is working sessions on the problem set,
 with instructors and TAs in the room.
+
+Our Monday session meets **Tuesday Oct 13**: BU runs a Monday schedule that day to make up for
+Indigenous Peoples' Day. It is the only substitute day of the term.
 
 ## Where this fits
 

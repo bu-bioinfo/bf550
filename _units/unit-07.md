@@ -4,7 +4,9 @@ title: "Unit 7 — Logistic regression: modeling the boundary directly"
 
 **Act II** · composition operation: **condition**
 
-**Meetings:** Tue **Oct 13** · Wed **Oct 14** · Fri **Oct 16**
+**Sessions:** Fri **Oct 16** · Mon **Oct 19** · Wed **Oct 21**
+
+**PS7** opens in the first session · **PS6** is due Wed Oct 21, 11:59 pm
 
 > *Is this variant pathogenic?*
 
@@ -22,7 +24,6 @@ they are the cheapest way to find out whether the reading landed.
 The topic opens in the first meeting. The rest of the unit is working sessions on the problem set,
 with instructors and TAs in the room.
 
-Our Monday section meets **Tuesday Oct 13** this week: BU runs a Monday schedule that day to make up for Indigenous Peoples' Day.
 
 ## Where this fits
 

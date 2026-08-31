@@ -4,7 +4,9 @@ title: "Unit 4 — Bayes' theorem; estimating probabilities from counts"
 
 **Act II** · composition operation: **mix**
 
-**Meetings:** Mon **Sep 21** · Wed **Sep 23** · Fri **Sep 25**
+**Sessions:** Fri **Sep 25** · Mon **Sep 28** · Wed **Sep 30**
+
+**PS4** opens in the first session · **PS3** is due Wed Sep 30, 11:59 pm
 
 > *What species did this sequence come from?*
 
