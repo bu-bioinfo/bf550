@@ -131,7 +131,7 @@ this course. It is also how you will be expected to check anything, ever, once n
 
 Because a design you can revise after seeing the answer is not a design, it is a summary.
 
-The seal is structural, not an honour system. You cannot look at our approach to this week's problem
+The seal is structural, not an honor system. You cannot look at our approach to this week's problem
 because it does not exist yet — it unseals in next week's set, alongside the build section that uses
 it. Nobody has to promise not to peek.
 

@@ -68,7 +68,7 @@
 
 **Students design a solution to a biological problem one week, and meet our solution to it the
 next.** Week *N* they receive a problem, work out how they would approach it, and commit that.
-Week *N+1* our materials for that problem unseal, they analyse where their approach and ours
+Week *N+1* our materials for that problem unseal, they analyze where their approach and ours
 diverge, and they produce whichever piece of the solution we deliberately left out. Two problems
 are in flight at any time, one week apart, and every week has the same shape.
 
@@ -119,7 +119,7 @@ which keeps deadlines weekly and predictable; §4.1 covers short cycles.
 Design session of cycle *N*, worked on across the cycle with a supervised clinic in the Share
 session, and **due before the Build session of cycle *N+1***, which is where its materials unseal.
 In practice this is a fixed weekly LMS deadline, but stating it against the *Build session* is what
-makes the seal survive a shifted or cancelled meeting.
+makes the seal survive a shifted or canceled meeting.
 
 ### Session budgets
 
