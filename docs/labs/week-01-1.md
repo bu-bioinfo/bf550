@@ -7,7 +7,7 @@ toc_sticky: true
 
 **Today:** when you walk out, the course toolchain is yours — VS Code running on the SCC, your
 first assignment repository accepted and open, the `bf550` environment producing the same ten
-coin flips twice, and a place to ask an AI to think out loud with you.
+coin flips twice, and Claude open in a window beside it to think out loud with.
 
 Work top to bottom. Every step says what you should see; if you see something else, that is the
 moment to wave someone over — not three steps later.
@@ -98,24 +98,37 @@ Run the first code cell — the setup check. It should print version numbers, te
 end without an error. Run it again: **the same ten flips**. That repeatability is the course's
 foundation, and you just verified it.
 
-### 8 · Claude Code
+### 8 · Claude, in a window of its own
 
-```bash
-curl -fsSL https://claude.ai/install.sh | bash
-claude
-```
+Install [Claude Desktop](https://claude.com/download) on your own laptop and sign in with the
+course-provided Claude Pro subscription. If you cannot install it — a managed machine, a
+Chromebook — open [claude.ai](https://claude.ai) in a second browser tab instead. It is the same
+chat, and everything below works the same way.
 
-Follow the login prompt using the course-provided Claude subscription, then type a question —
-ask it to explain the setup-check cell to you. Remember what the assignments say about AI
-levels: every question states its level, and the level is part of the question.
+Now arrange your screen the way you will work all term: **VS Code on the SCC in one window,
+Claude in the other** — side by side if your screen is big enough, one keystroke apart if it is
+not. You will move between them constantly, and the moving is the point.
+
+Try the round trip once, now. Copy the setup-check cell out of `ps01.ipynb`, paste it into
+Claude, and ask it to explain what each line does. Then switch back to VS Code and read the cell
+again with that explanation in hand. Code out, explanation back, **your own reading last** — that
+is the loop this course is built on, and you will run it hundreds of times.
+
+**Claude Desktop is your tool for AI levels 2 and 3**, which is everything this week asks of you:
+brainstorming and organizing your own thinking (level 2), and drafting that you then evaluate,
+revise, and attribute (level 3). Level 4 is different — an agent that edits the files in your
+repository directly, which is Claude Code, and we install it on the SCC in the next lab. Every
+question states its level, and the level is part of the question.
 
 ### 9 · Start the real work
 
 You are set up. For the rest of today, in order:
 
-1. **Warm-ups** — Problem Set 1, section 1. Ask for anything, freely.
+1. **Warm-ups** — Problem Set 1, section 1 (level 3). Ask Claude for anything, freely, in the
+   window you just set up.
 2. **Your Frame** — open `ps01-design.md` and draft one paragraph: the chain from "an allele
-   exists" to "a student writes *bitter*."
+   exists" to "a student writes *bitter*." Level 2 — think it through with Claude if you like,
+   but the paragraph is yours to write.
 
 ## If you finish early
 
@@ -124,7 +137,7 @@ start Friday's reading — [chapter 1](https://bu-cds-bf550.github.io/bf550-text
 
 ## If you are stuck
 
-Raise a hand — this hour exists so that a stuck step costs you a minute, not an evening. Two
+Raise a hand — this hour exists so that a stuck step costs you a minute, not an evening. Three
 known snags:
 
 - **`conda create` is slow or seems frozen** — the first create downloads packages; give it a
@@ -132,3 +145,6 @@ known snags:
   a size limit and we will move your environment.
 - **The `bf550` kernel is not in the list** — make sure step 6 finished without errors, then
   reload the VS Code window (F1 → "Reload Window") and look again.
+- **Claude will not take the course subscription** — sign in with your BU address, and tell us
+  today if it still will not; in the meantime [claude.ai](https://claude.ai) in a browser tab
+  does everything this week needs.
