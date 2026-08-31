@@ -6,7 +6,7 @@ title: "Unit 10 — Trees, forests, and boosting: prediction with no probability
 
 **Sessions:** Fri **Nov 6** · Mon **Nov 9** · Wed **Nov 11**
 
-**PS10** opens in the first session · due Wed **Nov 11**, 11:59 pm
+**PS9** is assigned in the first session · due Fri **Nov 13**
 
 > *Which genes mark treatment response?*
 

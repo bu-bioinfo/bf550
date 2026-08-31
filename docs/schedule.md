@@ -29,15 +29,20 @@ unevenly, so after unit 1 a unit runs **Friday → Monday → Wednesday**: the t
 problem open on Friday, you have the weekend with them, and Monday and Wednesday are working
 sessions. No session is ever dropped — a holiday bends a unit rather than shortening it.
 
-**A problem set opens in its unit's first session and is due at 11:59 pm on its last** — it lives
-inside one unit, and only one set is ever open at a time. That is not a scheduling convenience:
-your set carries **your design** for this unit's problem, and the *next* unit's set is where our
-materials for that same problem unseal. The design has to be committed and closed before you can
-see ours, or the comparison the course is built on is worth nothing. So every set closes Wednesday
-night, and the next one opens Friday with the answer to the one you just handed in.
+**A problem set is assigned in a unit's first session and is due at the next unit's first
+session** — the same session the following set is handed out. You submit yours, then you get ours.
+That ordering is the point: the set you hand in carries **your design** for a problem, and the set
+handed out in that same session is where our materials for that problem unseal. The design has to
+be closed before you can see ours, or the comparison the whole course is built on is worth nothing.
 
-All three of a unit's sessions carry working time on the set that is open, which means the set is
-due at the end of the last session you had help on it.
+The **Problem set** column below reads *due / assigned* for that unit's first session. All three of
+a unit's sessions carry working time on the set assigned in the first of them, so you have the
+room, the instructors and the TAs for the whole of a set's life.
+
+**Two units assign nothing — units 9 and 12.** That is deliberate: it means no problem set is ever
+open while you are preparing for an exam. The midterm is Fri Nov 6, at the start of unit 10; the
+Act III exam is Wed Dec 2, at the start of unit 13. It is also why there are **ten problem sets
+across thirteen units** rather than one per unit.
 
 Every meeting date links to that day's [lab]({{ site.baseurl }}/labs/) once the lab is posted —
 the material we work through in class, yours to finish at your own pace afterwards.
@@ -59,7 +64,7 @@ the material we work through in class, yours to finish at your own pace afterwar
 | 13 | Wed {% include lab-link.html id="unit-13-1" label="Dec 2" %} · Fri {% include lab-link.html id="unit-13-2" label="Dec 4" %} · Mon {% include lab-link.html id="unit-13-3" label="Dec 7" %} · Wed {% include lab-link.html id="unit-13-4" label="Dec 9" %} | **ACT III EXAM Wed Dec 2** (no AI, closed book — units 10–12), then the project launches and the rest is studio | — *the project* |
 
 **Unit 13 is the project unit** and has four sessions rather than three — it carries the term's
-last meeting, Wed Dec 9, and sets no problem set. **PS12, due Mon Nov 30, is the last one.**
+last meeting, Wed Dec 9, and assigns no problem set. **PS10, due Fri Nov 20, is the last one.**
 
 ### Holidays, recesses, and the two odd days
 
@@ -67,7 +72,7 @@ last meeting, Wed Dec 9, and sets no problem set. **PS12, due Mon Nov 30, is the
 |---|---|
 | Mon **Sep 7** | Labor Day — no class. Falls inside unit 1, between Sep 4 and Sep 9 |
 | Mon **Oct 12** | Indigenous Peoples' Day — no class. BU substitutes a Monday schedule on **Tue Oct 13**, which is unit 6's second session. It is the only substitute day of the term; Labor Day is not made up |
-| Wed **Nov 25** – Sun **Nov 29** | Thanksgiving recess — no class. Falls inside unit 12, between Mon Nov 23 and Mon Nov 30 — so PS12 is the one set with the recess inside its window |
+| Wed **Nov 25** – Sun **Nov 29** | Thanksgiving recess — no class. Falls inside unit 12, between Mon Nov 23 and Mon Nov 30. Unit 12 assigns no set, so the recess lands in a stretch with nothing due |
 | Thu **Dec 10** | Last day of classes. We do not meet Thursdays, so **Wed Dec 9** is our last meeting |
 | **Dec 11–13** · **Dec 14–18** | Study period · final exams period — **no exam for this course** |
 
@@ -89,7 +94,7 @@ trees after the midterm, the project launch after the Act III exam.
 
 The course in miniature, and the culminating assessment: design a generative process for a
 biological question you care about, then show what a method can and cannot recover from it. The same
-thing you will have done twelve times by then, on a problem you chose.
+thing you will have done ten times by then, on a problem you chose.
 
 | | When |
 |---|---|

@@ -6,7 +6,7 @@ title: "Unit 11 — Dimensionality reduction: PCA (t-SNE/UMAP as demo)"
 
 **Sessions:** Fri **Nov 13** · Mon **Nov 16** · Wed **Nov 18**
 
-**PS11** opens in the first session · due Wed **Nov 18**, 11:59 pm
+**PS9** is due at the start of the first session, Fri **Nov 13** · **PS10** is assigned in that same session · due Fri **Nov 20**
 
 > *What structure hides in this expression matrix?*
 

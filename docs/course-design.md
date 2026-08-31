@@ -105,10 +105,10 @@ read math. Formulas are never the entrance fee here; they are the souvenir.
 
 ## The rhythm
 
-One topic per unit, one problem set per unit, three 105-minute meetings. The unit's topic opens in the
+One topic per unit, ten problem sets across the term, three 105-minute meetings. The unit's topic opens in the
 first meeting; the rest are working sessions with instructors and TAs in the room.
 
-**You build the data before you analyze it.** Nearly every unit starts by asking you to write a
+**You build the data before you analyze it.** Nearly every set starts by asking you to write a
 *simulator*: code that produces a dataset from settings you choose. Then you analyze what came out
 and see whether you can recover the settings you put in.
 
@@ -144,23 +144,23 @@ its [AI level](https://aiassessmentscale.com/) — not every assignment, every q
 - **Building simulators, exploring, breaking things — full AI, encouraged.** Describe the process
   in words and let the agent write it. Specifying what generates your data is the thinking; typing
   it is not.
-- **Checking your own work, and reading code — no AI.** Two questions every unit. These are the
+- **Checking your own work, and reading code — no AI.** Two questions in every set. These are the
   skills that quietly disappear if you delegate them, and they are exactly what the exams assess.
 - **The two exams — no AI.** A midterm (Fri Nov 6) and an Act III exam (Wed Dec 2), closed-book, both
   code-reading.
 
 The no-AI questions exist for your benefit as much as ours. Research on novices using AI finds that
 the students who struggle most are often the ones most convinced they're doing fine. Two unaided
-questions per unit are how you and we both watch your own skill actually growing — so nobody
+questions in every set are how you and we both watch your own skill actually growing — so nobody
 discovers a gap for the first time during an exam.
 
 ## What you hand in, and what it's worth
 
-One notebook per unit: your code, your figures, and your answers in complete sentences.
+One notebook per set: your code, your figures, and your answers in complete sentences.
 
 | | Weight | AI level |
 |---|---:|---|
-| Problem sets (12) | 40% | Stated per question — two are no-AI every unit |
+| Problem sets (10) | 40% | Stated per question — two are no-AI in every set |
 | Written midterm (Fri Nov 6) | 10% | None |
 | Act III exam (Wed Dec 2) | 10% | None |
 | Synthesis project | 35% | Full |
@@ -169,7 +169,7 @@ One notebook per unit: your code, your figures, and your answers in complete sen
 The synthesis project is the course in miniature and the culminating assessment — **there is no
 exam during finals period**. You design a generative process for a biological question you care
 about, then show what a method can and cannot recover from it. By then you'll have done exactly
-that twelve times; the difference is that this time you choose the question.
+that ten times; the difference is that this time you choose the question.
 
 **If you miss a unit** — it happens — the problem set stays open with no penalty until the
 end of the next unit, and the questions that depend on earlier units always come with a reference

@@ -46,7 +46,7 @@ This course utilizes *computational thinking pedagogy*:
 
 - **Assigned reading:** one chapter of the [textbook](https://bu-cds-bf550.github.io/bf550-textbook/).
   This unit: [chapter 1](https://bu-cds-bf550.github.io/bf550-textbook/chapters/ch01-simulating-a-process.html).
-- **One problem set per unit**
+- **Ten problem sets across the term**
 - **Every question states its AI level.** 
 - Every class meeting will have:
   - a digital checkin (5-10 minutes)
@@ -96,10 +96,10 @@ The Bioinformatics Program has developed its own [AI Usage Policy](https://githu
 
 ## Assignments
 
-- One assignment per unit, first assigned today
+- Ten assignments across the term, the first assigned today
 - Delivered and submitted through GitHub
 - Materials are Jupyter notebooks you complete
-- Due by commit+push to GitHub at the end of the unit it opened in
+- Due by commit+push to GitHub at the start of the session that assigns the next one
 - Each assignment has three sections in each:
   - Warm-up exercises
   - Design - apply computational thinking to a problem
@@ -121,7 +121,7 @@ The Bioinformatics Program has developed its own [AI Usage Policy](https://githu
 
 | Component | Weight |
 |---|---:|
-| Problem sets (12) | 40% |
+| Problem sets (10) | 40% |
 | Written midterm — Fri Nov 6 | 10% |
 | Act III exam — Wed Dec 2 | 10% |
 | Synthesis project | 35% |

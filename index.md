@@ -55,14 +55,14 @@ progression and the three-act arc.
 ## Assessment
 
 See [Assessment & AI Policy]({{ site.baseurl }}/assessment/). Your grade comes
-from twelve problem sets, one per unit, (each carrying two no-AI questions), two written code-reading
+from ten problem sets (each carrying two no-AI questions), two written code-reading
 exams (no AI: a midterm on Fri Nov 6 and an Act III exam on Wed Dec 2), a synthesis project, and
 participation. **There is no exam during finals period** — the synthesis project is the culminating
 assessment, and unit 13 — the term's last four meetings — belongs to it.
 
 | Component | Weight |
 |---|---:|
-| Problem sets (12) | 40% |
+| Problem sets (10) | 40% |
 | Written midterm — Fri Nov 6 | 10% |
 | Act III exam — Wed Dec 2 | 10% |
 | Synthesis project | 35% |
@@ -91,8 +91,8 @@ distribute and submit assignments. Instructions will be given in class and
 along with assignment materials.
 
 One notebook per problem set — your code, your figures, and your answers in complete sentences —
-**due at 11:59 pm on the last session of the unit it opened in**. Its build section covers the
-previous unit's topic, whose materials unseal the day the set opens. A number with no sentence around it earns no credit: in a course
+**due at the start of the session that assigns the next one**. You submit yours, then ours
+unseals — that is what keeps your design sealed from our answer. A number with no sentence around it earns no credit: in a course
 where an agent can produce any number you ask for, the sentence is the part
 that shows you understood it.
 

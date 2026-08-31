@@ -5,7 +5,7 @@ toc: true
 toc_sticky: true
 ---
 
-Every assignment has the same three sections, in the same order, every unit:
+Every assignment has the same three sections, in the same order:
 
 | | Section | What it is | Typical AI level |
 |---|---|---|:--:|
@@ -116,7 +116,7 @@ examined on.
 
 ## Checking your own work
 
-The second build question every unit is the one students underestimate. You have no answer key, and
+The second build question in every set is the one students underestimate. You have no answer key, and
 the code you are handed may be wrong — so how do you know?
 
 You run your simulator on settings where the answer follows from the *structure* of the situation
@@ -161,13 +161,13 @@ You are not expected to finish a set in class. You are expected to get far enoug
 available, that the rest is tractable alone.
 
 Class is also where **designs get compared across the room.** Several genuinely different approaches
-to the same problem show up every unit, and seeing four of them side by side — including the ones
+to the same problem show up every set, and seeing four of them side by side — including the ones
 better than yours — teaches something individual feedback cannot.
 
 ## AI use, question by question
 
 Every question states its [AI level](https://aiassessmentscale.com/) — not every section, every
-*question*. Most units look like this:
+*question*. Most sets look like this:
 
 | | Typical level | Why |
 |---|:--:|---|
@@ -179,12 +179,12 @@ Every question states its [AI level](https://aiassessmentscale.com/) — not eve
 
 There are **two no-AI questions in every set.** That is deliberate. Both exams are code-reading
 exams, so those questions are not a hurdle bolted onto the course — they are the rehearsal,
-happening every unit, in the ordinary course of the work. By the midterm you will have done more
+happening in every set, in the ordinary course of the work. By the midterm you will have done more
 than a dozen of them.
 
 ## Going deeper, your way
 
-The last question every unit offers three directions, and **you must do at least one:**
+The last question in every set offers three directions, and **you must do at least one:**
 
 - **Math** — derive the result your simulation approximated.
 - **Compute** — make it fast, robust, or scalable, then use the speed to answer a question the slow
@@ -206,13 +206,13 @@ content, **with worked solutions.** Ungraded and optional. If you want more repe
 attempting the graded set — or want to check whether you actually followed the reading — that is
 what they are for.
 
-## If you miss a unit
+## If you miss a set
 
 The set stays open with no penalty for a further unit. Questions that depend on earlier
 units ship with a reference implementation, so one bad unit never blocks the next.
 
 If you miss a **design**, it converts to a **hindsight critique** — a different prompt on the same
-problem, worth the same credit, with no pretence that the seal held. One missed unit costs one unit,
+problem, worth the same credit, with no pretence that the seal held. One missed set costs one set,
 never more.
 
 ## What we're looking for

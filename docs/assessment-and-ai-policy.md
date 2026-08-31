@@ -17,7 +17,7 @@ finals period** — the term closes with the project.
 
 | Component | What it measures | AI level | Weight |
 |---|---|:--:|--:|
-| Problem sets (12) | problem framing + applied ML + code literacy + agent use | per question | 40% |
+| Problem sets (10) | problem framing + applied ML + code literacy + agent use | per question | 40% |
 | Written midterm — Fri Nov 6 (code reading) | Acts I–II, under exam conditions | 1 | 10% |
 | Act III exam — Wed Dec 2 (code reading) | units 10–12, under exam conditions | 1 | 10% |
 | Synthesis project | end-to-end judgment on a problem you chose | 4 | 35% |
@@ -25,9 +25,10 @@ finals period** — the term closes with the project.
 
 ### Problem sets
 
-One per unit. It opens in the unit's first session and is due at 11:59 pm on the unit's last
-session, so only one set is ever open: your design closes before the next set unseals our
-answer to it. Three sections. **Practice** — short warm-ups on this unit's
+Ten across the term. A set is assigned in a unit's first session and due at the start of the next
+unit's first session — the session that hands out the next one. You submit yours, then you get
+ours, which is what keeps your design sealed from our answer to it. Units 9 and 12 assign nothing,
+so no set is open while you prepare for an exam. Three sections. **Practice** — short warm-ups on this unit's
 ideas, graded on completion, and the place to ask for help freely. **Design** — your own approach to
 this unit's problem, committed before you see ours, graded for being on time rather than for being
 right. **Build** — last unit's problem, whose materials have now unsealed: you open with a
@@ -53,7 +54,7 @@ depend on earlier units ship with a reference implementation, so one bad unit ne
 **Two questions in every problem set are AI level 1.** One asks you to verify your own simulator
 without help; one asks you to read code and say precisely what it does and where it fails. They are
 not a hurdle bolted onto the course — both exams are code-reading exams, so these questions are the
-rehearsal, happening every unit in the ordinary course of the work. By the midterm you'll have done
+rehearsal, happening in every set in the ordinary course of the work. By the midterm you'll have done
 more than a dozen of them.
 
 Watch your own trajectory on them. It's the most honest signal you'll get about whether your unaided
@@ -63,7 +64,7 @@ skills are growing alongside your agent-assisted work.
 
 Each act of the course closes with a **closed-book, no-AI code-reading exam (level 1)**: read
 provided snippets, describe their behavior, recover their intent, spot edge cases and bugs —
-the same skill every unit's no-AI questions rehearse, assessed all at once.
+the same skill every set's no-AI questions rehearse, assessed all at once.
 
 - **Midterm — Fri Nov 6:** Acts I and II — simulating processes, estimation, Bayes, evaluation, and
   regression through generalized linear models.
@@ -75,7 +76,7 @@ the same skill every unit's no-AI questions rehearse, assessed all at once.
 The capstone and the course's **culminating assessment**: design a generative process for a
 biological question you care about, then show what a method can and cannot recover from it — with
 every decision justified mathematically or biologically. It is the same thing you will have done
-twelve times by then, on a question you chose. Unit 13 is project studio end to end. It's
+ten times by then, on a question you chose. Unit 13 is project studio end to end. It's
 **AI level 4** — use the agent freely; your design, your checks, and your critique are what's graded.
 
 ## AI use levels
