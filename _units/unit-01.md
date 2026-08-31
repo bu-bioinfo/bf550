@@ -6,7 +6,7 @@ title: "Unit 1 — Simulating a process; binomial counts; sampling variability"
 
 **Sessions:** Wed **Sep 2** · Fri **Sep 4** · Wed **Sep 9**
 
-**PS1** opens in the first session
+**PS1** opens in the first session · due Wed **Sep 9**, 11:59 pm
 
 > *If 68 of 100 people taste PTC, how common is the allele?*
 

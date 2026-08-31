@@ -4,7 +4,7 @@ title: "Unit 13 — Project launch"
 
 **Sessions:** Wed **Dec 2** · Fri **Dec 4** · Mon **Dec 7** · Wed **Dec 9**
 
-**PS12** is due Fri Dec 4, 11:59 pm
+**No problem set** — unit 13 is the project. PS12, due Mon Nov 30, is the last one.
 
 > *What is a process worth simulating, for a question you chose?*
 

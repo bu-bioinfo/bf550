@@ -6,7 +6,7 @@ title: "Unit 6 — Evaluation: overfitting, cross-validation, leakage, calibrati
 
 **Sessions:** Fri **Oct 9** · Tue **Oct 13** · Wed **Oct 14**
 
-**PS6** opens in the first session · **PS5** is due Wed Oct 14, 11:59 pm
+**PS6** opens in the first session · due Wed **Oct 14**, 11:59 pm
 
 > *Does the classifier actually work, or does it just look like it does?*
 

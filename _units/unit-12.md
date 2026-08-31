@@ -6,7 +6,7 @@ title: "Unit 12 — Clustering: mixture models → k-means; validating *k*"
 
 **Sessions:** Fri **Nov 20** · Mon **Nov 23** · Mon **Nov 30**
 
-**PS12** opens in the first session · **PS11** is due Mon Nov 30, 11:59 pm
+**PS12** opens in the first session · due Mon **Nov 30**, 11:59 pm
 
 > *Do these cells form distinct types — and how many?*
 

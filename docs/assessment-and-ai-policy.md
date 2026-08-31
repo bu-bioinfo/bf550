@@ -25,8 +25,9 @@ finals period** — the term closes with the project.
 
 ### Problem sets
 
-One per unit. It opens in the unit's first session and is due at 11:59 pm on the last session of
-the following unit — about twelve days. Three sections. **Practice** — short warm-ups on this unit's
+One per unit. It opens in the unit's first session and is due at 11:59 pm on the unit's last
+session, so only one set is ever open: your design closes before the next set unseals our
+answer to it. Three sections. **Practice** — short warm-ups on this unit's
 ideas, graded on completion, and the place to ask for help freely. **Design** — your own approach to
 this unit's problem, committed before you see ours, graded for being on time rather than for being
 right. **Build** — last unit's problem, whose materials have now unsealed: you open with a

@@ -6,7 +6,7 @@ title: "Unit 4 — Bayes' theorem; estimating probabilities from counts"
 
 **Sessions:** Fri **Sep 25** · Mon **Sep 28** · Wed **Sep 30**
 
-**PS4** opens in the first session · **PS3** is due Wed Sep 30, 11:59 pm
+**PS4** opens in the first session · due Wed **Sep 30**, 11:59 pm
 
 > *What species did this sequence come from?*
 

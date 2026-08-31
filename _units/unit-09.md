@@ -6,7 +6,7 @@ title: "Unit 9 — Generalized linear models: Poisson and negative binomial regr
 
 **Sessions:** Fri **Oct 30** · Mon **Nov 2** · Wed **Nov 4**
 
-**PS9** opens in the first session · **PS8** is due Wed Nov 4, 11:59 pm
+**PS9** opens in the first session · due Wed **Nov 4**, 11:59 pm
 
 > *Are these genes really differentially expressed?*
 

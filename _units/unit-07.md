@@ -6,7 +6,7 @@ title: "Unit 7 — Logistic regression: modeling the boundary directly"
 
 **Sessions:** Fri **Oct 16** · Mon **Oct 19** · Wed **Oct 21**
 
-**PS7** opens in the first session · **PS6** is due Wed Oct 21, 11:59 pm
+**PS7** opens in the first session · due Wed **Oct 21**, 11:59 pm
 
 > *Is this variant pathogenic?*
 

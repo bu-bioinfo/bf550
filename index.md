@@ -91,8 +91,8 @@ distribute and submit assignments. Instructions will be given in class and
 along with assignment materials.
 
 One notebook per problem set — your code, your figures, and your answers in complete sentences —
-**due at 11:59 pm on the last session of the unit after the one it opened in** — about twelve
-days. Its build section covers the previous unit's topic. A number with no sentence around it earns no credit: in a course
+**due at 11:59 pm on the last session of the unit it opened in**. Its build section covers the
+previous unit's topic, whose materials unseal the day the set opens. A number with no sentence around it earns no credit: in a course
 where an agent can produce any number you ask for, the sentence is the part
 that shows you understood it.
 

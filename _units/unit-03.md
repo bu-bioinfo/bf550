@@ -6,7 +6,7 @@ title: "Unit 3 — Overdispersion; why counts vary more than they should"
 
 **Sessions:** Fri **Sep 18** · Mon **Sep 21** · Wed **Sep 23**
 
-**PS3** opens in the first session · **PS2** is due Wed Sep 23, 11:59 pm
+**PS3** opens in the first session · due Wed **Sep 23**, 11:59 pm
 
 > *Your null says this is impossible and real data does it constantly. Which one is wrong?*
 

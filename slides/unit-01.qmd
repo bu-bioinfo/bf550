@@ -99,7 +99,7 @@ The Bioinformatics Program has developed its own [AI Usage Policy](https://githu
 - One assignment per unit, first assigned today
 - Delivered and submitted through GitHub
 - Materials are Jupyter notebooks you complete
-- Due by commit+push to GitHub at the end of the following unit
+- Due by commit+push to GitHub at the end of the unit it opened in
 - Each assignment has three sections in each:
   - Warm-up exercises
   - Design - apply computational thinking to a problem
