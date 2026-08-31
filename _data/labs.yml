@@ -1,0 +1,11 @@
+# Published lab pages. One entry per page in docs/labs/; the week pages, the schedule and
+# /labs/ all read this list, so adding a lab means adding a line here.
+#
+#   id      matches the page's filename and permalink, docs/labs/<id>.md -> /labs/<id>/
+#   week    the week page it surfaces on, matching _lectures/<week>.md
+#   date    the meeting it belongs to, spelled as the schedule spells it
+#   title   the lab's subject, without the "Lab N ·" prefix the page's own title carries
+- id: week-01-1
+  week: week-01
+  date: "Wed Sep 2"
+  title: "Your working environment"

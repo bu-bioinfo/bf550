@@ -17,6 +17,8 @@ sidebar:
         url: "/schedule/"
       - title: "Assignments"
         url: "/assignments/"
+      - title: "Labs"
+        url: "/labs/"
       - title: "Textbook"
         url: "https://bu-cds-bf550.github.io/bf550-textbook/"
       - title: "Learning Objectives"

@@ -25,26 +25,29 @@ answer is right?*
 
 BU holidays and recesses are shown in the flow so you can see where the sequence carries across them.
 
+Every meeting date links to that day's [lab]({{ site.baseurl }}/labs/) once the lab is posted — the
+material we work through in class, yours to finish at your own pace afterwards.
+
 | Week | Meetings | Topic | Due |
 |---:|---|---|---|
-| 1 | Wed **Sep 2** · Fri **Sep 4** | Course intro and setup; simulating a process; binomial counts | |
+| 1 | Wed {% include lab-link.html id="week-01-1" label="Sep 2" %} · Fri {% include lab-link.html id="week-01-2" label="Sep 4" %} | Course intro and setup; simulating a process; binomial counts | |
 | — | *Mon Sep 7* | *Labor Day — no class* | |
-| 2 | Wed **Sep 9** · Fri **Sep 11** | Null distributions; what a p-value is; multiple testing | **PS1** (Mon Sep 14) |
-| 3 | Mon **Sep 14** · Wed **Sep 16** · Fri **Sep 18** | Nesting; overdispersion; why counts vary more than they should | **PS2** (Mon Sep 21) |
-| 4 | Mon **Sep 21** · Wed **Sep 23** · Fri **Sep 25** | Bayes' theorem; estimating probabilities from counts | **PS3** (Mon Sep 28) |
-| 5 | Mon **Sep 28** · Wed **Sep 30** · Fri **Oct 2** | Naive Bayes: classification as a generative story | **PS4** (Mon Oct 5) |
-| 6 | Mon **Oct 5** · Wed **Oct 7** · Fri **Oct 9** | Evaluation: overfitting, cross-validation, leakage, calibration | **PS5** (Mon Oct 12) |
+| 2 | Wed {% include lab-link.html id="week-02-1" label="Sep 9" %} · Fri {% include lab-link.html id="week-02-2" label="Sep 11" %} | Null distributions; what a p-value is; multiple testing | **PS1** (Mon Sep 14) |
+| 3 | Mon {% include lab-link.html id="week-03-1" label="Sep 14" %} · Wed {% include lab-link.html id="week-03-2" label="Sep 16" %} · Fri {% include lab-link.html id="week-03-3" label="Sep 18" %} | Nesting; overdispersion; why counts vary more than they should | **PS2** (Mon Sep 21) |
+| 4 | Mon {% include lab-link.html id="week-04-1" label="Sep 21" %} · Wed {% include lab-link.html id="week-04-2" label="Sep 23" %} · Fri {% include lab-link.html id="week-04-3" label="Sep 25" %} | Bayes' theorem; estimating probabilities from counts | **PS3** (Mon Sep 28) |
+| 5 | Mon {% include lab-link.html id="week-05-1" label="Sep 28" %} · Wed {% include lab-link.html id="week-05-2" label="Sep 30" %} · Fri {% include lab-link.html id="week-05-3" label="Oct 2" %} | Naive Bayes: classification as a generative story | **PS4** (Mon Oct 5) |
+| 6 | Mon {% include lab-link.html id="week-06-1" label="Oct 5" %} · Wed {% include lab-link.html id="week-06-2" label="Oct 7" %} · Fri {% include lab-link.html id="week-06-3" label="Oct 9" %} | Evaluation: overfitting, cross-validation, leakage, calibration | **PS5** (Mon Oct 12) |
 | — | *Mon Oct 12* | *Indigenous Peoples' Day — no class* | |
-| 7 | Tue **Oct 13** · Wed **Oct 14** · Fri **Oct 16** | Logistic regression: modeling the boundary directly | **PS6** (Mon Oct 19) |
-| 8 | Mon **Oct 19** · Wed **Oct 21** · Fri **Oct 23** | Linear regression and regularization | **PS7** (Mon Oct 26) |
-| 9 | Mon **Oct 26** · Wed **Oct 28** · Fri **Oct 30** | Generalized linear models: Poisson and negative binomial regression | **PS8** (Mon Nov 2) |
-| 10 | Mon **Nov 2** · Wed **Nov 4** · Fri **Nov 6** | **MIDTERM Mon Nov 2** (no AI, closed book — Acts I & II), then trees, forests, and boosting | **PS9** (Mon Nov 9) |
-| 11 | Mon **Nov 9** · Wed **Nov 11** · Fri **Nov 13** | Dimensionality reduction: PCA (t-SNE/UMAP demo) | **PS10** (Mon Nov 16) |
-| 12 | Mon **Nov 16** · Wed **Nov 18** · Fri **Nov 20** | Clustering: mixture models → k-means; validating *k* | **PS11** (Mon Nov 23) |
-| 13 | Mon **Nov 23** | Project launch; choosing a process worth simulating | **PS12** (Mon Nov 30) |
+| 7 | Tue {% include lab-link.html id="week-07-1" label="Oct 13" %} · Wed {% include lab-link.html id="week-07-2" label="Oct 14" %} · Fri {% include lab-link.html id="week-07-3" label="Oct 16" %} | Logistic regression: modeling the boundary directly | **PS6** (Mon Oct 19) |
+| 8 | Mon {% include lab-link.html id="week-08-1" label="Oct 19" %} · Wed {% include lab-link.html id="week-08-2" label="Oct 21" %} · Fri {% include lab-link.html id="week-08-3" label="Oct 23" %} | Linear regression and regularization | **PS7** (Mon Oct 26) |
+| 9 | Mon {% include lab-link.html id="week-09-1" label="Oct 26" %} · Wed {% include lab-link.html id="week-09-2" label="Oct 28" %} · Fri {% include lab-link.html id="week-09-3" label="Oct 30" %} | Generalized linear models: Poisson and negative binomial regression | **PS8** (Mon Nov 2) |
+| 10 | Mon {% include lab-link.html id="week-10-1" label="Nov 2" %} · Wed {% include lab-link.html id="week-10-2" label="Nov 4" %} · Fri {% include lab-link.html id="week-10-3" label="Nov 6" %} | **MIDTERM Mon Nov 2** (no AI, closed book — Acts I & II), then trees, forests, and boosting | **PS9** (Mon Nov 9) |
+| 11 | Mon {% include lab-link.html id="week-11-1" label="Nov 9" %} · Wed {% include lab-link.html id="week-11-2" label="Nov 11" %} · Fri {% include lab-link.html id="week-11-3" label="Nov 13" %} | Dimensionality reduction: PCA (t-SNE/UMAP demo) | **PS10** (Mon Nov 16) |
+| 12 | Mon {% include lab-link.html id="week-12-1" label="Nov 16" %} · Wed {% include lab-link.html id="week-12-2" label="Nov 18" %} · Fri {% include lab-link.html id="week-12-3" label="Nov 20" %} | Clustering: mixture models → k-means; validating *k* | **PS11** (Mon Nov 23) |
+| 13 | Mon {% include lab-link.html id="week-13-1" label="Nov 23" %} | Project launch; choosing a process worth simulating | **PS12** (Mon Nov 30) |
 | — | *Wed Nov 25 – Sun Nov 29* | *Thanksgiving recess — no class* | |
-| 14 | Mon **Nov 30** · Wed **Dec 2** · Fri **Dec 4** | **ACT III EXAM Mon Nov 30** (no AI, closed book — weeks 10–12), then project studio | **Project proposal** (Wed Dec 2) |
-| 15 | Mon **Dec 7** · Wed **Dec 9** | Project studio — **Dec 9 is the last class meeting** | |
+| 14 | Mon {% include lab-link.html id="week-14-1" label="Nov 30" %} · Wed {% include lab-link.html id="week-14-2" label="Dec 2" %} · Fri {% include lab-link.html id="week-14-3" label="Dec 4" %} | **ACT III EXAM Mon Nov 30** (no AI, closed book — weeks 10–12), then project studio | **Project proposal** (Wed Dec 2) |
+| 15 | Mon {% include lab-link.html id="week-15-1" label="Dec 7" %} · Wed {% include lab-link.html id="week-15-2" label="Dec 9" %} | Project studio — **Dec 9 is the last class meeting** | |
 | — | *Thu Dec 10* | *Last day of classes (we do not meet Thursdays)* | |
 | — | *Dec 11–13* | *Study period* | |
 | — | *Dec 14–18* | *Final exams period —* **no exam for this course** | **Project bundle** |

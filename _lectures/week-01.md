@@ -17,6 +17,7 @@ they are the cheapest way to find out whether the reading landed.
 ## In class
 
 {% include slide-links.html week="week-01" %}
+{% include lab-links.html week="week-01" %}
 - The topic opens in the first meeting. The rest of the week is working sessions on the problem set,
   with instructors and TAs in the room.
 

@@ -9,6 +9,7 @@ title: "Week 13 — Project launch"
 ## In class
 
 {% include slide-links.html week="week-13" %}
+{% include lab-links.html week="week-13" %}
 
 The synthesis project launches: choose a biological question you care about, design a generative
 process for it, and show what a method can and cannot recover from it. It is the same move you will
