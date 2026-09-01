@@ -3,3 +3,6 @@
 - unit: unit-01
   title: "Worlds you can build"
   file: unit-01
+- unit: unit-02
+  title: "Repeat: null distributions and the thousand-test trap (draft)"
+  file: unit-02
