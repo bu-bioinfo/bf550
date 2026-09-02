@@ -7,6 +7,12 @@ description: Applied statistics and machine learning for the life sciences at Bo
 baseurl: "" # the subpath of your site
 url: "https://bu-cds-bf550.github.io" # the base hostname & protocol for your site
 
+# The public labs repository. Students clone it once in lab 1 and `git pull` to pick up
+# revisions; every lab from 2 on is a notebook in it, and `_data/labs.yml` entries carry a
+# `path` within it instead of a site page. Lab 1 itself stays a page here — it is where the
+# clone gets made.
+labs_repo: "https://github.com/bu-cds-bf550/bf550-labs"
+
 theme: minimal-mistakes-jekyll
 
 # Site-wide search over every published page. The theme bundles lunr; this is the switch.

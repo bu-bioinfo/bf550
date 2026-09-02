@@ -88,7 +88,25 @@ This adds everything the course uses — numpy, matplotlib, pytest, and the rest
 environment from step 3. Every assignment ships this same file; on the rare occasion it changes,
 this same command brings you up to date.
 
-### 7 · Open the notebook, pick the kernel
+### 7 · Clone the labs, once for the whole term
+
+```bash
+cd ~
+git clone https://github.com/bu-cds-bf550/bf550-labs.git
+```
+
+Every lab after this one is a notebook in there. You clone it once — today — and keep working in
+that same copy all term. When we tell you there is something new:
+
+```bash
+cd ~/bf550-labs && git pull
+```
+
+Your own edits stay where you left them, and a fix we push reaches you on your next pull. Nothing
+in the labs is submitted or graded, so break them freely: `git checkout <notebook>` puts one back
+the way it shipped.
+
+### 8 · Open the notebook, pick the kernel
 
 In VS Code: File → Open Folder → your `bf550-fall-2026-ps01-...` folder. Open `ps01.ipynb`. In
 the top right of the notebook, choose the kernel: **Select Kernel → Python Environments →
@@ -98,7 +116,7 @@ Run the first code cell — the setup check. It should print version numbers, te
 end without an error. Run it again: **the same ten flips**. That repeatability is the course's
 foundation, and you just verified it.
 
-### 8 · Claude, in a window of its own
+### 9 · Claude, in a window of its own
 
 Install [Claude Desktop](https://claude.com/download) on your own laptop and sign in with the
 course-provided Claude Pro subscription. If you cannot install it — a managed machine, a
@@ -120,7 +138,7 @@ revise, and attribute (level 3). Level 4 is different — an agent that edits th
 repository directly, which is Claude Code, and we install it on the SCC in the next lab. Every
 question states its level, and the level is part of the question.
 
-### 9 · Start the real work
+### 10 · Start the real work
 
 You are set up. For the rest of today, in order:
 
@@ -145,6 +163,8 @@ known snags:
   a size limit and we will move your environment.
 - **The `bf550` kernel is not in the list** — make sure step 6 finished without errors, then
   reload the VS Code window (F1 → "Reload Window") and look again.
+- **`git clone` asks for a password** — it should not; the labs repo is public. Check the URL for
+  a typo, and that you are cloning `bf550-labs` and not something private.
 - **Claude will not take the course subscription** — sign in with your BU address, and tell us
   today if it still will not; in the meantime [claude.ai](https://claude.ai) in a browser tab
   does everything this unit needs.

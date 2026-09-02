@@ -5,4 +5,4 @@ An unpublished lab leaves the date exactly as it reads without this include, so 
 schedule never points at a page that is not there yet.
 {%- endcomment -%}
 {%- assign lab = site.data.labs | where: "id", include.id | first -%}
-{%- if lab -%}[**{{ include.label }}**]({{ site.baseurl }}/labs/{{ lab.id }}/){%- else -%}**{{ include.label }}**{%- endif -%}
+{%- if lab -%}[**{{ include.label }}**]({% if lab.path %}{{ site.labs_repo }}/blob/main/{{ lab.path }}{% else %}{{ site.baseurl }}/labs/{{ lab.id }}/{% endif %}){%- else -%}**{{ include.label }}**{%- endif -%}

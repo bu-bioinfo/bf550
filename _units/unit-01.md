@@ -27,8 +27,8 @@ they are the cheapest way to find out whether the reading landed.
   with instructors and TAs in the room.
 
 The term begins on a Wednesday, and Labor Day falls inside this unit — so unit 1 runs Wed · Fri · Wed
-rather than the Fri · Mon · Wed the rest of the term settles into. PS1 is due Wed Sep 16, at the
-end of unit 2.
+rather than the Fri · Mon · Wed the rest of the term settles into. PS1 is due Fri Sep 11, at the
+start of unit 2.
 
 ## Where this fits
 

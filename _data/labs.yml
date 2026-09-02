@@ -1,7 +1,11 @@
-# Published lab pages. One entry per page in docs/labs/; the unit pages, the schedule and
+# Published labs. One entry per lab, wherever it lives; the unit pages, the schedule and
 # /labs/ all read this list, so adding a lab means adding a line here.
 #
-#   id      matches the page's filename and permalink, docs/labs/<id>.md -> /labs/<id>/
+#   id      lab 1 is a course-site page: docs/labs/<id>.md -> /labs/<id>/. Every lab from 2
+#           on is a notebook in the public labs repo, bu-cds-bf550/bf550-labs, which students
+#           clone once in lab 1 and `git pull` to update; those carry `path` too.
+#   path    optional: the notebook's path inside the labs repo (site.labs_repo in _config.yml).
+#           Present => the lab links there; absent => it links to its own page under /labs/.
 #   unit    the unit page it surfaces on, matching _units/<unit>.md
 #   date    the meeting it belongs to, spelled as the schedule spells it
 #   title   the lab's subject, without the "Lab N ·" prefix the page's own title carries
@@ -9,3 +13,28 @@
   unit: unit-01
   date: "Wed Sep 2"
   title: "Your working environment"
+- id: unit-01-2
+  path: "unit-01-2.ipynb"
+  unit: unit-01
+  date: "Fri Sep 4"
+  title: "The pieces code is made of"
+- id: unit-01-3
+  path: "unit-01-3.ipynb"
+  unit: unit-01
+  date: "Wed Sep 9"
+  title: "The pieces, under load"
+- id: unit-02-1
+  path: "unit-02-1.ipynb"
+  unit: unit-02
+  date: "Fri Sep 11"
+  title: "Pieces of a list, positions and all"
+- id: unit-02-2
+  path: "unit-02-2.ipynb"
+  unit: unit-02
+  date: "Mon Sep 14"
+  title: "Counting your way to a p-value"
+- id: unit-02-3
+  path: "unit-02-3.ipynb"
+  unit: unit-02
+  date: "Wed Sep 16"
+  title: "Reading drills: loops that count worlds"
