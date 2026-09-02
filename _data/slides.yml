@@ -12,6 +12,11 @@
   date: "Wed Sep 2"
   title: "Worlds you can build"
   file: unit-01-1
+- unit: unit-01
+  session: 2
+  date: "Fri Sep 4"
+  title: "Worlds you can build, continued; LLM primer"
+  file: unit-01-2
 - unit: unit-02
   session: 1
   date: "Fri Sep 11"

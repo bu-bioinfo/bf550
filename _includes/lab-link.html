@@ -1,8 +1,0 @@
-{%- comment -%}
-One meeting date in the schedule table, linked to its lab if that lab is published:
-{% include lab-link.html id="unit-01-1" label="Sep 2" %}
-An unpublished lab leaves the date exactly as it reads without this include, so the
-schedule never points at a page that is not there yet.
-{%- endcomment -%}
-{%- assign lab = site.data.labs | where: "id", include.id | first -%}
-{%- if lab -%}[**{{ include.label }}**]({% if lab.path %}{{ site.labs_repo }}/blob/main/{{ lab.path }}{% else %}{{ site.baseurl }}/labs/{{ lab.id }}/{% endif %}){%- else -%}**{{ include.label }}**{%- endif -%}

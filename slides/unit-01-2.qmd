@@ -1,12 +1,4 @@
 ---
-# Session 2's deck — to be authored. Add slides, then register this file in
-# course/_data/labs.yml's sibling, _data/slides.yml, which is what publishes it:
-#   - unit: unit-01
-#     session: 2
-#     date: "Fri Sep 4"
-#     title: "..."
-#     file: unit-01-2
-# Until that entry exists the deck renders but nothing links to it.
 title: "Unit 1 · Session 2"
 subtitle: "BF550 · Unit 1 · Session 2 — Fri Sep 4"
 ---

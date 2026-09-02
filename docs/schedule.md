@@ -44,24 +44,25 @@ open while you are preparing for an exam. The midterm is Fri Nov 6, at the start
 Act III exam is Wed Dec 2, at the start of unit 13. It is also why there are **ten problem sets
 across thirteen units** rather than one per unit.
 
-Every meeting date links to that day's [lab]({{ site.baseurl }}/labs/) once the lab is posted —
-the material we work through in class, yours to finish at your own pace afterwards.
+Each unit number links to that unit's page, which carries the slides and the labs for its
+meetings as they are posted — the material we work through in class, yours to finish at your own
+pace afterwards.
 
 | Unit | Sessions | Topic | Problem set Due/Assigned |
 |---:|---|---|---|
-| 1 | Wed {% include lab-link.html id="unit-01-1" label="Sep 2" %} · Fri {% include lab-link.html id="unit-01-2" label="Sep 4" %} · Wed {% include lab-link.html id="unit-01-3" label="Sep 9" %} | Course intro and setup; simulating a process; binomial counts | NA / **PS1**  |
-| 2 | Fri {% include lab-link.html id="unit-02-1" label="Sep 11" %} · Mon {% include lab-link.html id="unit-02-2" label="Sep 14" %} · Wed {% include lab-link.html id="unit-02-3" label="Sep 16" %} | Null distributions; what a p-value is; multiple testing | **PS1** / **PS2** |
-| 3 | Fri {% include lab-link.html id="unit-03-1" label="Sep 18" %} · Mon {% include lab-link.html id="unit-03-2" label="Sep 21" %} · Wed {% include lab-link.html id="unit-03-3" label="Sep 23" %} | Nesting; overdispersion; why counts vary more than they should | **PS2** / **PS3** |
-| 4 | Fri {% include lab-link.html id="unit-04-1" label="Sep 25" %} · Mon {% include lab-link.html id="unit-04-2" label="Sep 28" %} · Wed {% include lab-link.html id="unit-04-3" label="Sep 30" %} | Bayes' theorem; estimating probabilities from counts | **PS3** / **PS4** |
-| 5 | Fri {% include lab-link.html id="unit-05-1" label="Oct 2" %} · Mon {% include lab-link.html id="unit-05-2" label="Oct 5" %} · Wed {% include lab-link.html id="unit-05-3" label="Oct 7" %} | Naive Bayes: classification as a generative story | **PS4** / **PS5** |
-| 6 | Fri {% include lab-link.html id="unit-06-1" label="Oct 9" %} · Tue {% include lab-link.html id="unit-06-2" label="Oct 13" %} · Wed {% include lab-link.html id="unit-06-3" label="Oct 14" %} | Evaluation: overfitting, cross-validation, leakage, calibration | **PS5** / **PS6** |
-| 7 | Fri {% include lab-link.html id="unit-07-1" label="Oct 16" %} · Mon {% include lab-link.html id="unit-07-2" label="Oct 19" %} · Wed {% include lab-link.html id="unit-07-3" label="Oct 21" %} | Logistic regression: modeling the boundary directly | **PS6** / **PS7** |
-| 8 | Fri {% include lab-link.html id="unit-08-1" label="Oct 23" %} · Mon {% include lab-link.html id="unit-08-2" label="Oct 26" %} · Wed {% include lab-link.html id="unit-08-3" label="Oct 28" %} | Linear regression and regularization | **PS7** / **PS8** |
-| 9 | Fri {% include lab-link.html id="unit-09-1" label="Oct 30" %} · Mon {% include lab-link.html id="unit-09-2" label="Nov 2" %} · Wed {% include lab-link.html id="unit-09-3" label="Nov 4" %} | Generalized linear models: Poisson and negative binomial regression | **PS8** / NA |
-| 10 | Fri {% include lab-link.html id="unit-10-1" label="Nov 6" %} · Mon {% include lab-link.html id="unit-10-2" label="Nov 9" %} · Wed {% include lab-link.html id="unit-10-3" label="Nov 11" %} | **MIDTERM Fri Nov 6** (no AI, closed book — Acts I & II), then trees, forests, and boosting | NA / **PS9** |
-| 11 | Fri {% include lab-link.html id="unit-11-1" label="Nov 13" %} · Mon {% include lab-link.html id="unit-11-2" label="Nov 16" %} · Wed {% include lab-link.html id="unit-11-3" label="Nov 18" %} | Dimensionality reduction: PCA (t-SNE/UMAP demo) | **PS9** / **PS10** |
-| 12 | Fri {% include lab-link.html id="unit-12-1" label="Nov 20" %} · Mon {% include lab-link.html id="unit-12-2" label="Nov 23" %} · Mon {% include lab-link.html id="unit-12-3" label="Nov 30" %} | Clustering: mixture models → k-means; validating *k* | **PS10** / NA |
-| 13 | Wed {% include lab-link.html id="unit-13-1" label="Dec 2" %} · Fri {% include lab-link.html id="unit-13-2" label="Dec 4" %} · Mon {% include lab-link.html id="unit-13-3" label="Dec 7" %} · Wed {% include lab-link.html id="unit-13-4" label="Dec 9" %} | **ACT III EXAM Wed Dec 2** (no AI, closed book — units 10–12), then the project launches and the rest is studio | — *the project* |
+| [**1**]({{ site.baseurl }}/units/unit-01/) | Wed **Sep 2** · Fri **Sep 4** · Wed **Sep 9** | Course intro and setup; simulating a process; binomial counts | NA / **PS1**  |
+| [**2**]({{ site.baseurl }}/units/unit-02/) | Fri **Sep 11** · Mon **Sep 14** · Wed **Sep 16** | Null distributions; what a p-value is; multiple testing | **PS1** / **PS2** |
+| [**3**]({{ site.baseurl }}/units/unit-03/) | Fri **Sep 18** · Mon **Sep 21** · Wed **Sep 23** | Nesting; overdispersion; why counts vary more than they should | **PS2** / **PS3** |
+| [**4**]({{ site.baseurl }}/units/unit-04/) | Fri **Sep 25** · Mon **Sep 28** · Wed **Sep 30** | Bayes' theorem; estimating probabilities from counts | **PS3** / **PS4** |
+| [**5**]({{ site.baseurl }}/units/unit-05/) | Fri **Oct 2** · Mon **Oct 5** · Wed **Oct 7** | Naive Bayes: classification as a generative story | **PS4** / **PS5** |
+| [**6**]({{ site.baseurl }}/units/unit-06/) | Fri **Oct 9** · Tue **Oct 13** · Wed **Oct 14** | Evaluation: overfitting, cross-validation, leakage, calibration | **PS5** / **PS6** |
+| [**7**]({{ site.baseurl }}/units/unit-07/) | Fri **Oct 16** · Mon **Oct 19** · Wed **Oct 21** | Logistic regression: modeling the boundary directly | **PS6** / **PS7** |
+| [**8**]({{ site.baseurl }}/units/unit-08/) | Fri **Oct 23** · Mon **Oct 26** · Wed **Oct 28** | Linear regression and regularization | **PS7** / **PS8** |
+| [**9**]({{ site.baseurl }}/units/unit-09/) | Fri **Oct 30** · Mon **Nov 2** · Wed **Nov 4** | Generalized linear models: Poisson and negative binomial regression | **PS8** / NA |
+| [**10**]({{ site.baseurl }}/units/unit-10/) | Fri **Nov 6** · Mon **Nov 9** · Wed **Nov 11** | **MIDTERM Fri Nov 6** (no AI, closed book — Acts I & II), then trees, forests, and boosting | NA / **PS9** |
+| [**11**]({{ site.baseurl }}/units/unit-11/) | Fri **Nov 13** · Mon **Nov 16** · Wed **Nov 18** | Dimensionality reduction: PCA (t-SNE/UMAP demo) | **PS9** / **PS10** |
+| [**12**]({{ site.baseurl }}/units/unit-12/) | Fri **Nov 20** · Mon **Nov 23** · Mon **Nov 30** | Clustering: mixture models → k-means; validating *k* | **PS10** / NA |
+| [**13**]({{ site.baseurl }}/units/unit-13/) | Wed **Dec 2** · Fri **Dec 4** · Mon **Dec 7** · Wed **Dec 9** | **ACT III EXAM Wed Dec 2** (no AI, closed book — units 10–12), then the project launches and the rest is studio | — *the project* |
 
 **Unit 13 is the project unit** and has four sessions rather than three — it carries the term's
 last meeting, Wed Dec 9, and assigns no problem set. **PS10, due Fri Nov 20, is the last one.**
