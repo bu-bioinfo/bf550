@@ -11,9 +11,200 @@ title: "Unit 1 · Session 2"
 subtitle: "BF550 · Unit 1 · Session 2 — Fri Sep 4"
 ---
 
-## To be authored
+# Worlds You Can Build
+
+## Before anything else, a question
+
+A colleague measures DNA methylation at one site: **80 reads, 49 say methylated.**
+
+So the site is 61% methylated.
+
+. . .
+
+**If she ran the same sample again — would she get 61%?**
+
+55%? 70%? How would anyone know, without paying for the rerun?
+
+## The habit this course builds
+
+> Before you analyze data, write down — **as runnable code** — the process you
+> think produced it.
+
+That code is a world you control. You set the truth, run the experiment for
+free, as many times as you like — and *watch* how far an answer can wander
+from a truth you chose.
+
+. . .
+
+Research data has no answer key. A world you built is the only place you can
+ever check your method against a known answer.
+
+## A world, in eight lines
+
+```{python}
+#| echo: true
+import numpy as np
+
+def sequence_site(m, n_reads, rng):
+    """Number of methylated reads at a site with true methylation m."""
+    methylated = 0
+    for _ in range(n_reads):
+        if rng.random() < m:      # this read's molecule carries the mark
+            methylated += 1
+    return methylated
+
+rng = np.random.default_rng(3)
+print(sequence_site(m=0.65, n_reads=80, rng=rng))
+```
+
+The story, visible in the code: each read is one molecule; each molecule
+carries the mark with probability $m$.
+
+## Predict before you run
+
+The true methylation is **0.65**. We rerun the 80-read experiment 2,000 times
+and plot the observed fractions.
+
+**Commit to answers before the next slide:**
+
+::: {.incremental}
+- Will the histogram sit on 0.65?
+- How wide — could a rerun say 0.55? Could it say 0.75?
+- What changes with 20 reads? With 320?
+:::
+
+::: {.notes}
+Collect predictions out loud before advancing. Ask for a show of hands on the depth question
+(wider / narrower / same) so the room has committed before the histogram appears.
+:::
+
+## What the world says
+
+```{python}
+#| fig-align: center
+import matplotlib.pyplot as plt
+
+def average(values):
+    total = 0.0
+    count = 0
+    for value in values:
+        total += value
+        count += 1
+    return total / count
+
+def spread(values):
+    """The standard deviation: typical distance from the average."""
+    center = average(values)
+    squared_total = 0.0
+    count = 0
+    for value in values:
+        squared_total += (value - center) ** 2
+        count += 1
+    return (squared_total / count) ** 0.5
+
+rng = np.random.default_rng(7)
+depths = {20: "#2a78d6", 80: "#eb6834", 320: "#1baf7a"}
+fig, ax = plt.subplots(figsize=(8, 3.2))
+bins = [0.30 + 0.02 * k for k in range(35)]
+for depth, color in depths.items():
+    fractions = []
+    for _ in range(2000):
+        count = sequence_site(0.65, depth, rng)
+        fractions.append(count / depth)
+    ax.hist(fractions, bins=bins, histtype="step",
+            lw=2.5, color=color, label=f"{depth} reads")
+    print(f"{depth:>3} reads: mean {average(fractions):.3f}   sd {spread(fractions):.3f}")
+ax.axvline(0.65, color="#52514e", ls=":", lw=2)
+ax.text(0.652, ax.get_ylim()[1] * 0.95, "truth", color="#52514e", va="top")
+ax.set_xlabel("observed methylation fraction")
+ax.set_ylabel("runs")
+ax.legend(frameon=False)
+ax.spines[["top", "right"]].set_visible(False)
+plt.show()
+```
+
+Same truth every time. The *answers* wander — and now you know by how much.
+
+## Turn it around
+
+She observed **49 of 80**. Which truths routinely produce that?
+
+```{python}
+#| echo: true
+#| output-location: slide
+rng = np.random.default_rng(11)
+grid = [0.40, 0.45, 0.50, 0.55, 0.60, 0.65, 0.70, 0.75, 0.80]
+for m in grid:
+    matches = 0
+    for _ in range(400):
+        count = sequence_site(m, 80, rng)
+        if abs(count - 49) <= 3:        # close enough to her 49?
+            matches += 1
+    print(f"true m = {m:.2f}: produces data like hers {matches/400:.0%} of the time")
+```
+
+## The honest report
+
+Not *"61% methylated."*
+
+. . .
+
+> *"Most consistent with about 0.60, plausibly anywhere in 0.50–0.70 —
+> and 80 reads cannot say more."*
+
+. . .
+
+61% is an *estimate*, and we don't know the true answer.
+
+. . .
+
+But we can reason about how certain we are in that estimate.
+
+## One warning to carry all term
+
+> All models are wrong — but some are useful.
+>
+> — George Box
+
+Every model is a *simplified version* of the process that made the data.
+That is what makes it runnable — and it means every model is wrong
+somewhere.
+
+The skill is knowing **where your model stops behaving like the real world, and
+what that would look like.**
+
+## Your first design opens today
+
+*If 68 of 100 people taste the bitter compound PTC, how common is the
+taste allele — and how sure can you be?*
+
+Problem Set 1, section 2. You write down an **approach**, in four parts:
+
+| | |
+|---|---|
+| **Frame** | What process produced this data? |
+| **Decompose** | What has to be computed or estimated? |
+| **Select** | What would the right method need to do? |
+| **Anticipate** | How could your answer be wrong — and how would you know? |
+
+. . .
+
+**Graded for being on time, not for being right.** A design that turns out
+wrong earns full credit. Committing before you know is the point.
+
+# LLM Primer
+
+## Under construction
+
+# Today's Lab
+
+## Working time — the rest of today
 
 Session 2 is the first meeting after the reading lands.
+
+Go to the [bu-cds-bf550/bf550-labs](https://github.com/bu-cds-bf550/bf550-labs) page and clone the repo
+
+Lab 2 is in `unit-01-2.ipynb`
 
 ::: {.notes}
 The run-sheet's session-2 block currently points at slides that live in `unit-01-1.qmd` — the
