@@ -28,6 +28,10 @@ browser.
 Open a terminal in it (Terminal → New Terminal). Type `hostname` and press enter — you should
 see a machine name starting with `scc`. You are now working on the cluster, not your laptop.
 
+**NOTE:** On the screen where you submit your VS Code Server job, look for the field labeled
+*Additional modules to load* and type in `miniconda`. This is mandatory for selecting the
+right kernel later in step 8.
+
 ### 2 · Tell git who you are
 
 ```bash
@@ -65,14 +69,15 @@ tool you will accept and submit every assignment with.
 ### 5 · Accept your first assignment
 
 ```bash
-gh student accept bu-bioinfo-classrooms bf550-fall-2026 ps01
+gh student accept bu-bioinfo-classrooms bf550-fall-2026 bf550-ps01
 ```
 
-This creates your own private copy of Problem Set 1 on GitHub and prints its address. Clone it
-and move inside:
+This creates your own private copy of Problem Set 1 on GitHub and prints its address. After
+the gh student accept command completes successfully, it should display a `git clone`
+command to clone your new assignment repo. Clone it and move inside:
 
 ```bash
-gh repo clone bu-bioinfo-classrooms/bf550-fall-2026-ps01-YOURUSERNAME
+gh repo clone bu-bioinfo-classrooms/bf550-fall-2026-bf550-ps01-YOURUSERNAME
 cd bf550-fall-2026-ps01-YOURUSERNAME
 ```
 
@@ -111,6 +116,10 @@ the way it shipped.
 In VS Code: File → Open Folder → your `bf550-fall-2026-ps01-...` folder. Open `ps01.ipynb`. In
 the top right of the notebook, choose the kernel: **Select Kernel → Python Environments →
 bf550**.
+
+**NOTE:** If you don't see the `bf550` conda environment available when you try to select a
+kernel, make sure you added the `miniconda` module in the Additional modules field on the
+screen where you launched your VS Code job. See Step 1 for more instructions.
 
 Run the first code cell — the setup check. It should print version numbers, ten coin flips, and
 end without an error. Run it again: **the same ten flips**. That repeatability is the course's
