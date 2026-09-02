@@ -72,16 +72,16 @@ tool you will accept and submit every assignment with.
 gh student accept bu-bioinfo-classrooms bf550-fall-2026 bf550-ps01
 ```
 
-This creates your own private copy of Problem Set 1 on GitHub and prints its address. After
-the gh student accept command completes successfully, it should display a `git clone`
-command to clone your new assignment repo. Clone it and move inside:
+This creates your own private copy of Problem Set 1 on GitHub. When `gh student accept`
+finishes, it prints the address of your new repository. Clone it and move inside:
 
 ```bash
 gh repo clone bu-bioinfo-classrooms/bf550-fall-2026-bf550-ps01-YOURUSERNAME
-cd bf550-fall-2026-ps01-YOURUSERNAME
+cd bf550-fall-2026-bf550-ps01-YOURUSERNAME
 ```
 
-`ls` shows `ps01.ipynb`, `ps01-design.md`, `environment.yml`, and a README.
+`ls` shows `ps01.ipynb`, `ps01-design.md`, `environment.yml`, `pull_request_template.md`, and a
+README.
 
 ### 6 · The full course environment
 
@@ -113,13 +113,13 @@ the way it shipped.
 
 ### 8 · Open the notebook, pick the kernel
 
-In VS Code: File → Open Folder → your `bf550-fall-2026-ps01-...` folder. Open `ps01.ipynb`. In
-the top right of the notebook, choose the kernel: **Select Kernel → Python Environments →
-bf550**.
+In VS Code: File → Open Folder → your `bf550-fall-2026-bf550-ps01-...` folder. Open
+`ps01.ipynb`. In the top right of the notebook, choose the kernel: **Select Kernel → Python
+Environments → bf550**.
 
 **NOTE:** If you don't see the `bf550` conda environment available when you try to select a
 kernel, make sure you added the `miniconda` module in the Additional modules field on the
-screen where you launched your VS Code job. See Step 1 for more instructions.
+screen where you launched your VS Code job. See step 1 for more instructions.
 
 Run the first code cell — the setup check. It should print version numbers, ten coin flips, and
 end without an error. Run it again: **the same ten flips**. That repeatability is the course's
@@ -164,16 +164,18 @@ start Friday's reading — [chapter 1](https://bu-cds-bf550.github.io/bf550-text
 
 ## If you are stuck
 
-Raise a hand — this hour exists so that a stuck step costs you a minute, not an evening. Three
+Raise a hand — this hour exists so that a stuck step costs you a minute, not an evening. Four
 known snags:
 
 - **`conda create` is slow or seems frozen** — the first create downloads packages; give it a
   few minutes. If it fails mentioning disk quota, call us over: home directories on the SCC have
   a size limit and we will move your environment.
-- **The `bf550` kernel is not in the list** — make sure step 6 finished without errors, then
-  reload the VS Code window (F1 → "Reload Window") and look again.
-- **`git clone` asks for a password** — it should not; the labs repo is public. Check the URL for
-  a typo, and that you are cloning `bf550-labs` and not something private.
+- **The `bf550` kernel is not in the list** — the usual cause is a VS Code job launched without
+  `miniconda` in *Additional modules to load*; relaunch the job with it (step 1). Otherwise make
+  sure step 6 finished without errors, then reload the window (F1 → "Reload Window").
+- **A clone asks for a password** — at step 7 it should not, since the labs repo is public: check
+  the URL for a typo. At step 5 it means `gh` is not authenticated — run `gh auth status`, and
+  `gh auth login` again if it says you are logged out.
 - **Claude will not take the course subscription** — sign in with your BU address, and tell us
   today if it still will not; in the meantime [claude.ai](https://claude.ai) in a browser tab
   does everything this unit needs.
