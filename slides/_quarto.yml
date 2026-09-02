@@ -1,4 +1,4 @@
-# Lecture decks: one revealjs deck per topic-opening meeting, authored in Quarto markdown.
+# Lecture decks: one revealjs deck per meeting that has a lecture, authored in Quarto markdown.
 #
 # This is its own small Quarto project inside the Jekyll site. Jekyll ignores the sources
 # (`slides/` is in `_config.yml: exclude`) and preserves the rendered output across its own

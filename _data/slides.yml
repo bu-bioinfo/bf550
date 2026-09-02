@@ -1,8 +1,19 @@
-# Published lecture decks. One entry per rendered deck in slides/; the unit pages and
-# /slides/ read this list, so adding a deck means adding a line here.
+# Published lecture decks. One entry per deck; a unit has one per session it lectures in,
+# so `file` is unit-NN-M for unit NN, session M — the same shape labs.yml uses.
+# The unit pages and /slides/ read this list, so adding a deck means adding a line here.
+#
+#   unit     the unit page it surfaces on, matching _units/<unit>.md
+#   session  which meeting of the unit, 1-based
+#   date     that meeting, spelled as course/docs/schedule.md spells it
+#   title    the deck's subject; "(draft)" is appended by tools/banner.py while under review
+#   file     slides/<file>.qmd -> /slides/<file>.html and .pdf
 - unit: unit-01
+  session: 1
+  date: "Wed Sep 2"
   title: "Worlds you can build"
-  file: unit-01
+  file: unit-01-1
 - unit: unit-02
+  session: 1
+  date: "Fri Sep 11"
   title: "Repeat: null distributions and the thousand-test trap (draft)"
-  file: unit-02
+  file: unit-02-1

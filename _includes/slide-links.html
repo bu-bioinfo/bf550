@@ -1,15 +1,17 @@
 {%- comment -%}
 Slide links for a unit page: {% include slide-links.html unit="unit-01" %}
-Lists every deck in _data/slides.yml for that unit, in file order; a unit with none gets a
-placeholder line. Emits no trailing newline -- a blank line would make the unit page's whole
-"In class" list loose and wrap every bullet in its own paragraph.
+Lists every deck in _data/slides.yml for that unit, in file order (which is session order);
+a unit with none gets a placeholder line. Mirrors lab-links.html, including the date prefix --
+a unit lectures in more than one session, so the date is what tells them apart. Emits no
+trailing newline -- a blank line would make the unit page's whole "In class" list loose and
+wrap every bullet in its own paragraph.
 {%- endcomment -%}
 {%- assign decks = site.data.slides | where: "unit", include.unit -%}
 {%- if decks.size > 0 -%}
 {%- for deck in decks -%}
 {%- unless forloop.first %}
 {% endunless -%}
-- **Slides:** *{{ deck.title }}* — [view]({{ site.baseurl }}/slides/{{ deck.file }}.html) · [PDF]({{ site.baseurl }}/slides/{{ deck.file }}.pdf)
+- **Slides{% if deck.date %} · {{ deck.date }}{% endif %}:** *{{ deck.title }}* — [view]({{ site.baseurl }}/slides/{{ deck.file }}.html) · [PDF]({{ site.baseurl }}/slides/{{ deck.file }}.pdf)
 {%- endfor -%}
 {%- else -%}
 - **Slides:** posted here before the first meeting.

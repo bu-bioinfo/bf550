@@ -1,21 +1,25 @@
 # Lecture decks
 
 [Quarto revealjs](https://quarto.org/docs/presentations/revealjs/) decks, authored in markdown
-with code that executes at render time. In general every session has a lecture and so a deck; no
-rule fixes which sessions do, and a unit carries as many entries in `_data/slides.yml` as it has
-decks. Rendered decks are
+with code that executes at render time. **One deck per meeting that has a lecture**, named
+`unit-NN-M.qmd` for unit `NN`, session `M` — the shape the labs use. There is a lecture in every
+session, so a three-session unit has three decks and three entries in `_data/slides.yml`, each
+carrying its `session` and its `date`. Rendered decks are
 published at `https://bu-cds-bf550.github.io/slides/<name>.html` with a PDF beside each one;
 the unit pages and [`/slides/`](https://bu-cds-bf550.github.io/slides/) link to them from
 [`_data/slides.yml`](../_data/slides.yml).
 
 ## Authoring
 
-1. Copy [`_template.qmd`](_template.qmd) to `unit-NN.qmd`. The template demonstrates every
-   construct the decks use: reveals (`. . .`), incremental lists, columns, executed Python
+1. Copy [`_template.qmd`](_template.qmd) to `unit-NN-M.qmd`, or generate a skeleton with
+   `tools/deck_skeleton.py --unit N --session M` in the instructor repo. The template
+   demonstrates every construct the decks use: reveals (`. . .`), incremental lists, columns,
+   executed Python
    with hidden or shown code, figures, output-on-the-next-slide, Graphviz/Mermaid diagrams,
    static images (`img/`), and speaker notes.
-2. Add a line to `_data/slides.yml`. That single entry makes the unit page show *view · PDF*
-   links and adds the row on `/slides/`.
+2. Add an entry to `_data/slides.yml` — `unit`, `session`, `date` (spelled as the schedule
+   spells it), `title`, `file`. That entry makes the unit page show *view · PDF* links against
+   the right meeting and adds the row on `/slides/`.
 3. Push. CI renders the deck, exports the PDF, gates the site, and deploys.
 
 Conventions the decks inherit from the textbook (see its `CONVENTIONS.md`):
@@ -25,8 +29,9 @@ Conventions the decks inherit from the textbook (see its `CONVENTIONS.md`):
 - **Seed every random draw**, reusing the chapter's seeds where a chunk comes from the
   chapter, so what is projected in class is exactly what students find in the reading.
 - **Slide headings are a public interface.** The instructor run-sheets cite slides by
-  heading text, not by number. Adding or reordering slides is free; renaming a heading means
-  updating that unit's run-sheet.
+  heading text, not by number, and name the deck the heading is in. Adding or reordering slides
+  is free; renaming a heading, or moving one to another session's deck, means updating that
+  unit's run-sheet.
 
 ### Speaker notes
 

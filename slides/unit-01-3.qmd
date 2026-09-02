@@ -1,0 +1,21 @@
+---
+# Session 3's deck — to be authored. Register it in _data/slides.yml to publish it:
+#   - unit: unit-01
+#     session: 3
+#     date: "Wed Sep 9"
+#     title: "..."
+#     file: unit-01-3
+# A parked draft for this session (structural checks — "checking an answer with no answer
+# key", code verified) is at lectures/unit01-session3-deck-draft.qmd in the instructor repo.
+title: "Unit 1 · Session 3"
+subtitle: "BF550 · Unit 1 · Session 3 — Wed Sep 9"
+---
+
+## To be authored
+
+Session 3 is a working session on PS1, which is due at the start of the next meeting.
+
+::: {.notes}
+Whatever lands here is the block that gets cut when the clock slips — the working time is what
+must not move. Name the cut in the run-sheet.
+:::
