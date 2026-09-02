@@ -252,6 +252,19 @@ One smaller in-class exam for Act III topics, also **AIAS 1**
 
 *Exams are not meant to be difficult* -- they are *a mechanism to ensure you practice and understand the material!*
 
+## Synthesis Project
+
+You will complete a final *synthesis project*
+
+Follows the pattern of the Design / Build phases from assignments:
+
+- Pick a biological problem
+- pose it as a question that can be answered with data
+- make a Design
+- simulate and Build
+
+More detail and guidance to come...
+
 ## Course Technologies
 
 ::: {.incremental}
