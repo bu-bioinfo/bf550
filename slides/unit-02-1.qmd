@@ -17,10 +17,11 @@ session it serves.
 
 ## Check-in {.smaller}
 
-Socrative — opener kind, `checkins/unit02.md` session 1.
+TODO: the check-in link and its QR code — `?session=NN`
 
 ::: {.notes}
 TODO: the standing frame, verbatim; glance at the split before moving on.
+Opener kind; bank `checkins/unit02.md` session 1.
 :::
 
 ## The turn-in
