@@ -96,22 +96,28 @@ def spread(values):
 
 rng = np.random.default_rng(7)
 depths = {20: "#2a78d6", 80: "#eb6834", 320: "#1baf7a"}
-fig, ax = plt.subplots(figsize=(8, 3.2))
-bins = [0.30 + 0.02 * k for k in range(35)]
-for depth, color in depths.items():
+fig, axes = plt.subplots(3, 1, sharex=True, figsize=(8, 3.8),
+                         layout="constrained")
+for ax, depth in zip(axes, depths):
+    color = depths[depth]
     fractions = []
     for _ in range(2000):
         count = sequence_site(0.65, depth, rng)
         fractions.append(count / depth)
-    ax.hist(fractions, bins=bins, histtype="step",
-            lw=2.5, color=color, label=f"{depth} reads")
+    # one bar per fraction this depth can report: 0/n, 1/n, 2/n, ...
+    bins = [(k - 0.5) / depth for k in range(depth + 2)]
+    ax.hist(fractions, bins=bins, color=color)
+    ax.axvline(0.65, color="#52514e", ls=":", lw=2)
+    ax.text(0.99, 0.78, f"{depth} reads", transform=ax.transAxes,
+            ha="right", color=color)
+    ax.set_xlim(0.30, 1.0)
+    ax.set_yticks([])
+    ax.spines[["top", "right", "left"]].set_visible(False)
     print(f"{depth:>3} reads: mean {average(fractions):.3f}   sd {spread(fractions):.3f}")
-ax.axvline(0.65, color="#52514e", ls=":", lw=2)
-ax.text(0.652, ax.get_ylim()[1] * 0.95, "truth", color="#52514e", va="top")
-ax.set_xlabel("observed methylation fraction")
-ax.set_ylabel("runs")
-ax.legend(frameon=False)
-ax.spines[["top", "right"]].set_visible(False)
+axes[0].set_title("dotted line: the truth, 0.65", loc="left",
+                  fontsize=10, color="#52514e")
+axes[1].set_ylabel("runs")
+axes[2].set_xlabel("observed methylation fraction")
 plt.show()
 ```
 
