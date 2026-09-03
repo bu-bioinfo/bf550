@@ -31,17 +31,17 @@ from a truth you chose.
 Research data has no answer key. A world you built is the only place you can
 ever check your method against a known answer.
 
-## A world, in eight lines
+## A world, in code
 
 ```{python}
 #| echo: true
 import numpy as np
 
 def sequence_site(m, n_reads, rng):
-    """Number of methylated reads at a site with true methylation m."""
+    """Number of methylated reads with true methylation fraction m."""
     methylated = 0
     for _ in range(n_reads):
-        if rng.random() < m:      # this read's molecule carries the mark
+        if rng.random() < m: # this read's molecule carries the mark
             methylated += 1
     return methylated
 
@@ -110,7 +110,7 @@ for ax, depth in zip(axes, depths):
     ax.axvline(0.65, color="#52514e", ls=":", lw=2)
     ax.text(0.99, 0.78, f"{depth} reads", transform=ax.transAxes,
             ha="right", color=color)
-    ax.set_xlim(0.30, 1.0)
+    ax.set_xlim(0.0, 1.0)
     ax.set_yticks([])
     ax.spines[["top", "right", "left"]].set_visible(False)
     print(f"{depth:>3} reads: mean {average(fractions):.3f}   sd {spread(fractions):.3f}")
@@ -136,9 +136,10 @@ for m in grid:
     matches = 0
     for _ in range(400):
         count = sequence_site(m, 80, rng)
-        if abs(count - 49) <= 3:        # close enough to her 49?
+        if abs(count - 49) <= 3:     # +/- 3 from her observation?
             matches += 1
-    print(f"true m = {m:.2f}: produces data like hers {matches/400:.0%} of the time")
+    print(f"true m = {m:.2f}: produces data like hers"
+          f"{matches/400:.0%} of the time")
 ```
 
 ## The honest report
