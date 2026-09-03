@@ -138,7 +138,7 @@ for m in grid:
         count = sequence_site(m, 80, rng)
         if abs(count - 49) <= 3:     # +/- 3 from her observation?
             matches += 1
-    print(f"true m = {m:.2f}: produces data like hers"
+    print(f"true m = {m:.2f}: produces data like hers "
           f"{matches/400:.0%} of the time")
 ```
 
@@ -159,6 +159,96 @@ Not *"61% methylated."*
 
 But we can reason about how certain we are in that estimate.
 
+## So what is 61%, then?
+
+```{python}
+rng = np.random.default_rng(11)
+fine_grid = []
+support = []
+for step in range(41):
+    m = 0.40 + 0.01 * step
+    matches = 0
+    for _ in range(2000):
+        count = sequence_site(m, 80, rng)
+        if abs(count - 49) <= 3:
+            matches += 1
+    fine_grid.append(m)
+    support.append(matches / 2000)
+
+fig, ax = plt.subplots(figsize=(8, 3.2), layout="constrained")
+ax.axvspan(0.58, 0.64, color="#eb6834", alpha=0.12)
+ax.plot(fine_grid, support, color="#eb6834", lw=2)
+ax.axvline(49 / 80, color="#52514e", ls=":", lw=2)
+ax.set_title("dotted line: 49/80 — shaded: every truth that produces her data "
+             "at least half the time",
+             loc="left", fontsize=10, color="#52514e")
+ax.set_xlabel("candidate truth $m$")
+ax.set_ylabel("likelihood\n(share of runs like hers)")
+ax.set_xlim(0.40, 0.80)
+ax.set_ylim(0, 0.65)
+ax.spines[["top", "right"]].set_visible(False)
+plt.show()
+```
+
+Same loop as the last slide, on a finer grid.
+
+. . .
+
+**The curve has a name.** How often a candidate truth produces data like hers is
+that truth's **likelihood**.
+
+. . .
+
+**So does its peak.** 61% is the truth that makes her data least surprising — the
+**maximum likelihood estimate**, $\hat{m} = k/n = 49/80$.
+
+. . .
+
+**And the peak is nearly flat.** Every truth from 0.58 to 0.64 produces data like
+hers at least half the time. The estimate is where the hill peaks; the honest
+report is how wide it is.
+
+::: {.notes}
+**Chapter 1 builds this curve but never names it** — the naming was cut from the
+assigned text and is deferred to the next offering (bf550-instructor, ch01 revisions;
+record: `an-assigned-chapter-freezes`). So this slide is their first exposure to the
+word, not a callback. Say so: *"the book draws this and stops — here is what it is
+called."*
+
+Two things to keep straight if pressed. The strict likelihood is the chance of getting
+*exactly* her 49; ours is the chance of landing within ±3, which is the same shape and
+the version they can already compute. And the word to land is *estimate* — the term
+*maximum likelihood* is a label for arithmetic they did on the previous slide, not new
+machinery. If anyone asks why the peak is exactly 49/80, hold it: the next slide answers
+it in one line.
+:::
+
+## The notation
+
+Every histogram today has drawn the same object — a **distribution**: which
+values a count can take, and how often it takes each one.
+
+$$X \sim \mathrm{Binomial}(n,\ m)$$
+
+*The number of yes's in $n$ independent tries, each succeeding with probability
+$m$.* Nothing new — it is what `sequence_site` has been sampling all along, and
+$\sim$ always means **a process on the right, one run of it on the left.**
+
+. . .
+
+It centers on $nm$ — at 80 reads and $m = 0.65$, that is 52 — and its spread
+shrinks with $n$ at the square-root rate the depth panels showed.
+
+. . .
+
+Which is why the summit sat at 49/80: it is $nm = 49$, solved for $m$.
+
+::: {.notes}
+Read the notation aloud, both directions, and move. This is a naming slide, not a
+derivation — ch. 1's *The notation* section carries it, and re-teaching here is the
+failure mode. The closing line is the payoff for the previous slide; do not expand it.
+:::
+
 ## One warning to carry all term
 
 > All models are wrong — but some are useful.
@@ -172,7 +262,7 @@ somewhere.
 The skill is knowing **where your model stops behaving like the real world, and
 what that would look like.**
 
-## Your first design opens today
+## The Design from this week follows the same pattern
 
 *If 68 of 100 people taste the bitter compound PTC, how common is the
 taste allele — and how sure can you be?*
@@ -204,8 +294,8 @@ token. `methylation` is several. `rng.binomial` is several more — code is dens
 
 . . .
 
-That is the whole concept. From here on, *tokens* is just **the unit everything is measured
-in**: how much fits, what it costs, when you get cut off.
+From here on, *tokens* is just **the unit everything is measured in**: how much
+fits, what it costs, when you get cut off.
 
 ::: {.notes}
 Sixty seconds, and the only goal is that the word is available for the rest of the term.
@@ -218,8 +308,7 @@ window, is Wednesday's predict-then-run.
 
 ## What a chat actually is
 
-A chat is **one window**. Everything you type, paste, or attach goes into it — and
-**stays** in it for the rest of the conversation.
+A chat is called a **window** -- a series of **turns** between you and the model.
 
 . . .
 
@@ -228,7 +317,13 @@ conversation being sent again, from the top, on every single message.
 
 . . .
 
-So turn 40 pays for turns 1 through 39. A chat does not get cheaper as it goes.
+If your chat has 40 turns (20 yours, 20 the model's responses), your next response sends
+**all 40 previous turns and your next message** back to the model.
+
+. . .
+
+The tokens in the entire chat are called the **context**. Everything
+the model knows about in a conversation is called the **context window**.
 
 ::: {.notes}
 Demo, chat window 1: after a few exchanges, ask *"what did I ask you in my very first
@@ -263,7 +358,7 @@ this weekend and think something broke.
 Do not quote a message count; Anthropic does not publish one. Wednesday gets the detail.
 :::
 
-## This weekend, in two levels {.smaller}
+## This weekend, in two levels
 
 PS1 asks for the chat in **two different ways**:
 
@@ -298,7 +393,8 @@ AI, it is YOUR work*, and this deck's *The honest report*.
 
 Session 2 is the first meeting after the reading lands.
 
-Go to the [bu-cds-bf550/bf550-labs](https://github.com/bu-cds-bf550/bf550-labs) page and clone the repo
+Go to the [bu-cds-bf550/bf550-labs](https://github.com/bu-cds-bf550/bf550-labs)
+page and clone the repo if you haven't already
 
 Lab 2 is in `unit-01-2.ipynb`
 
