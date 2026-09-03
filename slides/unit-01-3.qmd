@@ -1,21 +1,192 @@
 ---
-# Session 3's deck — to be authored. Register it in _data/slides.yml to publish it:
+# Session 3's deck. Register it in _data/slides.yml to publish it:
 #   - unit: unit-01
 #     session: 3
 #     date: "Wed Sep 9"
 #     title: "..."
 #     file: unit-01-3
-# A parked draft for this session (structural checks — "checking an answer with no answer
-# key", code verified) is at lectures/unit01-session3-deck-draft.qmd in the instructor repo.
+# NOTE: this deck now carries the LLM primer's detailed half (session 2 keeps only the
+# AIAS 2/3 minimum). The other parked candidate for session 3's single lecture slot --
+# structural checks, "checking an answer with no answer key", code verified -- is still at
+# lectures/unit01-session3-deck-draft.qmd. Only one of the two fits; see the run-sheet.
 title: "Unit 1 · Session 3"
 subtitle: "BF550 · Unit 1 · Session 3 — Wed Sep 9"
 ---
 
-## To be authored
+# LLM Primer, continued
 
-Session 3 is a working session on PS1, which is due at the start of the next meeting.
+## Where we left it Friday
+
+Friday, in four lines — still true:
+
+::: {.incremental}
+- **tokens** are the unit: roughly three quarters of a word, and code is denser than prose
+- a chat is **one window**, and everything you put in it stays there
+- there is **no memory between turns** — the transcript is re-sent every message
+- **one chat per task**, and you have a budget
+:::
+
+. . .
+
+Today: *why* each of those is true, and the numbers behind them.
 
 ::: {.notes}
-Whatever lands here is the block that gets cut when the clock slips — the working time is what
-must not move. Name the cut in the run-sheet.
+Ninety seconds. If Friday landed, this is a recall check, not a re-teach — ask the room for
+the four lines rather than reading them. Tokens were named on Friday (*Tokens, once*) and
+deliberately not unpacked; today is where the arithmetic lands.
+
+Run-sheet: this is the 0:15–0:30 block, and it is the block to cut if the room came in
+stuck on the toolchain. Working time does not move.
+:::
+
+## How big is a token, really {.smaller}
+
+**Predict first:** chapter 1 is about 3,500 words. How many tokens? And how many
+chapter 1s fit in one chat?
+
+. . .
+
+```{python}
+#| echo: true
+for label, words in [
+    ("this slide", 60),
+    ("chapter 1", 3_500),
+    ("lab 2, the whole notebook", 2_800),
+    ("a long chat about a problem set", 8_000),
+]:
+    print(f"{label:>32}: ~{round(words * 4 / 3):>7,} tokens")
+
+print(f"\na 1,000,000-token window holds ~{round(1_000_000 * 3 / 4):,} words")
+print(f"...or about {round(1_000_000 * 3 / 4 / 3_500)} copies of chapter 1")
+```
+
+::: {.notes}
+Collect the second number out loud before revealing — most rooms guess single digits, and
+the answer is ~200. That over-correction is the setup for the next two slides: the window is
+enormous, and you will still hit trouble, for reasons that are not about size.
+:::
+
+## What is in the window
+
+Everything competes for the same space:
+
+::: {.incremental}
+- every message you have sent
+- every reply it has given
+- every file you attached
+- your project instructions, if you set any
+- everything its tools read for it — a web page, a file, a command's output
+:::
+
+. . .
+
+Current models on a paid plan go up to **1M tokens**; some are 500K or 200K.
+
+::: {.notes}
+Demo: attach chapter 1, ask one question about it, then point out that the chapter is now
+sitting in the window for the rest of the conversation whether the next question needs it
+or not. That is the concrete version of Friday's "it stays in there".
+:::
+
+## When the window fills
+
+Approach the limit and the conversation is **automatically summarized** — earlier messages
+get compressed to make room.
+
+. . .
+
+Two consequences, both worth feeling once:
+
+::: {.incremental}
+- the summary is **lossy** — the constraint you gave it 40 messages ago may simply be gone
+- summarizing **costs tokens**, so the longest chats burn your limit fastest
+:::
+
+. . .
+
+The fix is not a longer chat. It is **a new chat**.
+
+::: {.notes}
+Source: Anthropic's help centre, "How do usage and length limits work" — longer
+conversations that trigger automatic context management consume more of your usage limit,
+and the recommendation there is to start a new conversation.
+
+This is the slide students will remember in week 9 when a build-phase chat goes sideways.
+It is also the mechanism behind Friday's "a long chat drifts".
+:::
+
+## Rate limits: two clocks {.smaller}
+
+Your Pro subscription runs on two limits at once:
+
+| Clock | What it is |
+| --- | --- |
+| **Session** | A rolling **five-hour** window. Resets on its own. |
+| **Weekly** | A cap across all models, resetting on a fixed day assigned to your account. |
+
+: {tbl-colwidths="[22,78]"}
+
+. . .
+
+Neither is a **message count**. What you spend per message depends on its length, what you
+attached, **how long the conversation already is**, the model, and whether extended thinking
+is on.
+
+::: {.notes}
+Settings → Usage again, live — they saw it Friday, but now they have the vocabulary for why
+the bars move at different rates.
+
+Do not quote a message count. Anthropic deliberately does not publish one, and any number
+said out loud here will be wrong by December.
+:::
+
+## Spend it well {.smaller}
+
+:::: {.columns}
+::: {.column width="50%"}
+**Burns your limit**
+
+- one endless chat for everything
+- re-pasting the same file each turn
+- attaching a whole notebook to ask about one function
+- extended thinking on a trivial question
+- tools left on that the task never needs
+:::
+::: {.column width="50%"}
+**Costs almost nothing**
+
+- one chat per task, closed when done
+- pasting the twenty lines that matter
+- saying what you want in the first message
+- restarting the chat with the *current* version of the file
+- checking Settings → Usage **before** a problem set
+:::
+::::
+
+. . .
+
+None of this makes the answers **true**. Mechanics are how you afford the tool;
+**verification is how you use it.**
+
+::: {.notes}
+Say the fifth-edit rule out loud: if you are on your fifth round of edits to the same
+function, you are paying for four dead versions on every turn. Start a fresh chat, paste
+what you have now.
+
+The last line is the handoff to the working session — PS1 is due Friday, and the checks in
+it are AIAS 1.
+:::
+
+# Today's Working Session
+
+## Working time — the rest of today
+
+**PS1 is due at the start of class on Friday** — the whole set, not just the design.
+
+::: {.notes}
+The run-sheet owns this block: stuck points from Friday first, then work, with the pair
+read-through of Frame drafts at ~0:45 — swap, and ask only "what would your output actually
+look like?"
+
+Read ch. 2 before Friday too. Lab 3 is `unit-01-3.ipynb`.
 :::
