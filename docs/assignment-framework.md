@@ -24,7 +24,8 @@ answer will use. Then comes **our design** of it, in four short parts:
 Then the questions. **Question *k* builds piece *k* of the Decompose list.** Each question is
 three cells: our prose saying what to compute, **a code cell that is yours**, and **a check cell
 that tests your code.** A few questions ask for a sentence instead of code — read our design, read
-a piece of code, say what the checks cannot see — and you answer those in a markdown cell you add.
+a piece of code, say what the checks cannot see — and those come with **an answer cell marked ✏️**
+that is yours to write in. You never have to add a cell.
 
 Beside the notebook is **`data.csv`**: a dataset we generated from the process the Frame
 describes. We know exactly what went into it. That is what lets every check mean something and
