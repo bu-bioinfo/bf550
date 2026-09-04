@@ -6,7 +6,7 @@ title: "Unit 8 — Linear regression and regularization"
 
 **Sessions:** Fri **Oct 23** · Mon **Oct 26** · Wed **Oct 28**
 
-**PS7** is due at the start of the first session, Fri **Oct 23** · **PS8** is assigned in that same session · due Fri **Oct 30**
+**PS7** is due at the start of the first session, Fri **Oct 23** · **PS8** (on unit 7's material) is assigned in that same session · due Fri **Oct 30**
 
 > *Can expression predict dose response?*
 

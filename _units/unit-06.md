@@ -6,7 +6,7 @@ title: "Unit 6 — Evaluation: overfitting, cross-validation, leakage, calibrati
 
 **Sessions:** Fri **Oct 9** · Tue **Oct 13** · Wed **Oct 14**
 
-**PS5** is due at the start of the first session, Fri **Oct 9** · **PS6** is assigned in that same session · due Fri **Oct 16**
+**PS5** is due at the start of the first session, Fri **Oct 9** · **PS6** (on unit 5's material) is assigned in that same session · due Fri **Oct 16**
 
 > *Does the classifier actually work, or does it just look like it does?*
 

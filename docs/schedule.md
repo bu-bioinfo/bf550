@@ -29,11 +29,11 @@ unevenly, so after unit 1 a unit runs **Friday → Monday → Wednesday**: the t
 problem open on Friday, you have the weekend with them, and Monday and Wednesday are working
 sessions. No session is ever dropped — a holiday bends a unit rather than shortening it.
 
-**A problem set is assigned in a unit's first session and is due at the next unit's first
-session** — the same session the following set is handed out. You submit yours, then you get ours.
-That ordering is the point: the set you hand in carries **your design** for a problem, and the set
-handed out in that same session is where our materials for that problem unseal. The design has to
-be closed before you can see ours, or the comparison the whole course is built on is worth nothing.
+**A problem set covers one unit's material and is assigned at the next unit's first session** —
+after the chapter, the lectures, and the labs — **and is due at the first session of the unit after
+that**, the same session the following set is handed out. So the set open during a unit is on the
+*previous* unit's ideas: you build things after they have had time to settle rather than on the day
+you were introduced to them.
 
 The **Problem set** column below reads *due / assigned* for that unit's first session. All three of
 a unit's sessions carry working time on the set assigned in the first of them, so you have the
