@@ -56,7 +56,7 @@ progression and the three-act arc.
 ## Assessment
 
 See [Assessment & AI Policy]({{ site.baseurl }}/assessment/). Your grade comes
-from ten problem sets (each carrying two no-AI questions), two written code-reading
+from ten problem sets (each with three no-AI reasoning questions), two written code-reading
 exams (no AI: a midterm on Fri Nov 6 and an Act III exam on Wed Dec 2), a synthesis project, and
 participation. **There is no exam during finals period** — the synthesis project is the culminating
 assessment, and unit 13 — the term's last four meetings — belongs to it.

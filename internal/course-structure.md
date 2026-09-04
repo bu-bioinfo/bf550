@@ -9,6 +9,14 @@
 > problem sets**, because the accumulated machinery cost more student and instructor attention than
 > it returned.
 >
+> ### The reversal reversed, 3 Sep 2026
+>
+> The seal and the divergence analysis are retired again, with the design section itself: sets
+> are one list of questions on the previous unit's material, built on the instructor's stated
+> design (`bf550-instructor` `decisions/simplify-the-course-shape.md`). What survives of this
+> document's reasoning is the stagger — a set opens after its unit — and the boundary between
+> chapter worlds and set problems. The rest below is history.
+>
 > ### Partial reversal, 16 Aug 2026
 >
 > **The seal and the divergence analysis are back**, reinstated inside the weekly format as

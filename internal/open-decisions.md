@@ -8,6 +8,15 @@
 > [`course-structure.md`](course-structure.md) is **superseded** and retained for its reasoning.
 > Superseded drafts and all answer-bearing material are in the private `bf550-instructor` repo.
 
+> **Redesign, 3 Sep 2026.** The problem sets became one list of questions per set on the
+> previous unit's material, with the instructor's design as the notebook's opening prose, in-kernel
+> code with check cells, data with planted truth, and a private key. The seal, the design section,
+> the divergence analysis, and the depth branches are retired for this offering. Rows below that
+> depended on them — **Divergence rubric**, **Weekly load with three sections** — are closed as
+> moot; the rubric question survives as "criteria for the answer cells and student-written checks"
+> and the load question as "pilot the ~3 hr estimate". Record: `bf550-instructor`
+> `decisions/simplify-the-course-shape.md`.
+
 > **Redesign, 14 Aug 2026.** The staggered design/build pipeline was replaced by weekly
 > simulation-first problem sets. Decisions that existed only to serve the old machinery — the
 > seat rotation, two problems in flight, the divergence rubric, the separate check-in bank — are

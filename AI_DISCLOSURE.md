@@ -10,9 +10,8 @@ the same standard for ourselves. The student-facing short version lives on the
 
 **The instructor team (Adam Labadorf and co-instructors):** We are the designers, reviewers,
 and owners of this course. The pedagogical decisions are ours — the focus on **code literacy
-over code authorship**, the **Practice → Design → Build** problem-set structure and its sealed
-design section,
-the choice of biological problems, the assessment structure, and the adoption of the
+over code authorship**, the problem-set structure (revised 3 Sep 2026 to one list of questions
+per set built on our stated design), the choice of biological problems, the assessment structure, and the adoption of the
 [TILT](https://www.tilthighered.com/resources) and [AIAS](https://aiassessmentscale.com/)
 frameworks. We direct the work, review and edit the output, decide what ships, and are
 responsible for the final content.
