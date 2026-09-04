@@ -25,7 +25,7 @@ The project proposal is due **Mon Dec 7** and the project bundle during the fina
 **there is no exam during finals period.**
 
 Unit 13 has four sessions rather than three — it carries the term's last meeting, Wed Dec 9. The
-last graded problem set, **PS12, is due Fri Dec 4.**
+last graded problem set, **PS10, was due Fri Nov 20**; nothing is due in this unit but the project.
 
 ## Where this fits
 

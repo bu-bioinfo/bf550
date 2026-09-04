@@ -92,8 +92,8 @@ distribute and submit assignments. Instructions will be given in class and
 along with assignment materials.
 
 One notebook per problem set — your code, your figures, and your answers in complete sentences —
-**due at the start of the session that assigns the next one**. You submit yours, then ours
-unseals — that is what keeps your design sealed from our answer. A number with no sentence around it earns no credit: in a course
+**due at the start of the session that assigns the next one**. Each set covers the previous
+unit's material, so you have read the chapter and done the labs before it opens. A number with no sentence around it earns no credit: in a course
 where an agent can produce any number you ask for, the sentence is the part
 that shows you understood it.
 
@@ -155,9 +155,8 @@ Let us know in advance and we will schedule around it.
 ### Grading
 
 The component weights are in the [assessment table](#assessment) above; what each section of a
-problem set is graded on — completion, timeliness, or correctness — is on the
-[problem sets page]({{ site.baseurl }}/assignments/). Practice is graded on completion, design on
-being on time rather than on being right, and only the build section is graded on the work itself.
+problem set is graded on is on the [problem sets page]({{ site.baseurl }}/assignments/): the
+checks passing, the interpretation, and the three reasoning questions.
 
 ## A note on how this course was built
 
@@ -165,7 +164,7 @@ In the spirit of the AI-use expectations we set for you, here's how these course
 were made.
 
 This course was designed by the instructor team. The pedagogical choices — the focus on code
-literacy, the three-section problem-set structure, the choice of biological
+literacy, the problem-set structure, the choice of biological
 problems, and the assessment structure — are the team's own. Generative AI (Claude, by
 Anthropic) was used substantially to draft and organize the written materials on this site
 from the team's specifications and intent, working at roughly **AI Assessment Scale level 3–4

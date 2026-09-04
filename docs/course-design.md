@@ -67,16 +67,17 @@ ambiguity about what's allowed.
 
 | Level | Name | What it means |
 |------:|------|---------------|
-| 1 | No AI | Work on your own (e.g. the two no-AI questions in every problem set, and both exams). |
+| 1 | No AI | Work on your own (e.g. the three reasoning questions in every problem set, and both exams). |
 | 2 | AI Planning | AI for brainstorming/outlining; you develop the ideas yourself. |
 | 3 | AI Collaboration | AI helps draft; you critically evaluate and revise its output. |
 | 4 | Full AI | Use the agent throughout; you direct it, verify it, and own the result. |
 | 5 | AI Exploration | Open-ended, creative use. |
 
-Building simulators, exploring, and the project are **Level 4** — use the agent freely, with your design,
-specifications, tests, and verification as the work that's graded. The two no-AI questions in every
-problem set, the midterm, and the Act III exam are **Level 1**, so you and we can both see your
-unaided reading skills grow over the term.
+Every level is a **maximum** — the most AI use we recommend, and where your attention belongs.
+Code questions in the problem sets are **Level 3**: the agent may draft; you read, test, and say
+what you kept. The project is **Level 4**. The three reasoning questions in every problem set, the
+midterm, and the Act III exam are **Level 1**, so you and we can both see your unaided reading
+skills grow over the term.
 
 ## Why this course is built the way it is
 
@@ -141,11 +142,12 @@ approach; one chapter per unit is the reading, and you can start reading it righ
 You'll have a provided coding agent and a tutor for the [textbook](https://bu-cds-bf550.github.io/bf550-textbook/), and **every individual question** states
 its [AI level](https://aiassessmentscale.com/) — not every assignment, every question:
 
-- **Building simulators, exploring, breaking things — full AI, encouraged.** Describe the process
-  in words and let the agent write it. Specifying what generates your data is the thinking; typing
-  it is not.
-- **Checking your own work, and reading code — no AI.** Two questions in every set. These are the
-  skills that quietly disappear if you delegate them, and they are exactly what the exams assess.
+- **Writing the code — level 3, the agent may draft.** Describe the piece in words, let the agent
+  write it, then read what it wrote, run the checks, and say what you kept. Reading and testing are
+  the thinking; typing is not.
+- **Reading our design, reading code, and saying what the checks cannot see — no AI.** Three
+  questions in every set. These are the skills that quietly disappear if you delegate them, and
+  they are exactly what the exams assess.
 - **The two exams — no AI.** A midterm (Fri Nov 6) and an Act III exam (Wed Dec 2), closed-book, both
   code-reading.
 

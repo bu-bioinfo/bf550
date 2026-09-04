@@ -25,37 +25,29 @@ finals period** — the term closes with the project.
 
 ### Problem sets
 
-Ten across the term. A set is assigned in a unit's first session and due at the start of the next
-unit's first session — the session that hands out the next one. You submit yours, then you get
-ours, which is what keeps your design sealed from our answer to it. Units 9 and 12 assign nothing,
-so no set is open while you prepare for an exam. Three sections. **Practice** — short warm-ups on this unit's
-ideas, graded on completion, and the place to ask for help freely. **Design** — your own approach to
-this unit's problem, committed before you see ours, graded for being on time rather than for being
-right. **Build** — last unit's problem, whose materials have now unsealed: you open with a
-divergence analysis against the design you committed, then work six questions in which you build a
-generative process, check it against cases whose answers follow from structure, explore it, break
-it, read someone else's code, and choose at least one depth direction. The
+Ten across the term. A set covers one unit's material and is assigned at the start of the *next*
+unit — after the chapter, the lectures, and the labs — and due at the start of the unit after
+that. Units 9 and 12 assign nothing, so no set is open while you prepare for an exam. A set opens
+with the problem and our design of it; the questions build that design's pieces against data we
+generated, so every question has an answer and every code question carries checks. The
 [problem sets page]({{ site.baseurl }}/assignments/) explains the format; the
 [schedule]({{ site.baseurl }}/schedule/) lists every deadline.
 
-**Being wrong in a design is expected and safe.** It is the comparison that teaches, and the
-comparison only works if you committed to something before you saw our approach.
+**Checking your own work is a graded skill here, not an afterthought.** In sets 2–4 the checks
+are ours; from set 5 the question describes the cases in prose and you write the checks. Every
+expected value carries the line that derives it, and a check whose value was read off a run is not
+a check.
 
-**There is no answer key, and there doesn't need to be one** — you set the parameters that generated
-your data, so you already know the truth. Checking your own work is a graded skill here, not an
-afterthought: on those questions, state your prediction *before* you run anything. A prediction that
-turned out wrong, which you caught and corrected, earns full credit.
-
-If you miss a unit, the set stays open with no penalty for a further unit. Questions that
-depend on earlier units ship with a reference implementation, so one bad unit never blocks the next.
+If you miss a unit, the set stays open with no penalty for a further unit.
 
 ### The no-AI questions
 
-**Two questions in every problem set are AI level 1.** One asks you to verify your own simulator
-without help; one asks you to read code and say precisely what it does and where it fails. They are
-not a hurdle bolted onto the course — both exams are code-reading exams, so these questions are the
-rehearsal, happening in every set in the ordinary course of the work. By the midterm you'll have done
-more than a dozen of them.
+**Three questions in every problem set are AI level 1.** One asks you to read our design and say
+which piece is the answer and what to expect before you run; one asks you to read code and say
+precisely what it does and where it fails; one asks how every check could pass and the answer still
+be wrong. They are not a hurdle bolted onto the course — both exams are code-reading exams, so
+these questions are the rehearsal, happening in every set in the ordinary course of the work. By
+the midterm you'll have done more than twenty of them.
 
 Watch your own trajectory on them. It's the most honest signal you'll get about whether your unaided
 skills are growing alongside your agent-assisted work.
@@ -86,20 +78,20 @@ assignment names a level so the expectations are explicit:
 
 | Level | Name | What it means for you |
 |------:|------|---|
-| 1 | No AI | Work on your own — two questions on every problem set, and both exams. |
+| 1 | No AI | Work on your own — the three reasoning questions in every problem set, and both exams. |
 | 2 | AI Planning | Use AI to brainstorm or outline; develop the ideas yourself. |
 | 3 | AI Collaboration | AI helps draft; you critically evaluate and revise its output. |
 | 4 | Full AI | Use the agent throughout; you direct it, verify it, and own the result. |
 | 5 | AI Exploration | Open-ended, creative use. |
 
-**Levels are set per question, not per assignment.** A single problem set routinely spans levels 1
-through 4. Using a coding agent at level 4 is expected, not a shortcut — what's graded is your
-specification of the process, your checks, and your critique, the parts an agent can't produce for
-you.
+**Levels are set per question, not per assignment, and every level is a maximum** — the most AI
+use we recommend, and a pointer to where your attention belongs. Code questions are level 3: the
+agent may draft; you read it, test it, and say what you kept. The project is level 4. What's graded
+is your checks, your interpretation, and your critique — the parts an agent can't produce for you.
 
 ## Academic integrity in an AI-positive course
 
-- Using a coding agent on a level-4 assignment is **expected** — it's not a violation.
+- Using a coding agent up to a question's stated level is **expected** — it's not a violation.
 - What *is* a problem is presenting an agent's work as understanding you don't have: an
   annotation that doesn't match the code, "hand-calculated" test values you didn't actually
   work out, or a critique that misreads the implementation. These show up naturally, because
