@@ -7,57 +7,31 @@ toc_sticky: true
 
 A problem set is **one list of questions on one unit's material.** It opens when the next unit
 starts — after you have read the chapter, heard the lectures, and done the labs — and it is due
-when the unit after that starts. Every set has the same shape, so you always know what you are
-walking into. What changes is the biology.
+when the unit after that starts. Ten sets across the term; the
+[schedule]({{ site.baseurl }}/schedule/) has every date.
 
-## What a set looks like
+Everything about how a set works — what each question asks, where your code and your answers go,
+how the checks report, and what to do before you submit — is in the notebook itself. It is written
+to be opened and worked top to bottom without reading anything first. This page is about what a
+set is for.
 
-The notebook opens with **the problem**: a biological question with more facts in it than any
-answer will use. Then comes **our design** of it, in four short parts:
+## We do the design; you build and verify
 
-- **Frame** — what process produced this data, and which of the facts we are setting aside, and why.
-- **Decompose** — the pieces that have to be computed, numbered. One of them is the answer.
-- **Select** — the method, named, with the chapter section it comes from and the function
-  signatures your code will have.
-- **Verify** — the kinds of check the set carries, and why those.
+Every set opens with a biological question and **our design of it**: what process produced the
+data, what has to be computed, which method and why, and what we will check. Then the questions
+build the pieces of that design, one at a time. The data beside the notebook is ours — generated
+from the process the design describes, so we know exactly what went into it. That is what lets
+every check mean something and every question have an answer.
 
-Then the questions. **Question *k* builds piece *k* of the Decompose list.** Each question is
-three cells: our prose saying what to compute, **a code cell that is yours**, and **a check cell
-that tests your code.** A few questions ask for a sentence instead of code — read our design, read
-a piece of code, say what the checks cannot see — and those come with **an answer cell marked ✏️**
-that is yours to write in. You never have to add a cell.
-
-Beside the notebook is **`data.csv`**: a dataset we generated from the process the Frame
-describes. We know exactly what went into it. That is what lets every check mean something and
-every question have an answer.
-
-## The check cells
-
-Run a check cell after you write the code above it. Each check prints one line:
-
-- ✅ with the claim it confirmed — *p = 0: no draw is T*.
-- ❌ with the claim, what came back, and what we expected.
-- ⬜ if the function is not written yet.
-- ⚠️ with the error message if your code raised one.
-
-The cell closes with a count. Every expected value in a check has a comment above it saying where
-it came from — a boundary the process forces, a relationship that must hold at every setting, a
-number that follows from what we planted. Read those comments. They are the habit you will be asked
-to copy.
-
-**The checks only ever call your functions, with arguments they choose.** Experiment as much as you
-like in cells of your own — a different grid, another tolerance, a bigger sample. The checks do
-not care what else you ran.
-
-**In sets 2 to 4 the checks are ours.** From set 5 the question describes the cases in prose —
-three of them, each with the value or the direction to expect — and the check cell is yours to
-write. You will have read a dozen of ours by then.
+The productive work is yours: building each piece, reading what your agent produced, running the
+checks, saying what the result means, and saying what the checks cannot see.
 
 ## Checking your own work
 
-The checks you will write from set 5 are the skill students most underestimate. The code you are
-handed may be wrong, the code your agent writes may be wrong, and there is no one to ask — so how
-do you know?
+Every code question carries checks. In the early sets we write them; later, the question describes
+the cases and you write them. The skill is the same either way, and it is the one students most
+underestimate: the code you are handed may be wrong, the code your agent writes may be wrong, and
+there is no one to ask — so how do you know?
 
 You check against cases where the answer follows from the *structure* of the situation rather than
 from any computation. If the allele frequency is zero, nobody can be a carrier. If a tolerance is
@@ -67,44 +41,16 @@ backwards passes both p = 0 and p = 1 and fails only at p = 0.4. Constructing ca
 one of the most transferable things in this course, and it is how you will be expected to check
 anything, ever, once nobody is grading you.
 
-## AI use, question by question
+## AI use
 
 Every question states its [AI level](https://aiassessmentscale.com/), and **the level is a
 maximum** — the most AI use we recommend, and a pointer to where your attention belongs. You may
-always use less.
-
-| | Level | What it means here |
-|---|:--:|---|
-| Code questions | **3** — collaboration | Have the agent draft if you like. Then read what it wrote, run the checks, and say in a comment what you kept from it. |
-| Interpretation | **2** — planning | Think with the agent; the sentence you write is yours. |
-| Read our design · read this code · what the checks cannot see | **1** — no AI | These are the skills the exams assess, and the ones that quietly disappear if you delegate them. |
-
-**Three no-AI questions in every set.** Both exams are code-reading exams, so those questions are
-not a hurdle bolted onto the course — they are the rehearsal, happening in every set, in the
-ordinary course of the work. Using AI on them costs you the practice, not the points.
-
-Add one line at the top of your first markdown cell saying how you used AI in the set.
-
-## Before you submit
-
-**Kernel → Restart Kernel and Run All Cells**, and confirm every check cell closes with a ✅ count.
-The grader runs your notebook top to bottom in a fresh kernel, so a function defined out of order,
-or a variable left over from an earlier attempt, will not be there for it.
-
-Our cells — the prose, the setup, the checks — are marked read-only in the notebook. JupyterLab
-enforces that; VS Code does not. If you change one by accident, nothing is lost: the grader uses
-our copy of every check cell, not yours. `git diff` will show you what changed.
-
-## What earns credit
-
-| | What we look at |
-|---|---|
-| **Code questions** | The checks pass. The function follows the process the design describes rather than shortcutting to a formula. The comment says what came from the agent. |
-| **Read our design** | Which numbered piece is the answer, which fact in the Frame the data lets you check, the value you expect before you run. |
-| **Interpretation** | Correct where a number is asked for; a reading of the plot that says what you see and what it means. |
-| **Read this code** | What it computes, where it does not match its docstring, and which check it would fail. |
-| **What the checks cannot see** | One way every check could pass and the answer still be wrong — specific to this problem, not a generic risk list. One place your reasoning differs from ours, defended. One decision your code made that the question did not ask for. |
-| **Your own checks** *(sets 5–10)* | Present, passing, and each expected value with the line that derives it. |
+always use less. Code questions are level 3: have the agent draft if you like, then read what it
+wrote, run the checks, and say what you kept. The reasoning questions — read our design, read a
+piece of code, say what the checks cannot see — are level 1, no AI. Both exams are code-reading
+exams, so those questions are the rehearsal, happening in every set in the ordinary course of the
+work. Using AI on them costs you the practice, not the points. The
+[assessment page]({{ site.baseurl }}/assessment/) has the levels in full.
 
 Answers in complete sentences. A number with no sentence around it earns no credit — the number is
 almost never the point, and in a course where an agent can produce any number you ask for, the

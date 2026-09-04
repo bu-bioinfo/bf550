@@ -27,10 +27,9 @@ finals period** — the term closes with the project.
 
 Ten across the term. A set covers one unit's material and is assigned at the start of the *next*
 unit — after the chapter, the lectures, and the labs — and due at the start of the unit after
-that. Units 9 and 12 assign nothing, so no set is open while you prepare for an exam. A set is one
-list of questions: it opens with the problem and our design of it, and each question is our prose,
-a code cell that is yours, and a check cell that tests your code. The data is ours, generated from
-a process we know exactly, so every question has an answer. The
+that. Units 9 and 12 assign nothing, so no set is open while you prepare for an exam. A set opens
+with the problem and our design of it; the questions build that design's pieces against data we
+generated, so every question has an answer and every code question carries checks. The
 [problem sets page]({{ site.baseurl }}/assignments/) explains the format; the
 [schedule]({{ site.baseurl }}/schedule/) lists every deadline.
 
